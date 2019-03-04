@@ -1,0 +1,6 @@
+
+State Machine - |OV5640_SDRAM|I2C_OV5640_Init_RGB565:u_I2C_OV5640_Init_RGB565|setup_state
+Name setup_state.00 setup_state.10 setup_state.01 
+setup_state.00 0 0 0 
+setup_state.01 1 0 1 
+setup_state.10 1 1 0 
