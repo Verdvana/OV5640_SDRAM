@@ -6,7 +6,7 @@ JedecChain;
 	P ActionCode(Ign)
 		Device PartName(SOCVHPS) MfrSpec(OpMask(0));
 	P ActionCode(Cfg)
-		Device PartName(5CSEMA5F31) Path("C:/Users/Verdvana/Desktop/pp/AC620_OV5640V2_SDRAM_TFT800_30FPS/AC620_OV5640V2_SDRAM_TFT800_30FPS/prj/output_files/") File("OV5640_SDRAM.sof") MfrSpec(OpMask(1));
+		Device PartName(5CSEMA5) Path("E:/GitHub_Code/FPGA/OV5640_SDRAM/output_files/") File("output_file.jic") MfrSpec(OpMask(1) SEC_Device(EPCQ256) Child_OpMask(1 1));
 
 ChainEnd;
 

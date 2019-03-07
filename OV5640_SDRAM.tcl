@@ -13,31 +13,26 @@
 # refer to the applicable agreement for further details.
 
 # Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-# File: C:\Users\Verdvana\Desktop\AC620_OV5640V2_SDRAM_TFT800_30FPS\prj\OV5640_SDRAM.tcl
-# Generated on: Sun Mar 03 19:53:48 2019
+# File: E:\GitHub_Code\FPGA\OV5640_SDRAM\OV5640_SDRAM.tcl
+# Generated on: Mon Mar 04 21:05:54 2019
 
 package require ::quartus::project
 
-
+set_location_assignment PIN_AK19 -to TFT_BL
 set_location_assignment PIN_AF14 -to clk
-
-set_location_assignment PIN_AK27 -to cmos_sdat
-set_location_assignment PIN_AJ26 -to cmos_sclk
-set_location_assignment PIN_AK29 -to cmos_href
-set_location_assignment PIN_AK28 -to cmos_vsync
-set_location_assignment PIN_AH27 -to cmos_xclk
-set_location_assignment PIN_AJ27 -to cmos_pclk
-set_location_assignment PIN_AH24 -to cmos_data[7]
-set_location_assignment PIN_AG26 -to cmos_data[6]
-set_location_assignment PIN_AF26 -to cmos_data[5]
+set_location_assignment PIN_AE23 -to cmos_pclk
+set_location_assignment PIN_AK28 -to cmos_href
+set_location_assignment PIN_AD24 -to cmos_data[7]
+set_location_assignment PIN_AF25 -to cmos_data[6]
+set_location_assignment PIN_AE24 -to cmos_data[5]
 set_location_assignment PIN_AG25 -to cmos_data[4]
-set_location_assignment PIN_AE24 -to cmos_data[3]
-set_location_assignment PIN_AF25 -to cmos_data[2]
-set_location_assignment PIN_AD24 -to cmos_data[1]
-set_location_assignment PIN_AE23 -to cmos_data[0]
-set_location_assignment PIN_AC23 -to cmos_pwdn
-set_location_assignment PIN_AB21 -to cmos_rst_n
-
+set_location_assignment PIN_AF26 -to cmos_data[3]
+set_location_assignment PIN_AG26 -to cmos_data[2]
+set_location_assignment PIN_AH24 -to cmos_data[1]
+set_location_assignment PIN_AH27 -to cmos_data[0]
+set_location_assignment PIN_AJ26 -to cmos_vsync
+set_location_assignment PIN_AK29 -to cmos_sdat
+set_location_assignment PIN_AK27 -to cmos_sclk
 set_location_assignment PIN_AA14 -to reset_n
 set_location_assignment PIN_AA13 -to sdram_we_n
 set_location_assignment PIN_AE13 -to sdram_ras_n
@@ -78,7 +73,65 @@ set_location_assignment PIN_AE14 -to sdram_addr[3]
 set_location_assignment PIN_AG15 -to sdram_addr[2]
 set_location_assignment PIN_AH14 -to sdram_addr[1]
 set_location_assignment PIN_AK14 -to sdram_addr[0]
-
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_we_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_ras_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_dqm[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_dqm[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_dq[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_dq[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_dq[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_dq[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_dq[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_dq[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_dq[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_dq[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_dq[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_dq[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_dq[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_dq[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_dq[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_dq[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_dq[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_dq[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_cs_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_clk
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_cke
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_cas_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_ba[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_ba[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_addr[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_addr[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_addr[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_addr[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_addr[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_addr[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_addr[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_addr[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_addr[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_addr[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_addr[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_addr[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sdram_addr[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to reset_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to cmos_xclk
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to cmos_vsync
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to cmos_sdat
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to cmos_sclk
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to cmos_rst_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to cmos_pwdn
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to cmos_pclk
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to cmos_href
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to cmos_data[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to cmos_data[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to cmos_data[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to cmos_data[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to cmos_data[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to cmos_data[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to cmos_data[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to cmos_data[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to clk
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_BL
+set_location_assignment PIN_AC23 -to cmos_pwdn
 set_location_assignment PIN_AK21 -to TFT_RGB[15]
 set_location_assignment PIN_AH20 -to TFT_RGB[14]
 set_location_assignment PIN_AD20 -to TFT_RGB[13]
@@ -98,8 +151,27 @@ set_location_assignment PIN_AF16 -to TFT_RGB[0]
 set_location_assignment PIN_AJ16 -to TFT_VS
 set_location_assignment PIN_AJ17 -to TFT_HS
 set_location_assignment PIN_AH17 -to TFT_VCLK
-set_location_assignment PIN_AK19 -to TFT_BL
-
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_DE
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_HS
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_RGB[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_RGB[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_RGB[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_RGB[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_RGB[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_RGB[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_RGB[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_RGB[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_RGB[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_RGB[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_RGB[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_RGB[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_RGB[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_RGB[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_RGB[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_RGB[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_VCLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_VS
+set_location_assignment PIN_AJ27 -to cmos_rst_n
 set_location_assignment PIN_AA15 -to key[1]
 set_location_assignment PIN_W15 -to key[2]
 set_location_assignment PIN_Y16 -to key[3]

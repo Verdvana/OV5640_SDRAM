@@ -1,4 +1,4 @@
-Fitter Status : Successful - Mon Mar 04 17:16:15 2019
+Fitter Status : Successful - Thu Mar 07 09:36:11 2019
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 Revision Name : OV5640_SDRAM
 Top-level Entity Name : OV5640_SDRAM
@@ -6,7 +6,7 @@ Family : Cyclone V
 Device : 5CSEMA5F31C6
 Timing Models : Final
 Logic utilization (in ALMs) : 741 / 32,070 ( 2 % )
-Total registers : 1145
+Total registers : 1136
 Total pins : 78 / 457 ( 17 % )
 Total virtual pins : 0
 Total block memory bits : 25,600 / 4,065,280 ( < 1 % )

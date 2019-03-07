@@ -91,9 +91,9 @@ wire    [`ROWSIZE - 1:0]        rowaddr;
 wire    [`COLSIZE - 1:0]        coladdr;
 wire    [`BANKSIZE - 1:0]       bankaddr;
 
-assign   rowaddr   = SADDR[`ROWSTART + `ROWSIZE - 1: `ROWSTART];          // assignment of the row address bits from SADDR
-assign   coladdr   = SADDR[`COLSTART + `COLSIZE - 1:`COLSTART];           // assignment of the column address bits
-assign   bankaddr  = SADDR[`BANKSTART + `BANKSIZE - 1:`BANKSTART];        // assignment of the bank address bits
+assign   rowaddr   = SADDR[`ROWSTART + `ROWSIZE - 1: `ROWSTART];          // assignment of the row address bits from SADDR  19：8
+assign   coladdr   = SADDR[`COLSTART + `COLSIZE - 1:`COLSTART];           // assignment of the column address bits  7：0
+assign   bankaddr  = SADDR[`BANKSTART + `BANKSIZE - 1:`BANKSTART];        // assignment of the bank address bits 21：20
 
 
 

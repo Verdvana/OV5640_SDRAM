@@ -1,10 +1,10 @@
 // Address Space Parameters
 
-`define ROWSTART        8          
+`define ROWSTART        9          
 `define ROWSIZE         12
 `define COLSTART        0
-`define COLSIZE         8
-`define BANKSTART       20
+`define COLSIZE         9
+`define BANKSTART       21
 `define BANKSIZE        2
 
 // Address and Data Bus Sizes
