@@ -1,5 +1,5 @@
 Timing Analyzer report for OV5640_SDRAM
-Thu Mar 07 09:36:34 2019
+Sat Mar 09 20:53:04 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -102,14 +102,14 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.32        ;
+; Average used               ; 1.34        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;  10.7%      ;
-;     Processor 3            ;  10.6%      ;
-;     Processor 4            ;  10.5%      ;
+;     Processor 2            ;  11.5%      ;
+;     Processor 3            ;  11.4%      ;
+;     Processor 4            ;  11.1%      ;
 +----------------------------+-------------+
 
 
@@ -118,7 +118,7 @@ refer to the applicable agreement for further details.
 +------------------+--------+--------------------------+
 ; SDC File Path    ; Status ; Read at                  ;
 +------------------+--------+--------------------------+
-; OV5640_SDRAM.sdc ; OK     ; Thu Mar 07 09:36:25 2019 ;
+; OV5640_SDRAM.sdc ; OK     ; Sat Mar 09 20:52:50 2019 ;
 +------------------+--------+--------------------------+
 
 
@@ -137,8 +137,8 @@ refer to the applicable agreement for further details.
 +------------+-----------------+---------------------+------+
 ; Fmax       ; Restricted Fmax ; Clock Name          ; Note ;
 +------------+-----------------+---------------------+------+
-; 81.09 MHz  ; 81.09 MHz       ; altera_reserved_tck ;      ;
-; 126.57 MHz ; 126.57 MHz      ; clk                 ;      ;
+; 77.05 MHz  ; 77.05 MHz       ; altera_reserved_tck ;      ;
+; 124.22 MHz ; 124.22 MHz      ; clk                 ;      ;
 +------------+-----------------+---------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -154,8 +154,8 @@ HTML report is unavailable in plain text report export.
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; clk                 ; 9.854  ; 0.000         ;
-; altera_reserved_tck ; 43.834 ; 0.000         ;
+; clk                 ; 9.835  ; 0.000         ;
+; altera_reserved_tck ; 43.511 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -164,8 +164,8 @@ HTML report is unavailable in plain text report export.
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; clk                 ; -3.415 ; -6.670        ;
-; altera_reserved_tck ; 0.152  ; 0.000         ;
+; clk                 ; -3.261 ; -6.494        ;
+; altera_reserved_tck ; 0.543  ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -174,8 +174,8 @@ HTML report is unavailable in plain text report export.
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; clk                 ; 12.526 ; 0.000         ;
-; altera_reserved_tck ; 97.282 ; 0.000         ;
+; clk                 ; 12.194 ; 0.000         ;
+; altera_reserved_tck ; 97.418 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -184,8 +184,8 @@ HTML report is unavailable in plain text report export.
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; altera_reserved_tck ; 0.809 ; 0.000         ;
-; clk                 ; 2.994 ; 0.000         ;
+; altera_reserved_tck ; 0.854 ; 0.000         ;
+; clk                 ; 2.857 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -194,8 +194,8 @@ HTML report is unavailable in plain text report export.
 +---------------------+--------+--------------------+
 ; Clock               ; Slack  ; End Point TNS      ;
 +---------------------+--------+--------------------+
-; clk                 ; 8.898  ; 0.000              ;
-; altera_reserved_tck ; 48.485 ; 0.000              ;
+; clk                 ; 8.896  ; 0.000              ;
+; altera_reserved_tck ; 48.711 ; 0.000              ;
 +---------------------+--------+--------------------+
 
 
@@ -208,7 +208,7 @@ Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
 Number of Synchronizer Chains Found: 86
 Shortest Synchronizer Chain: 2 Registers
 Fraction of Chains for which MTBFs Could Not be Calculated: 0.651
-Worst Case Available Settling Time: 18.733 ns
+Worst Case Available Settling Time: 17.948 ns
 
 Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 79.4
@@ -222,8 +222,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +------------+-----------------+---------------------+------+
 ; Fmax       ; Restricted Fmax ; Clock Name          ; Note ;
 +------------+-----------------+---------------------+------+
-; 81.99 MHz  ; 81.99 MHz       ; altera_reserved_tck ;      ;
-; 129.74 MHz ; 129.74 MHz      ; clk                 ;      ;
+; 77.78 MHz  ; 77.78 MHz       ; altera_reserved_tck ;      ;
+; 127.32 MHz ; 127.32 MHz      ; clk                 ;      ;
 +------------+-----------------+---------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -233,8 +233,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; clk                 ; 9.931  ; 0.000         ;
-; altera_reserved_tck ; 43.902 ; 0.000         ;
+; clk                 ; 9.912  ; 0.000         ;
+; altera_reserved_tck ; 43.572 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -243,8 +243,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; clk                 ; -3.454 ; -6.723        ;
-; altera_reserved_tck ; 0.138  ; 0.000         ;
+; clk                 ; -3.275 ; -6.523        ;
+; altera_reserved_tck ; 0.509  ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -253,8 +253,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; clk                 ; 12.684 ; 0.000         ;
-; altera_reserved_tck ; 97.417 ; 0.000         ;
+; clk                 ; 12.347 ; 0.000         ;
+; altera_reserved_tck ; 97.530 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -263,8 +263,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; altera_reserved_tck ; 0.729 ; 0.000         ;
-; clk                 ; 2.923 ; 0.000         ;
+; altera_reserved_tck ; 0.785 ; 0.000         ;
+; clk                 ; 2.814 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -273,8 +273,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+--------+-------------------+
 ; Clock               ; Slack  ; End Point TNS     ;
 +---------------------+--------+-------------------+
-; clk                 ; 8.925  ; 0.000             ;
-; altera_reserved_tck ; 48.492 ; 0.000             ;
+; clk                 ; 8.922  ; 0.000             ;
+; altera_reserved_tck ; 48.745 ; 0.000             ;
 +---------------------+--------+-------------------+
 
 
@@ -287,7 +287,7 @@ Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
 Number of Synchronizer Chains Found: 86
 Shortest Synchronizer Chain: 2 Registers
 Fraction of Chains for which MTBFs Could Not be Calculated: 0.651
-Worst Case Available Settling Time: 18.717 ns
+Worst Case Available Settling Time: 17.994 ns
 
 Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 5.2
@@ -301,8 +301,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; clk                 ; 9.615  ; 0.000         ;
-; altera_reserved_tck ; 46.822 ; 0.000         ;
+; clk                 ; 9.607  ; 0.000         ;
+; altera_reserved_tck ; 46.455 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -311,8 +311,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; clk                 ; -1.898 ; -3.690        ;
-; altera_reserved_tck ; 0.039  ; 0.000         ;
+; clk                 ; -1.795 ; -3.578        ;
+; altera_reserved_tck ; 0.203  ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -321,8 +321,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; clk                 ; 15.527 ; 0.000         ;
-; altera_reserved_tck ; 98.206 ; 0.000         ;
+; clk                 ; 15.261 ; 0.000         ;
+; altera_reserved_tck ; 98.352 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -331,8 +331,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; altera_reserved_tck ; 0.406 ; 0.000         ;
-; clk                 ; 1.959 ; 0.000         ;
+; altera_reserved_tck ; 0.412 ; 0.000         ;
+; clk                 ; 1.874 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -341,8 +341,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+--------+--------------------+
 ; Clock               ; Slack  ; End Point TNS      ;
 +---------------------+--------+--------------------+
-; clk                 ; 8.507  ; 0.000              ;
-; altera_reserved_tck ; 48.168 ; 0.000              ;
+; clk                 ; 8.505  ; 0.000              ;
+; altera_reserved_tck ; 48.475 ; 0.000              ;
 +---------------------+--------+--------------------+
 
 
@@ -355,7 +355,7 @@ Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
 Number of Synchronizer Chains Found: 86
 Shortest Synchronizer Chain: 2 Registers
 Fraction of Chains for which MTBFs Could Not be Calculated: 0.651
-Worst Case Available Settling Time: 19.235 ns
+Worst Case Available Settling Time: 18.722 ns
 
 Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 79.4
@@ -369,8 +369,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; clk                 ; 9.573  ; 0.000         ;
-; altera_reserved_tck ; 47.252 ; 0.000         ;
+; clk                 ; 9.565  ; 0.000         ;
+; altera_reserved_tck ; 46.828 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -379,8 +379,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; clk                 ; -1.872 ; -3.639        ;
-; altera_reserved_tck ; 0.026  ; 0.000         ;
+; clk                 ; -1.768 ; -3.526        ;
+; altera_reserved_tck ; 0.171  ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -389,8 +389,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; clk                 ; 15.878 ; 0.000         ;
-; altera_reserved_tck ; 98.414 ; 0.000         ;
+; clk                 ; 15.627 ; 0.000         ;
+; altera_reserved_tck ; 98.531 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -399,8 +399,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; altera_reserved_tck ; 0.350 ; 0.000         ;
-; clk                 ; 1.754 ; 0.000         ;
+; altera_reserved_tck ; 0.356 ; 0.000         ;
+; clk                 ; 1.720 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -409,8 +409,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+--------+-------------------+
 ; Clock               ; Slack  ; End Point TNS     ;
 +---------------------+--------+-------------------+
-; clk                 ; 8.461  ; 0.000             ;
-; altera_reserved_tck ; 48.155 ; 0.000             ;
+; clk                 ; 8.460  ; 0.000             ;
+; altera_reserved_tck ; 48.499 ; 0.000             ;
 +---------------------+--------+-------------------+
 
 
@@ -423,7 +423,7 @@ Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
 Number of Synchronizer Chains Found: 86
 Shortest Synchronizer Chain: 2 Registers
 Fraction of Chains for which MTBFs Could Not be Calculated: 0.651
-Worst Case Available Settling Time: 19.302 ns
+Worst Case Available Settling Time: 18.831 ns
 
 Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 5.2
@@ -437,12 +437,12 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +----------------------+--------+--------+----------+---------+---------------------+
 ; Clock                ; Setup  ; Hold   ; Recovery ; Removal ; Minimum Pulse Width ;
 +----------------------+--------+--------+----------+---------+---------------------+
-; Worst-case Slack     ; 9.573  ; -3.454 ; 12.526   ; 0.350   ; 8.461               ;
-;  altera_reserved_tck ; 43.834 ; 0.026  ; 97.282   ; 0.350   ; 48.155              ;
-;  clk                 ; 9.573  ; -3.454 ; 12.526   ; 1.754   ; 8.461               ;
-; Design-wide TNS      ; 0.0    ; -6.723 ; 0.0      ; 0.0     ; 0.0                 ;
+; Worst-case Slack     ; 9.565  ; -3.275 ; 12.194   ; 0.356   ; 8.460               ;
+;  altera_reserved_tck ; 43.511 ; 0.171  ; 97.418   ; 0.356   ; 48.475              ;
+;  clk                 ; 9.565  ; -3.275 ; 12.194   ; 1.720   ; 8.460               ;
+; Design-wide TNS      ; 0.0    ; -6.523 ; 0.0      ; 0.0     ; 0.0                 ;
 ;  altera_reserved_tck ; 0.000  ; 0.000  ; 0.000    ; 0.000   ; 0.000               ;
-;  clk                 ; 0.000  ; -6.723 ; 0.000    ; 0.000   ; 0.000               ;
+;  clk                 ; 0.000  ; -6.523 ; 0.000    ; 0.000   ; 0.000               ;
 +----------------------+--------+--------+----------+---------+---------------------+
 
 
@@ -516,7 +516,7 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 ; sdram_dq[13]        ; 3.3-V LVTTL  ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 ; sdram_dq[14]        ; 3.3-V LVTTL  ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 ; sdram_dq[15]        ; 3.3-V LVTTL  ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
-; altera_reserved_tdo ; 3.3-V LVTTL  ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; altera_reserved_tdo ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
 +---------------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
 
 
@@ -555,9 +555,9 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 ; cmos_data[6]        ; 3.3-V LVTTL  ; 2640 ps         ; 2640 ps         ;
 ; cmos_data[7]        ; 3.3-V LVTTL  ; 2640 ps         ; 2640 ps         ;
 ; cmos_vsync          ; 3.3-V LVTTL  ; 2640 ps         ; 2640 ps         ;
-; altera_reserved_tms ; 3.3-V LVTTL  ; 2640 ps         ; 2640 ps         ;
-; altera_reserved_tck ; 3.3-V LVTTL  ; 2640 ps         ; 2640 ps         ;
-; altera_reserved_tdi ; 3.3-V LVTTL  ; 2640 ps         ; 2640 ps         ;
+; altera_reserved_tms ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; altera_reserved_tck ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; altera_reserved_tdi ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 +---------------------+--------------+-----------------+-----------------+
 
 
@@ -567,7 +567,7 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 ; Pin                 ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
 +---------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 ; cmos_sclk           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.35e-07 V                   ; 3.14 V              ; -0.257 V            ; 0.13 V                               ; 0.399 V                              ; 4.27e-10 s                  ; 1.5e-10 s                   ; Yes                        ; No                         ; 3.08 V                      ; 3.35e-07 V                  ; 3.14 V             ; -0.257 V           ; 0.13 V                              ; 0.399 V                             ; 4.27e-10 s                 ; 1.5e-10 s                  ; Yes                       ; No                        ;
-; cmos_xclk           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.5e-07 V                    ; 3.14 V              ; -0.195 V            ; 0.158 V                              ; 0.394 V                              ; 4.46e-10 s                  ; 1.64e-10 s                  ; Yes                        ; No                         ; 3.08 V                      ; 3.5e-07 V                   ; 3.14 V             ; -0.195 V           ; 0.158 V                             ; 0.394 V                             ; 4.46e-10 s                 ; 1.64e-10 s                 ; Yes                       ; No                        ;
+; cmos_xclk           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 2.62e-07 V                   ; 3.1 V               ; -0.153 V            ; 0.035 V                              ; 0.31 V                               ; 4.23e-10 s                  ; 1.59e-10 s                  ; Yes                        ; No                         ; 3.08 V                      ; 2.62e-07 V                  ; 3.1 V              ; -0.153 V           ; 0.035 V                             ; 0.31 V                              ; 4.23e-10 s                 ; 1.59e-10 s                 ; Yes                       ; No                        ;
 ; cmos_rst_n          ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.35e-07 V                   ; 3.14 V              ; -0.258 V            ; 0.13 V                               ; 0.399 V                              ; 4.27e-10 s                  ; 1.5e-10 s                   ; Yes                        ; No                         ; 3.08 V                      ; 3.35e-07 V                  ; 3.14 V             ; -0.258 V           ; 0.13 V                              ; 0.399 V                             ; 4.27e-10 s                 ; 1.5e-10 s                  ; Yes                       ; No                        ;
 ; cmos_pwdn           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 2.62e-07 V                   ; 3.1 V               ; -0.153 V            ; 0.035 V                              ; 0.31 V                               ; 4.23e-10 s                  ; 1.59e-10 s                  ; Yes                        ; No                         ; 3.08 V                      ; 2.62e-07 V                  ; 3.1 V              ; -0.153 V           ; 0.035 V                             ; 0.31 V                              ; 4.23e-10 s                 ; 1.59e-10 s                 ; Yes                       ; No                        ;
 ; sdram_clk           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.35e-07 V                   ; 3.14 V              ; -0.258 V            ; 0.13 V                               ; 0.399 V                              ; 4.27e-10 s                  ; 1.5e-10 s                   ; Yes                        ; No                         ; 3.08 V                      ; 3.35e-07 V                  ; 3.14 V             ; -0.258 V           ; 0.13 V                              ; 0.399 V                             ; 4.27e-10 s                 ; 1.5e-10 s                  ; Yes                       ; No                        ;
@@ -612,7 +612,7 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 ; TFT_RGB[13]         ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.5e-07 V                    ; 3.14 V              ; -0.195 V            ; 0.158 V                              ; 0.394 V                              ; 4.46e-10 s                  ; 1.64e-10 s                  ; Yes                        ; No                         ; 3.08 V                      ; 3.5e-07 V                   ; 3.14 V             ; -0.195 V           ; 0.158 V                             ; 0.394 V                             ; 4.46e-10 s                 ; 1.64e-10 s                 ; Yes                       ; No                        ;
 ; TFT_RGB[14]         ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 2.62e-07 V                   ; 3.1 V               ; -0.153 V            ; 0.035 V                              ; 0.31 V                               ; 4.23e-10 s                  ; 1.59e-10 s                  ; Yes                        ; No                         ; 3.08 V                      ; 2.62e-07 V                  ; 3.1 V              ; -0.153 V           ; 0.035 V                             ; 0.31 V                              ; 4.23e-10 s                 ; 1.59e-10 s                 ; Yes                       ; No                        ;
 ; TFT_RGB[15]         ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.35e-07 V                   ; 3.14 V              ; -0.258 V            ; 0.13 V                               ; 0.399 V                              ; 4.27e-10 s                  ; 1.5e-10 s                   ; Yes                        ; No                         ; 3.08 V                      ; 3.35e-07 V                  ; 3.14 V             ; -0.258 V           ; 0.13 V                              ; 0.399 V                             ; 4.27e-10 s                 ; 1.5e-10 s                  ; Yes                       ; No                        ;
-; TFT_DE              ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 2.62e-07 V                   ; 3.1 V               ; -0.153 V            ; 0.035 V                              ; 0.31 V                               ; 4.23e-10 s                  ; 1.59e-10 s                  ; Yes                        ; No                         ; 3.08 V                      ; 2.62e-07 V                  ; 3.1 V              ; -0.153 V           ; 0.035 V                             ; 0.31 V                              ; 4.23e-10 s                 ; 1.59e-10 s                 ; Yes                       ; No                        ;
+; TFT_DE              ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.35e-07 V                   ; 3.14 V              ; -0.258 V            ; 0.13 V                               ; 0.399 V                              ; 4.27e-10 s                  ; 1.5e-10 s                   ; Yes                        ; No                         ; 3.08 V                      ; 3.35e-07 V                  ; 3.14 V             ; -0.258 V           ; 0.13 V                              ; 0.399 V                             ; 4.27e-10 s                 ; 1.5e-10 s                  ; Yes                       ; No                        ;
 ; TFT_BL              ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.35e-07 V                   ; 3.14 V              ; -0.257 V            ; 0.13 V                               ; 0.399 V                              ; 4.27e-10 s                  ; 1.5e-10 s                   ; Yes                        ; No                         ; 3.08 V                      ; 3.35e-07 V                  ; 3.14 V             ; -0.257 V           ; 0.13 V                              ; 0.399 V                             ; 4.27e-10 s                 ; 1.5e-10 s                  ; Yes                       ; No                        ;
 ; cmos_sdat           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.35e-07 V                   ; 3.14 V              ; -0.257 V            ; 0.13 V                               ; 0.399 V                              ; 4.27e-10 s                  ; 1.5e-10 s                   ; Yes                        ; No                         ; 3.08 V                      ; 3.35e-07 V                  ; 3.14 V             ; -0.257 V           ; 0.13 V                              ; 0.399 V                             ; 4.27e-10 s                 ; 1.5e-10 s                  ; Yes                       ; No                        ;
 ; sdram_dq[0]         ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.35e-07 V                   ; 3.14 V              ; -0.257 V            ; 0.13 V                               ; 0.399 V                              ; 4.27e-10 s                  ; 1.5e-10 s                   ; Yes                        ; No                         ; 3.08 V                      ; 3.35e-07 V                  ; 3.14 V             ; -0.257 V           ; 0.13 V                              ; 0.399 V                             ; 4.27e-10 s                 ; 1.5e-10 s                  ; Yes                       ; No                        ;
@@ -631,7 +631,7 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 ; sdram_dq[13]        ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.35e-07 V                   ; 3.14 V              ; -0.258 V            ; 0.13 V                               ; 0.399 V                              ; 4.27e-10 s                  ; 1.5e-10 s                   ; Yes                        ; No                         ; 3.08 V                      ; 3.35e-07 V                  ; 3.14 V             ; -0.258 V           ; 0.13 V                              ; 0.399 V                             ; 4.27e-10 s                 ; 1.5e-10 s                  ; Yes                       ; No                        ;
 ; sdram_dq[14]        ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.35e-07 V                   ; 3.14 V              ; -0.258 V            ; 0.13 V                               ; 0.399 V                              ; 4.27e-10 s                  ; 1.5e-10 s                   ; Yes                        ; No                         ; 3.08 V                      ; 3.35e-07 V                  ; 3.14 V             ; -0.258 V           ; 0.13 V                              ; 0.399 V                             ; 4.27e-10 s                 ; 1.5e-10 s                  ; Yes                       ; No                        ;
 ; sdram_dq[15]        ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.35e-07 V                   ; 3.14 V              ; -0.258 V            ; 0.13 V                               ; 0.399 V                              ; 4.27e-10 s                  ; 1.5e-10 s                   ; Yes                        ; No                         ; 3.08 V                      ; 3.35e-07 V                  ; 3.14 V             ; -0.258 V           ; 0.13 V                              ; 0.399 V                             ; 4.27e-10 s                 ; 1.5e-10 s                  ; Yes                       ; No                        ;
-; altera_reserved_tdo ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 4.54e-07 V                   ; 3.11 V              ; -0.0675 V           ; 0.176 V                              ; 0.182 V                              ; 5.82e-10 s                  ; 2.68e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 4.54e-07 V                  ; 3.11 V             ; -0.0675 V          ; 0.176 V                             ; 0.182 V                             ; 5.82e-10 s                 ; 2.68e-10 s                 ; Yes                       ; Yes                       ;
+; altera_reserved_tdo ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.2e-07 V                    ; 2.41 V              ; -0.0623 V           ; 0.154 V                              ; 0.113 V                              ; 4.52e-10 s                  ; 4.28e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.2e-07 V                   ; 2.41 V             ; -0.0623 V          ; 0.154 V                             ; 0.113 V                             ; 4.52e-10 s                 ; 4.28e-10 s                 ; No                        ; No                        ;
 +---------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 
 
@@ -641,7 +641,7 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 ; Pin                 ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
 +---------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 ; cmos_sclk           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.19e-05 V                   ; 3.1 V               ; -0.136 V            ; 0.025 V                              ; 0.167 V                              ; 4.92e-10 s                  ; 3.12e-10 s                  ; Yes                        ; No                         ; 3.08 V                      ; 3.19e-05 V                  ; 3.1 V              ; -0.136 V           ; 0.025 V                             ; 0.167 V                             ; 4.92e-10 s                 ; 3.12e-10 s                 ; Yes                       ; No                        ;
-; cmos_xclk           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.32e-05 V                   ; 3.09 V              ; -0.11 V             ; 0.031 V                              ; 0.155 V                              ; 5.43e-10 s                  ; 3.14e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 3.32e-05 V                  ; 3.09 V             ; -0.11 V            ; 0.031 V                             ; 0.155 V                             ; 5.43e-10 s                 ; 3.14e-10 s                 ; Yes                       ; Yes                       ;
+; cmos_xclk           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 2.61e-05 V                   ; 3.09 V              ; -0.0638 V           ; 0.034 V                              ; 0.099 V                              ; 5.12e-10 s                  ; 2.97e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 2.61e-05 V                  ; 3.09 V             ; -0.0638 V          ; 0.034 V                             ; 0.099 V                             ; 5.12e-10 s                 ; 2.97e-10 s                 ; Yes                       ; Yes                       ;
 ; cmos_rst_n          ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.19e-05 V                   ; 3.1 V               ; -0.133 V            ; 0.025 V                              ; 0.169 V                              ; 4.92e-10 s                  ; 3.13e-10 s                  ; Yes                        ; No                         ; 3.08 V                      ; 3.19e-05 V                  ; 3.1 V              ; -0.133 V           ; 0.025 V                             ; 0.169 V                             ; 4.92e-10 s                 ; 3.13e-10 s                 ; Yes                       ; No                        ;
 ; cmos_pwdn           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 2.61e-05 V                   ; 3.09 V              ; -0.0638 V           ; 0.034 V                              ; 0.099 V                              ; 5.12e-10 s                  ; 2.97e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 2.61e-05 V                  ; 3.09 V             ; -0.0638 V          ; 0.034 V                             ; 0.099 V                             ; 5.12e-10 s                 ; 2.97e-10 s                 ; Yes                       ; Yes                       ;
 ; sdram_clk           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.19e-05 V                   ; 3.1 V               ; -0.133 V            ; 0.025 V                              ; 0.169 V                              ; 4.92e-10 s                  ; 3.13e-10 s                  ; Yes                        ; No                         ; 3.08 V                      ; 3.19e-05 V                  ; 3.1 V              ; -0.133 V           ; 0.025 V                             ; 0.169 V                             ; 4.92e-10 s                 ; 3.13e-10 s                 ; Yes                       ; No                        ;
@@ -686,7 +686,7 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 ; TFT_RGB[13]         ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.32e-05 V                   ; 3.09 V              ; -0.11 V             ; 0.031 V                              ; 0.155 V                              ; 5.43e-10 s                  ; 3.14e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 3.32e-05 V                  ; 3.09 V             ; -0.11 V            ; 0.031 V                             ; 0.155 V                             ; 5.43e-10 s                 ; 3.14e-10 s                 ; Yes                       ; Yes                       ;
 ; TFT_RGB[14]         ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 2.61e-05 V                   ; 3.09 V              ; -0.0638 V           ; 0.034 V                              ; 0.099 V                              ; 5.12e-10 s                  ; 2.97e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 2.61e-05 V                  ; 3.09 V             ; -0.0638 V          ; 0.034 V                             ; 0.099 V                             ; 5.12e-10 s                 ; 2.97e-10 s                 ; Yes                       ; Yes                       ;
 ; TFT_RGB[15]         ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.19e-05 V                   ; 3.1 V               ; -0.133 V            ; 0.025 V                              ; 0.169 V                              ; 4.92e-10 s                  ; 3.13e-10 s                  ; Yes                        ; No                         ; 3.08 V                      ; 3.19e-05 V                  ; 3.1 V              ; -0.133 V           ; 0.025 V                             ; 0.169 V                             ; 4.92e-10 s                 ; 3.13e-10 s                 ; Yes                       ; No                        ;
-; TFT_DE              ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 2.61e-05 V                   ; 3.09 V              ; -0.0638 V           ; 0.034 V                              ; 0.099 V                              ; 5.12e-10 s                  ; 2.97e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 2.61e-05 V                  ; 3.09 V             ; -0.0638 V          ; 0.034 V                             ; 0.099 V                             ; 5.12e-10 s                 ; 2.97e-10 s                 ; Yes                       ; Yes                       ;
+; TFT_DE              ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.19e-05 V                   ; 3.1 V               ; -0.133 V            ; 0.025 V                              ; 0.169 V                              ; 4.92e-10 s                  ; 3.13e-10 s                  ; Yes                        ; No                         ; 3.08 V                      ; 3.19e-05 V                  ; 3.1 V              ; -0.133 V           ; 0.025 V                             ; 0.169 V                             ; 4.92e-10 s                 ; 3.13e-10 s                 ; Yes                       ; No                        ;
 ; TFT_BL              ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.19e-05 V                   ; 3.1 V               ; -0.136 V            ; 0.025 V                              ; 0.167 V                              ; 4.92e-10 s                  ; 3.12e-10 s                  ; Yes                        ; No                         ; 3.08 V                      ; 3.19e-05 V                  ; 3.1 V              ; -0.136 V           ; 0.025 V                             ; 0.167 V                             ; 4.92e-10 s                 ; 3.12e-10 s                 ; Yes                       ; No                        ;
 ; cmos_sdat           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.19e-05 V                   ; 3.1 V               ; -0.136 V            ; 0.025 V                              ; 0.167 V                              ; 4.92e-10 s                  ; 3.12e-10 s                  ; Yes                        ; No                         ; 3.08 V                      ; 3.19e-05 V                  ; 3.1 V              ; -0.136 V           ; 0.025 V                             ; 0.167 V                             ; 4.92e-10 s                 ; 3.12e-10 s                 ; Yes                       ; No                        ;
 ; sdram_dq[0]         ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.19e-05 V                   ; 3.1 V               ; -0.136 V            ; 0.025 V                              ; 0.167 V                              ; 4.92e-10 s                  ; 3.12e-10 s                  ; Yes                        ; No                         ; 3.08 V                      ; 3.19e-05 V                  ; 3.1 V              ; -0.136 V           ; 0.025 V                             ; 0.167 V                             ; 4.92e-10 s                 ; 3.12e-10 s                 ; Yes                       ; No                        ;
@@ -705,7 +705,7 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 ; sdram_dq[13]        ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.19e-05 V                   ; 3.1 V               ; -0.133 V            ; 0.025 V                              ; 0.169 V                              ; 4.92e-10 s                  ; 3.13e-10 s                  ; Yes                        ; No                         ; 3.08 V                      ; 3.19e-05 V                  ; 3.1 V              ; -0.133 V           ; 0.025 V                             ; 0.169 V                             ; 4.92e-10 s                 ; 3.13e-10 s                 ; Yes                       ; No                        ;
 ; sdram_dq[14]        ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.19e-05 V                   ; 3.1 V               ; -0.133 V            ; 0.025 V                              ; 0.169 V                              ; 4.92e-10 s                  ; 3.13e-10 s                  ; Yes                        ; No                         ; 3.08 V                      ; 3.19e-05 V                  ; 3.1 V              ; -0.133 V           ; 0.025 V                             ; 0.169 V                             ; 4.92e-10 s                 ; 3.13e-10 s                 ; Yes                       ; No                        ;
 ; sdram_dq[15]        ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 3.19e-05 V                   ; 3.1 V               ; -0.133 V            ; 0.025 V                              ; 0.169 V                              ; 4.92e-10 s                  ; 3.13e-10 s                  ; Yes                        ; No                         ; 3.08 V                      ; 3.19e-05 V                  ; 3.1 V              ; -0.133 V           ; 0.025 V                             ; 0.169 V                             ; 4.92e-10 s                 ; 3.13e-10 s                 ; Yes                       ; No                        ;
-; altera_reserved_tdo ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 4.39e-05 V                   ; 3.12 V              ; -0.0432 V           ; 0.292 V                              ; 0.097 V                              ; 6.42e-10 s                  ; 3.87e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 4.39e-05 V                  ; 3.12 V             ; -0.0432 V          ; 0.292 V                             ; 0.097 V                             ; 6.42e-10 s                 ; 3.87e-10 s                 ; Yes                       ; Yes                       ;
+; altera_reserved_tdo ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.5e-05 V                    ; 2.37 V              ; -0.0421 V           ; 0.168 V                              ; 0.143 V                              ; 4.71e-10 s                  ; 4.57e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.5e-05 V                   ; 2.37 V             ; -0.0421 V          ; 0.168 V                             ; 0.143 V                             ; 4.71e-10 s                 ; 4.57e-10 s                 ; No                        ; Yes                       ;
 +---------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 
 
@@ -715,7 +715,7 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 ; Pin                 ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
 +---------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 ; cmos_sclk           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 4.72e-06 V                   ; 3.7 V               ; -0.49 V             ; 0.117 V                              ; 0.621 V                              ; 3.84e-10 s                  ; 1.48e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 4.72e-06 V                  ; 3.7 V              ; -0.49 V            ; 0.117 V                             ; 0.621 V                             ; 3.84e-10 s                 ; 1.48e-10 s                 ; Yes                       ; No                        ;
-; cmos_xclk           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 4.94e-06 V                   ; 3.69 V              ; -0.414 V            ; 0.134 V                              ; 0.585 V                              ; 4.19e-10 s                  ; 1.53e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 4.94e-06 V                  ; 3.69 V             ; -0.414 V           ; 0.134 V                             ; 0.585 V                             ; 4.19e-10 s                 ; 1.53e-10 s                 ; Yes                       ; No                        ;
+; cmos_xclk           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 3.63e-06 V                   ; 3.64 V              ; -0.326 V            ; 0.091 V                              ; 0.479 V                              ; 3.83e-10 s                  ; 1.5e-10 s                   ; Yes                        ; No                         ; 3.63 V                      ; 3.63e-06 V                  ; 3.64 V             ; -0.326 V           ; 0.091 V                             ; 0.479 V                             ; 3.83e-10 s                 ; 1.5e-10 s                  ; Yes                       ; No                        ;
 ; cmos_rst_n          ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 4.72e-06 V                   ; 3.7 V               ; -0.49 V             ; 0.117 V                              ; 0.622 V                              ; 3.84e-10 s                  ; 1.48e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 4.72e-06 V                  ; 3.7 V              ; -0.49 V            ; 0.117 V                             ; 0.622 V                             ; 3.84e-10 s                 ; 1.48e-10 s                 ; Yes                       ; No                        ;
 ; cmos_pwdn           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 3.63e-06 V                   ; 3.64 V              ; -0.326 V            ; 0.091 V                              ; 0.479 V                              ; 3.83e-10 s                  ; 1.5e-10 s                   ; Yes                        ; No                         ; 3.63 V                      ; 3.63e-06 V                  ; 3.64 V             ; -0.326 V           ; 0.091 V                             ; 0.479 V                             ; 3.83e-10 s                 ; 1.5e-10 s                  ; Yes                       ; No                        ;
 ; sdram_clk           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 4.72e-06 V                   ; 3.7 V               ; -0.49 V             ; 0.117 V                              ; 0.622 V                              ; 3.84e-10 s                  ; 1.48e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 4.72e-06 V                  ; 3.7 V              ; -0.49 V            ; 0.117 V                             ; 0.622 V                             ; 3.84e-10 s                 ; 1.48e-10 s                 ; Yes                       ; No                        ;
@@ -760,7 +760,7 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 ; TFT_RGB[13]         ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 4.94e-06 V                   ; 3.69 V              ; -0.414 V            ; 0.134 V                              ; 0.585 V                              ; 4.19e-10 s                  ; 1.53e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 4.94e-06 V                  ; 3.69 V             ; -0.414 V           ; 0.134 V                             ; 0.585 V                             ; 4.19e-10 s                 ; 1.53e-10 s                 ; Yes                       ; No                        ;
 ; TFT_RGB[14]         ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 3.63e-06 V                   ; 3.64 V              ; -0.326 V            ; 0.091 V                              ; 0.479 V                              ; 3.83e-10 s                  ; 1.5e-10 s                   ; Yes                        ; No                         ; 3.63 V                      ; 3.63e-06 V                  ; 3.64 V             ; -0.326 V           ; 0.091 V                             ; 0.479 V                             ; 3.83e-10 s                 ; 1.5e-10 s                  ; Yes                       ; No                        ;
 ; TFT_RGB[15]         ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 4.72e-06 V                   ; 3.7 V               ; -0.49 V             ; 0.117 V                              ; 0.622 V                              ; 3.84e-10 s                  ; 1.48e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 4.72e-06 V                  ; 3.7 V              ; -0.49 V            ; 0.117 V                             ; 0.622 V                             ; 3.84e-10 s                 ; 1.48e-10 s                 ; Yes                       ; No                        ;
-; TFT_DE              ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 3.63e-06 V                   ; 3.64 V              ; -0.326 V            ; 0.091 V                              ; 0.479 V                              ; 3.83e-10 s                  ; 1.5e-10 s                   ; Yes                        ; No                         ; 3.63 V                      ; 3.63e-06 V                  ; 3.64 V             ; -0.326 V           ; 0.091 V                             ; 0.479 V                             ; 3.83e-10 s                 ; 1.5e-10 s                  ; Yes                       ; No                        ;
+; TFT_DE              ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 4.72e-06 V                   ; 3.7 V               ; -0.49 V             ; 0.117 V                              ; 0.622 V                              ; 3.84e-10 s                  ; 1.48e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 4.72e-06 V                  ; 3.7 V              ; -0.49 V            ; 0.117 V                             ; 0.622 V                             ; 3.84e-10 s                 ; 1.48e-10 s                 ; Yes                       ; No                        ;
 ; TFT_BL              ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 4.72e-06 V                   ; 3.7 V               ; -0.49 V             ; 0.117 V                              ; 0.621 V                              ; 3.84e-10 s                  ; 1.48e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 4.72e-06 V                  ; 3.7 V              ; -0.49 V            ; 0.117 V                             ; 0.621 V                             ; 3.84e-10 s                 ; 1.48e-10 s                 ; Yes                       ; No                        ;
 ; cmos_sdat           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 4.72e-06 V                   ; 3.7 V               ; -0.49 V             ; 0.117 V                              ; 0.621 V                              ; 3.84e-10 s                  ; 1.48e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 4.72e-06 V                  ; 3.7 V              ; -0.49 V            ; 0.117 V                             ; 0.621 V                             ; 3.84e-10 s                 ; 1.48e-10 s                 ; Yes                       ; No                        ;
 ; sdram_dq[0]         ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 4.72e-06 V                   ; 3.7 V               ; -0.49 V             ; 0.117 V                              ; 0.621 V                              ; 3.84e-10 s                  ; 1.48e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 4.72e-06 V                  ; 3.7 V              ; -0.49 V            ; 0.117 V                             ; 0.621 V                             ; 3.84e-10 s                 ; 1.48e-10 s                 ; Yes                       ; No                        ;
@@ -779,7 +779,7 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 ; sdram_dq[13]        ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 4.72e-06 V                   ; 3.7 V               ; -0.49 V             ; 0.117 V                              ; 0.622 V                              ; 3.84e-10 s                  ; 1.48e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 4.72e-06 V                  ; 3.7 V              ; -0.49 V            ; 0.117 V                             ; 0.622 V                             ; 3.84e-10 s                 ; 1.48e-10 s                 ; Yes                       ; No                        ;
 ; sdram_dq[14]        ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 4.72e-06 V                   ; 3.7 V               ; -0.49 V             ; 0.117 V                              ; 0.622 V                              ; 3.84e-10 s                  ; 1.48e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 4.72e-06 V                  ; 3.7 V              ; -0.49 V            ; 0.117 V                             ; 0.622 V                             ; 3.84e-10 s                 ; 1.48e-10 s                 ; Yes                       ; No                        ;
 ; sdram_dq[15]        ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 4.72e-06 V                   ; 3.7 V               ; -0.49 V             ; 0.117 V                              ; 0.622 V                              ; 3.84e-10 s                  ; 1.48e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 4.72e-06 V                  ; 3.7 V              ; -0.49 V            ; 0.117 V                             ; 0.622 V                             ; 3.84e-10 s                 ; 1.48e-10 s                 ; Yes                       ; No                        ;
-; altera_reserved_tdo ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 6.35e-06 V                   ; 3.69 V              ; -0.125 V            ; 0.384 V                              ; 0.202 V                              ; 4.63e-10 s                  ; 2.66e-10 s                  ; No                         ; Yes                        ; 3.63 V                      ; 6.35e-06 V                  ; 3.69 V             ; -0.125 V           ; 0.384 V                             ; 0.202 V                             ; 4.63e-10 s                 ; 2.66e-10 s                 ; No                        ; Yes                       ;
+; altera_reserved_tdo ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 3.79e-06 V                   ; 2.9 V               ; -0.122 V            ; 0.313 V                              ; 0.277 V                              ; 2.78e-10 s                  ; 2.7e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 3.79e-06 V                  ; 2.9 V              ; -0.122 V           ; 0.313 V                             ; 0.277 V                             ; 2.78e-10 s                 ; 2.7e-10 s                  ; No                        ; No                        ;
 +---------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 
 
@@ -789,7 +789,7 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 ; Pin                 ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
 +---------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 ; cmos_sclk           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 0.000229 V                   ; 3.65 V              ; -0.319 V            ; 0.041 V                              ; 0.528 V                              ; 4.29e-10 s                  ; 1.87e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 0.000229 V                  ; 3.65 V             ; -0.319 V           ; 0.041 V                             ; 0.528 V                             ; 4.29e-10 s                 ; 1.87e-10 s                 ; Yes                       ; No                        ;
-; cmos_xclk           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 0.000238 V                   ; 3.64 V              ; -0.254 V            ; 0.052 V                              ; 0.543 V                              ; 4.59e-10 s                  ; 1.96e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 0.000238 V                  ; 3.64 V             ; -0.254 V           ; 0.052 V                             ; 0.543 V                             ; 4.59e-10 s                 ; 1.96e-10 s                 ; Yes                       ; No                        ;
+; cmos_xclk           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 0.000184 V                   ; 3.64 V              ; -0.19 V             ; 0.019 V                              ; 0.425 V                              ; 4.44e-10 s                  ; 1.91e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 0.000184 V                  ; 3.64 V             ; -0.19 V            ; 0.019 V                             ; 0.425 V                             ; 4.44e-10 s                 ; 1.91e-10 s                 ; Yes                       ; No                        ;
 ; cmos_rst_n          ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 0.000229 V                   ; 3.65 V              ; -0.316 V            ; 0.041 V                              ; 0.53 V                               ; 4.29e-10 s                  ; 1.87e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 0.000229 V                  ; 3.65 V             ; -0.316 V           ; 0.041 V                             ; 0.53 V                              ; 4.29e-10 s                 ; 1.87e-10 s                 ; Yes                       ; No                        ;
 ; cmos_pwdn           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 0.000184 V                   ; 3.64 V              ; -0.19 V             ; 0.019 V                              ; 0.425 V                              ; 4.44e-10 s                  ; 1.91e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 0.000184 V                  ; 3.64 V             ; -0.19 V            ; 0.019 V                             ; 0.425 V                             ; 4.44e-10 s                 ; 1.91e-10 s                 ; Yes                       ; No                        ;
 ; sdram_clk           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 0.000229 V                   ; 3.65 V              ; -0.316 V            ; 0.041 V                              ; 0.53 V                               ; 4.29e-10 s                  ; 1.87e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 0.000229 V                  ; 3.65 V             ; -0.316 V           ; 0.041 V                             ; 0.53 V                              ; 4.29e-10 s                 ; 1.87e-10 s                 ; Yes                       ; No                        ;
@@ -834,7 +834,7 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 ; TFT_RGB[13]         ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 0.000238 V                   ; 3.64 V              ; -0.254 V            ; 0.052 V                              ; 0.543 V                              ; 4.59e-10 s                  ; 1.96e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 0.000238 V                  ; 3.64 V             ; -0.254 V           ; 0.052 V                             ; 0.543 V                             ; 4.59e-10 s                 ; 1.96e-10 s                 ; Yes                       ; No                        ;
 ; TFT_RGB[14]         ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 0.000184 V                   ; 3.64 V              ; -0.19 V             ; 0.019 V                              ; 0.425 V                              ; 4.44e-10 s                  ; 1.91e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 0.000184 V                  ; 3.64 V             ; -0.19 V            ; 0.019 V                             ; 0.425 V                             ; 4.44e-10 s                 ; 1.91e-10 s                 ; Yes                       ; No                        ;
 ; TFT_RGB[15]         ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 0.000229 V                   ; 3.65 V              ; -0.316 V            ; 0.041 V                              ; 0.53 V                               ; 4.29e-10 s                  ; 1.87e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 0.000229 V                  ; 3.65 V             ; -0.316 V           ; 0.041 V                             ; 0.53 V                              ; 4.29e-10 s                 ; 1.87e-10 s                 ; Yes                       ; No                        ;
-; TFT_DE              ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 0.000184 V                   ; 3.64 V              ; -0.19 V             ; 0.019 V                              ; 0.425 V                              ; 4.44e-10 s                  ; 1.91e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 0.000184 V                  ; 3.64 V             ; -0.19 V            ; 0.019 V                             ; 0.425 V                             ; 4.44e-10 s                 ; 1.91e-10 s                 ; Yes                       ; No                        ;
+; TFT_DE              ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 0.000229 V                   ; 3.65 V              ; -0.316 V            ; 0.041 V                              ; 0.53 V                               ; 4.29e-10 s                  ; 1.87e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 0.000229 V                  ; 3.65 V             ; -0.316 V           ; 0.041 V                             ; 0.53 V                              ; 4.29e-10 s                 ; 1.87e-10 s                 ; Yes                       ; No                        ;
 ; TFT_BL              ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 0.000229 V                   ; 3.65 V              ; -0.319 V            ; 0.041 V                              ; 0.528 V                              ; 4.29e-10 s                  ; 1.87e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 0.000229 V                  ; 3.65 V             ; -0.319 V           ; 0.041 V                             ; 0.528 V                             ; 4.29e-10 s                 ; 1.87e-10 s                 ; Yes                       ; No                        ;
 ; cmos_sdat           ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 0.000229 V                   ; 3.65 V              ; -0.319 V            ; 0.041 V                              ; 0.528 V                              ; 4.29e-10 s                  ; 1.87e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 0.000229 V                  ; 3.65 V             ; -0.319 V           ; 0.041 V                             ; 0.528 V                             ; 4.29e-10 s                 ; 1.87e-10 s                 ; Yes                       ; No                        ;
 ; sdram_dq[0]         ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 0.000229 V                   ; 3.65 V              ; -0.319 V            ; 0.041 V                              ; 0.528 V                              ; 4.29e-10 s                  ; 1.87e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 0.000229 V                  ; 3.65 V             ; -0.319 V           ; 0.041 V                             ; 0.528 V                             ; 4.29e-10 s                 ; 1.87e-10 s                 ; Yes                       ; No                        ;
@@ -853,7 +853,7 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 ; sdram_dq[13]        ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 0.000229 V                   ; 3.65 V              ; -0.316 V            ; 0.041 V                              ; 0.53 V                               ; 4.29e-10 s                  ; 1.87e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 0.000229 V                  ; 3.65 V             ; -0.316 V           ; 0.041 V                             ; 0.53 V                              ; 4.29e-10 s                 ; 1.87e-10 s                 ; Yes                       ; No                        ;
 ; sdram_dq[14]        ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 0.000229 V                   ; 3.65 V              ; -0.316 V            ; 0.041 V                              ; 0.53 V                               ; 4.29e-10 s                  ; 1.87e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 0.000229 V                  ; 3.65 V             ; -0.316 V           ; 0.041 V                             ; 0.53 V                              ; 4.29e-10 s                 ; 1.87e-10 s                 ; Yes                       ; No                        ;
 ; sdram_dq[15]        ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 0.000229 V                   ; 3.65 V              ; -0.316 V            ; 0.041 V                              ; 0.53 V                               ; 4.29e-10 s                  ; 1.87e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 0.000229 V                  ; 3.65 V             ; -0.316 V           ; 0.041 V                             ; 0.53 V                              ; 4.29e-10 s                 ; 1.87e-10 s                 ; Yes                       ; No                        ;
-; altera_reserved_tdo ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 0.000312 V                   ; 3.68 V              ; -0.0512 V           ; 0.226 V                              ; 0.205 V                              ; 5.93e-10 s                  ; 2.92e-10 s                  ; No                         ; Yes                        ; 3.63 V                      ; 0.000312 V                  ; 3.68 V             ; -0.0512 V          ; 0.226 V                             ; 0.205 V                             ; 5.93e-10 s                 ; 2.92e-10 s                 ; No                        ; Yes                       ;
+; altera_reserved_tdo ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000219 V                   ; 2.85 V              ; -0.0938 V           ; 0.339 V                              ; 0.156 V                              ; 3.08e-10 s                  ; 4.29e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000219 V                  ; 2.85 V             ; -0.0938 V          ; 0.339 V                             ; 0.156 V                             ; 3.08e-10 s                 ; 4.29e-10 s                 ; No                        ; No                        ;
 +---------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 
 
@@ -862,10 +862,10 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+---------------------+------------+----------+----------+----------+
 ; From Clock          ; To Clock            ; RR Paths   ; FR Paths ; RF Paths ; FF Paths ;
 +---------------------+---------------------+------------+----------+----------+----------+
-; altera_reserved_tck ; altera_reserved_tck ; 4534       ; 0        ; 56       ; 0        ;
+; altera_reserved_tck ; altera_reserved_tck ; 4659       ; 0        ; 56       ; 0        ;
 ; clk                 ; altera_reserved_tck ; false path ; 0        ; 0        ; 0        ;
 ; altera_reserved_tck ; clk                 ; false path ; 0        ; 0        ; 0        ;
-; clk                 ; clk                 ; 20281      ; 2        ; 0        ; 0        ;
+; clk                 ; clk                 ; 20579      ; 2        ; 0        ; 0        ;
 +---------------------+---------------------+------------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
@@ -875,10 +875,10 @@ Entries labeled "false path" only account for clock-to-clock false paths and not
 +---------------------+---------------------+------------+----------+----------+----------+
 ; From Clock          ; To Clock            ; RR Paths   ; FR Paths ; RF Paths ; FF Paths ;
 +---------------------+---------------------+------------+----------+----------+----------+
-; altera_reserved_tck ; altera_reserved_tck ; 4534       ; 0        ; 56       ; 0        ;
+; altera_reserved_tck ; altera_reserved_tck ; 4659       ; 0        ; 56       ; 0        ;
 ; clk                 ; altera_reserved_tck ; false path ; 0        ; 0        ; 0        ;
 ; altera_reserved_tck ; clk                 ; false path ; 0        ; 0        ; 0        ;
-; clk                 ; clk                 ; 20281      ; 2        ; 0        ; 0        ;
+; clk                 ; clk                 ; 20579      ; 2        ; 0        ; 0        ;
 +---------------------+---------------------+------------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
@@ -888,9 +888,9 @@ Entries labeled "false path" only account for clock-to-clock false paths and not
 +---------------------+---------------------+------------+----------+----------+----------+
 ; From Clock          ; To Clock            ; RR Paths   ; FR Paths ; RF Paths ; FF Paths ;
 +---------------------+---------------------+------------+----------+----------+----------+
-; altera_reserved_tck ; altera_reserved_tck ; 109        ; 0        ; 0        ; 0        ;
+; altera_reserved_tck ; altera_reserved_tck ; 112        ; 0        ; 0        ; 0        ;
 ; altera_reserved_tck ; clk                 ; false path ; 0        ; 0        ; 0        ;
-; clk                 ; clk                 ; 249        ; 0        ; 0        ; 0        ;
+; clk                 ; clk                 ; 252        ; 0        ; 0        ; 0        ;
 +---------------------+---------------------+------------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
@@ -900,9 +900,9 @@ Entries labeled "false path" only account for clock-to-clock false paths and not
 +---------------------+---------------------+------------+----------+----------+----------+
 ; From Clock          ; To Clock            ; RR Paths   ; FR Paths ; RF Paths ; FF Paths ;
 +---------------------+---------------------+------------+----------+----------+----------+
-; altera_reserved_tck ; altera_reserved_tck ; 109        ; 0        ; 0        ; 0        ;
+; altera_reserved_tck ; altera_reserved_tck ; 112        ; 0        ; 0        ; 0        ;
 ; altera_reserved_tck ; clk                 ; false path ; 0        ; 0        ; 0        ;
-; clk                 ; clk                 ; 249        ; 0        ; 0        ; 0        ;
+; clk                 ; clk                 ; 252        ; 0        ; 0        ; 0        ;
 +---------------------+---------------------+------------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
@@ -927,9 +927,9 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; Illegal Clocks                  ; 0     ; 0    ;
 ; Unconstrained Clocks            ; 1     ; 1    ;
 ; Unconstrained Input Ports       ; 32    ; 32   ;
-; Unconstrained Input Port Paths  ; 766   ; 766  ;
+; Unconstrained Input Port Paths  ; 779   ; 779  ;
 ; Unconstrained Output Ports      ; 63    ; 63   ;
-; Unconstrained Output Port Paths ; 529   ; 529  ;
+; Unconstrained Output Port Paths ; 194   ; 194  ;
 +---------------------------------+-------+------+
 
 
@@ -1172,7 +1172,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Thu Mar 07 09:36:22 2019
+    Info: Processing started: Sat Mar 09 20:52:47 2019
 Info: Command: quartus_sta OV5640_SDRAM -c OV5640_SDRAM
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -1189,112 +1189,112 @@ Info (332164): Evaluating HDL-embedded SDC commands
         Info (332166): set_clock_groups -asynchronous -group {altera_reserved_tck}
 Info (332104): Reading SDC File: 'OV5640_SDRAM.sdc'
 Warning (332043): Overwriting existing clock: altera_reserved_tck
-Warning (332174): Ignored filter at OV5640_SDRAM.sdc(49): pll|altpll_component|auto_generated|pll1|inclk[0] could not be matched with a pin File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 49
-Warning (332174): Ignored filter at OV5640_SDRAM.sdc(49): pll|altpll_component|auto_generated|pll1|clk[0] could not be matched with a pin File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 49
-Critical Warning (332049): Ignored create_generated_clock at OV5640_SDRAM.sdc(49): Argument <targets> is an empty collection File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 49
-    Info (332050): create_generated_clock -name {pll|altpll_component|auto_generated|pll1|clk[0]} -source [get_pins {pll|altpll_component|auto_generated|pll1|inclk[0]}] -duty_cycle 50.000 -multiply_by 2 -master_clock {clk} [get_pins {pll|altpll_component|auto_generated|pll1|clk[0]}]  File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 49
-Warning (332049): Ignored create_generated_clock at OV5640_SDRAM.sdc(49): Argument -source is an empty collection File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 49
-Warning (332174): Ignored filter at OV5640_SDRAM.sdc(50): pll|altpll_component|auto_generated|pll1|clk[1] could not be matched with a pin File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 50
-Critical Warning (332049): Ignored create_generated_clock at OV5640_SDRAM.sdc(50): Argument <targets> is an empty collection File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 50
-    Info (332050): create_generated_clock -name {pll|altpll_component|auto_generated|pll1|clk[1]} -source [get_pins {pll|altpll_component|auto_generated|pll1|inclk[0]}] -duty_cycle 50.000 -multiply_by 2 -phase -90.000 -master_clock {clk} [get_pins {pll|altpll_component|auto_generated|pll1|clk[1]}]  File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 50
-Warning (332049): Ignored create_generated_clock at OV5640_SDRAM.sdc(50): Argument -source is an empty collection File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 50
-Warning (332174): Ignored filter at OV5640_SDRAM.sdc(51): pll|altpll_component|auto_generated|pll1|clk[2] could not be matched with a pin File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 51
-Critical Warning (332049): Ignored create_generated_clock at OV5640_SDRAM.sdc(51): Argument <targets> is an empty collection File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 51
-    Info (332050): create_generated_clock -name {pll|altpll_component|auto_generated|pll1|clk[2]} -source [get_pins {pll|altpll_component|auto_generated|pll1|inclk[0]}] -duty_cycle 50.000 -multiply_by 16 -divide_by 25 -master_clock {clk} [get_pins {pll|altpll_component|auto_generated|pll1|clk[2]}]  File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 51
-Warning (332049): Ignored create_generated_clock at OV5640_SDRAM.sdc(51): Argument -source is an empty collection File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 51
-Warning (332174): Ignored filter at OV5640_SDRAM.sdc(70): pll|altpll_component|auto_generated|pll1|clk[0] could not be matched with a clock File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 70
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(70): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 70
-    Info (332050): set_clock_uncertainty -rise_from [get_clocks {clk}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -setup 0.080   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 70
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(71): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 71
-    Info (332050): set_clock_uncertainty -rise_from [get_clocks {clk}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -hold 0.100   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 71
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(72): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 72
-    Info (332050): set_clock_uncertainty -rise_from [get_clocks {clk}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -setup 0.080   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 72
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(73): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 73
-    Info (332050): set_clock_uncertainty -rise_from [get_clocks {clk}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -hold 0.100   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 73
-Warning (332174): Ignored filter at OV5640_SDRAM.sdc(74): pll|altpll_component|auto_generated|pll1|clk[2] could not be matched with a clock File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 74
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(74): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 74
-    Info (332050): set_clock_uncertainty -rise_from [get_clocks {clk}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -setup 0.080   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 74
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(75): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 75
-    Info (332050): set_clock_uncertainty -rise_from [get_clocks {clk}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -hold 0.100   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 75
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(76): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 76
-    Info (332050): set_clock_uncertainty -rise_from [get_clocks {clk}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -setup 0.080   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 76
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(77): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 77
-    Info (332050): set_clock_uncertainty -rise_from [get_clocks {clk}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -hold 0.100   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 77
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(80): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 80
-    Info (332050): set_clock_uncertainty -fall_from [get_clocks {clk}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -setup 0.080   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 80
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(81): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 81
-    Info (332050): set_clock_uncertainty -fall_from [get_clocks {clk}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -hold 0.100   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 81
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(82): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 82
-    Info (332050): set_clock_uncertainty -fall_from [get_clocks {clk}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -setup 0.080   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 82
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(83): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 83
-    Info (332050): set_clock_uncertainty -fall_from [get_clocks {clk}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -hold 0.100   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 83
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(84): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 84
-    Info (332050): set_clock_uncertainty -fall_from [get_clocks {clk}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -setup 0.080   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 84
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(85): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 85
-    Info (332050): set_clock_uncertainty -fall_from [get_clocks {clk}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -hold 0.100   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 85
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(86): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 86
-    Info (332050): set_clock_uncertainty -fall_from [get_clocks {clk}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -setup 0.080   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 86
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(87): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 87
-    Info (332050): set_clock_uncertainty -fall_from [get_clocks {clk}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -hold 0.100   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 87
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(88): Argument -rise_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 88
-    Info (332050): set_clock_uncertainty -rise_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}]  0.020   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 88
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(88): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 88
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(89): Argument -rise_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 89
-    Info (332050): set_clock_uncertainty -rise_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}]  0.020   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 89
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(89): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 89
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(90): Argument -rise_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 90
-    Info (332050): set_clock_uncertainty -rise_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}]  0.020   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 90
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(90): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 90
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(91): Argument -rise_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 91
-    Info (332050): set_clock_uncertainty -rise_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}]  0.020   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 91
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(91): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 91
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(92): Argument -fall_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 92
-    Info (332050): set_clock_uncertainty -fall_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}]  0.020   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 92
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(92): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 92
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(93): Argument -fall_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 93
-    Info (332050): set_clock_uncertainty -fall_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}]  0.020   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 93
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(93): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 93
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(94): Argument -fall_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 94
-    Info (332050): set_clock_uncertainty -fall_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}]  0.020   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 94
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(94): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 94
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(95): Argument -fall_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 95
-    Info (332050): set_clock_uncertainty -fall_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}]  0.020   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 95
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(95): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 95
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(96): Argument -rise_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 96
-    Info (332050): set_clock_uncertainty -rise_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}]  0.020   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 96
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(96): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 96
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(97): Argument -rise_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 97
-    Info (332050): set_clock_uncertainty -rise_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}]  0.020   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 97
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(97): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 97
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(98): Argument -rise_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 98
-    Info (332050): set_clock_uncertainty -rise_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}]  0.020   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 98
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(98): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 98
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(99): Argument -rise_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 99
-    Info (332050): set_clock_uncertainty -rise_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}]  0.020   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 99
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(99): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 99
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(100): Argument -fall_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 100
-    Info (332050): set_clock_uncertainty -fall_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}]  0.020   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 100
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(100): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 100
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(101): Argument -fall_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 101
-    Info (332050): set_clock_uncertainty -fall_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}]  0.020   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 101
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(101): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 101
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(102): Argument -fall_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 102
-    Info (332050): set_clock_uncertainty -fall_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}]  0.020   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 102
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(102): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 102
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(103): Argument -fall_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 103
-    Info (332050): set_clock_uncertainty -fall_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}]  0.020   File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 103
-Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(103): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 103
-Warning (332174): Ignored filter at OV5640_SDRAM.sdc(129): *altera_std_synchronizer:*|din_s1 could not be matched with a keeper File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 129
-Warning (332049): Ignored set_false_path at OV5640_SDRAM.sdc(129): Argument <to> is an empty collection File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 129
-    Info (332050): set_false_path -to [get_keepers {*altera_std_synchronizer:*|din_s1}] File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 129
-Warning (332174): Ignored filter at OV5640_SDRAM.sdc(130): *ws_dgrp|dffpipe_se9:dffpipe9|dffe10a* could not be matched with a keeper File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 130
-Warning (332049): Ignored set_false_path at OV5640_SDRAM.sdc(130): Argument <to> is an empty collection File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 130
-    Info (332050): set_false_path -from [get_keepers {*rdptr_g*}] -to [get_keepers {*ws_dgrp|dffpipe_se9:dffpipe9|dffe10a*}] File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 130
-Warning (332174): Ignored filter at OV5640_SDRAM.sdc(131): *rs_dgwp|dffpipe_re9:dffpipe6|dffe7a* could not be matched with a keeper File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 131
-Warning (332049): Ignored set_false_path at OV5640_SDRAM.sdc(131): Argument <to> is an empty collection File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 131
-    Info (332050): set_false_path -from [get_keepers {*delayed_wrptr_g*}] -to [get_keepers {*rs_dgwp|dffpipe_re9:dffpipe6|dffe7a*}] File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 131
+Warning (332174): Ignored filter at OV5640_SDRAM.sdc(49): pll|altpll_component|auto_generated|pll1|inclk[0] could not be matched with a pin File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 49
+Warning (332174): Ignored filter at OV5640_SDRAM.sdc(49): pll|altpll_component|auto_generated|pll1|clk[0] could not be matched with a pin File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 49
+Critical Warning (332049): Ignored create_generated_clock at OV5640_SDRAM.sdc(49): Argument <targets> is an empty collection File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 49
+    Info (332050): create_generated_clock -name {pll|altpll_component|auto_generated|pll1|clk[0]} -source [get_pins {pll|altpll_component|auto_generated|pll1|inclk[0]}] -duty_cycle 50.000 -multiply_by 2 -master_clock {clk} [get_pins {pll|altpll_component|auto_generated|pll1|clk[0]}]  File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 49
+Warning (332049): Ignored create_generated_clock at OV5640_SDRAM.sdc(49): Argument -source is an empty collection File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 49
+Warning (332174): Ignored filter at OV5640_SDRAM.sdc(50): pll|altpll_component|auto_generated|pll1|clk[1] could not be matched with a pin File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 50
+Critical Warning (332049): Ignored create_generated_clock at OV5640_SDRAM.sdc(50): Argument <targets> is an empty collection File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 50
+    Info (332050): create_generated_clock -name {pll|altpll_component|auto_generated|pll1|clk[1]} -source [get_pins {pll|altpll_component|auto_generated|pll1|inclk[0]}] -duty_cycle 50.000 -multiply_by 2 -phase -90.000 -master_clock {clk} [get_pins {pll|altpll_component|auto_generated|pll1|clk[1]}]  File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 50
+Warning (332049): Ignored create_generated_clock at OV5640_SDRAM.sdc(50): Argument -source is an empty collection File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 50
+Warning (332174): Ignored filter at OV5640_SDRAM.sdc(51): pll|altpll_component|auto_generated|pll1|clk[2] could not be matched with a pin File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 51
+Critical Warning (332049): Ignored create_generated_clock at OV5640_SDRAM.sdc(51): Argument <targets> is an empty collection File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 51
+    Info (332050): create_generated_clock -name {pll|altpll_component|auto_generated|pll1|clk[2]} -source [get_pins {pll|altpll_component|auto_generated|pll1|inclk[0]}] -duty_cycle 50.000 -multiply_by 16 -divide_by 25 -master_clock {clk} [get_pins {pll|altpll_component|auto_generated|pll1|clk[2]}]  File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 51
+Warning (332049): Ignored create_generated_clock at OV5640_SDRAM.sdc(51): Argument -source is an empty collection File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 51
+Warning (332174): Ignored filter at OV5640_SDRAM.sdc(70): pll|altpll_component|auto_generated|pll1|clk[0] could not be matched with a clock File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 70
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(70): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 70
+    Info (332050): set_clock_uncertainty -rise_from [get_clocks {clk}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -setup 0.080   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 70
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(71): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 71
+    Info (332050): set_clock_uncertainty -rise_from [get_clocks {clk}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -hold 0.100   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 71
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(72): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 72
+    Info (332050): set_clock_uncertainty -rise_from [get_clocks {clk}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -setup 0.080   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 72
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(73): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 73
+    Info (332050): set_clock_uncertainty -rise_from [get_clocks {clk}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -hold 0.100   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 73
+Warning (332174): Ignored filter at OV5640_SDRAM.sdc(74): pll|altpll_component|auto_generated|pll1|clk[2] could not be matched with a clock File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 74
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(74): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 74
+    Info (332050): set_clock_uncertainty -rise_from [get_clocks {clk}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -setup 0.080   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 74
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(75): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 75
+    Info (332050): set_clock_uncertainty -rise_from [get_clocks {clk}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -hold 0.100   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 75
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(76): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 76
+    Info (332050): set_clock_uncertainty -rise_from [get_clocks {clk}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -setup 0.080   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 76
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(77): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 77
+    Info (332050): set_clock_uncertainty -rise_from [get_clocks {clk}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -hold 0.100   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 77
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(80): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 80
+    Info (332050): set_clock_uncertainty -fall_from [get_clocks {clk}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -setup 0.080   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 80
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(81): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 81
+    Info (332050): set_clock_uncertainty -fall_from [get_clocks {clk}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -hold 0.100   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 81
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(82): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 82
+    Info (332050): set_clock_uncertainty -fall_from [get_clocks {clk}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -setup 0.080   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 82
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(83): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 83
+    Info (332050): set_clock_uncertainty -fall_from [get_clocks {clk}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -hold 0.100   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 83
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(84): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 84
+    Info (332050): set_clock_uncertainty -fall_from [get_clocks {clk}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -setup 0.080   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 84
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(85): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 85
+    Info (332050): set_clock_uncertainty -fall_from [get_clocks {clk}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -hold 0.100   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 85
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(86): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 86
+    Info (332050): set_clock_uncertainty -fall_from [get_clocks {clk}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -setup 0.080   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 86
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(87): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 87
+    Info (332050): set_clock_uncertainty -fall_from [get_clocks {clk}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -hold 0.100   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 87
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(88): Argument -rise_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 88
+    Info (332050): set_clock_uncertainty -rise_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}]  0.020   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 88
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(88): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 88
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(89): Argument -rise_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 89
+    Info (332050): set_clock_uncertainty -rise_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}]  0.020   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 89
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(89): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 89
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(90): Argument -rise_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 90
+    Info (332050): set_clock_uncertainty -rise_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}]  0.020   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 90
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(90): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 90
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(91): Argument -rise_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 91
+    Info (332050): set_clock_uncertainty -rise_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}]  0.020   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 91
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(91): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 91
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(92): Argument -fall_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 92
+    Info (332050): set_clock_uncertainty -fall_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}]  0.020   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 92
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(92): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 92
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(93): Argument -fall_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 93
+    Info (332050): set_clock_uncertainty -fall_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}]  0.020   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 93
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(93): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 93
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(94): Argument -fall_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 94
+    Info (332050): set_clock_uncertainty -fall_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}]  0.020   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 94
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(94): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 94
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(95): Argument -fall_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 95
+    Info (332050): set_clock_uncertainty -fall_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}]  0.020   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 95
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(95): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 95
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(96): Argument -rise_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 96
+    Info (332050): set_clock_uncertainty -rise_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}]  0.020   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 96
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(96): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 96
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(97): Argument -rise_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 97
+    Info (332050): set_clock_uncertainty -rise_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}]  0.020   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 97
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(97): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 97
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(98): Argument -rise_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 98
+    Info (332050): set_clock_uncertainty -rise_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}]  0.020   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 98
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(98): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 98
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(99): Argument -rise_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 99
+    Info (332050): set_clock_uncertainty -rise_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}]  0.020   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 99
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(99): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 99
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(100): Argument -fall_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 100
+    Info (332050): set_clock_uncertainty -fall_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}]  0.020   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 100
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(100): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 100
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(101): Argument -fall_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 101
+    Info (332050): set_clock_uncertainty -fall_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}]  0.020   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 101
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(101): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[0]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 101
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(102): Argument -fall_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 102
+    Info (332050): set_clock_uncertainty -fall_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -rise_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}]  0.020   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 102
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(102): Argument -rise_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 102
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(103): Argument -fall_from with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 103
+    Info (332050): set_clock_uncertainty -fall_from [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] -fall_to [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}]  0.020   File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 103
+Warning (332049): Ignored set_clock_uncertainty at OV5640_SDRAM.sdc(103): Argument -fall_to with value [get_clocks {pll|altpll_component|auto_generated|pll1|clk[2]}] contains zero elements File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 103
+Warning (332174): Ignored filter at OV5640_SDRAM.sdc(129): *altera_std_synchronizer:*|din_s1 could not be matched with a keeper File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 129
+Warning (332049): Ignored set_false_path at OV5640_SDRAM.sdc(129): Argument <to> is an empty collection File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 129
+    Info (332050): set_false_path -to [get_keepers {*altera_std_synchronizer:*|din_s1}] File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 129
+Warning (332174): Ignored filter at OV5640_SDRAM.sdc(130): *ws_dgrp|dffpipe_se9:dffpipe9|dffe10a* could not be matched with a keeper File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 130
+Warning (332049): Ignored set_false_path at OV5640_SDRAM.sdc(130): Argument <to> is an empty collection File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 130
+    Info (332050): set_false_path -from [get_keepers {*rdptr_g*}] -to [get_keepers {*ws_dgrp|dffpipe_se9:dffpipe9|dffe10a*}] File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 130
+Warning (332174): Ignored filter at OV5640_SDRAM.sdc(131): *rs_dgwp|dffpipe_re9:dffpipe6|dffe7a* could not be matched with a keeper File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 131
+Warning (332049): Ignored set_false_path at OV5640_SDRAM.sdc(131): Argument <to> is an empty collection File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 131
+    Info (332050): set_false_path -from [get_keepers {*delayed_wrptr_g*}] -to [get_keepers {*rs_dgwp|dffpipe_re9:dffpipe6|dffe7a*}] File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.sdc Line: 131
 Warning (332060): Node: cmos_pclk was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|delayed_wrptr_g[7] is being clocked by cmos_pclk
+    Info (13166): Register Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|delayed_wrptr_g[1] is being clocked by cmos_pclk
 Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
     Info (332098): Cell: pll|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL  from: refclkin  to: fbclk
     Info (332098): Cell: pll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
@@ -1314,33 +1314,33 @@ Info (332171): The following clock uncertainty values are less than the recommen
     Info (332172): Hold clock transfer from clk (Fall) to clk (Rise) has uncertainty 0.020 that is less than the recommended uncertainty 0.190
 Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
 Info: Analyzing Slow 1100mV 85C Model
-Info (332146): Worst-case setup slack is 9.854
+Info (332146): Worst-case setup slack is 9.835
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     9.854               0.000 clk 
-    Info (332119):    43.834               0.000 altera_reserved_tck 
+    Info (332119):     9.835               0.000 clk 
+    Info (332119):    43.511               0.000 altera_reserved_tck 
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case hold slack is -3.415
+Info (332146): Worst-case hold slack is -3.261
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -3.415              -6.670 clk 
-    Info (332119):     0.152               0.000 altera_reserved_tck 
-Info (332146): Worst-case recovery slack is 12.526
+    Info (332119):    -3.261              -6.494 clk 
+    Info (332119):     0.543               0.000 altera_reserved_tck 
+Info (332146): Worst-case recovery slack is 12.194
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    12.526               0.000 clk 
-    Info (332119):    97.282               0.000 altera_reserved_tck 
-Info (332146): Worst-case removal slack is 0.809
+    Info (332119):    12.194               0.000 clk 
+    Info (332119):    97.418               0.000 altera_reserved_tck 
+Info (332146): Worst-case removal slack is 0.854
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.809               0.000 altera_reserved_tck 
-    Info (332119):     2.994               0.000 clk 
-Info (332146): Worst-case minimum pulse width slack is 8.898
+    Info (332119):     0.854               0.000 altera_reserved_tck 
+    Info (332119):     2.857               0.000 clk 
+Info (332146): Worst-case minimum pulse width slack is 8.896
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     8.898               0.000 clk 
-    Info (332119):    48.485               0.000 altera_reserved_tck 
+    Info (332119):     8.896               0.000 clk 
+    Info (332119):    48.711               0.000 altera_reserved_tck 
 Info (332114): Report Metastability: Found 86 synchronizer chains.
     Info (332114): Worst-Case MTBF of Design is 1e+09 years or 3.15e+16 seconds.
     Info (332114): Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
@@ -1348,7 +1348,7 @@ Info (332114): Report Metastability: Found 86 synchronizer chains.
     Info (332114): Number of Synchronizer Chains Found: 86
     Info (332114): Shortest Synchronizer Chain: 2 Registers
     Info (332114): Fraction of Chains for which MTBFs Could Not be Calculated: 0.651
-    Info (332114): Worst Case Available Settling Time: 18.733 ns
+    Info (332114): Worst Case Available Settling Time: 17.948 ns
     Info (332114): 
     Info (332114): Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
     Info (332114):   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 79.4
@@ -1358,7 +1358,7 @@ Info: Analyzing Slow 1100mV 0C Model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Warning (332060): Node: cmos_pclk was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|delayed_wrptr_g[7] is being clocked by cmos_pclk
+    Info (13166): Register Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|delayed_wrptr_g[1] is being clocked by cmos_pclk
 Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
     Info (332098): Cell: pll|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL  from: refclkin  to: fbclk
     Info (332098): Cell: pll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
@@ -1376,33 +1376,33 @@ Info (332171): The following clock uncertainty values are less than the recommen
     Info (332172): Hold clock transfer from clk (Rise) to clk (Rise) has uncertainty 0.020 that is less than the recommended uncertainty 0.190
     Info (332172): Setup clock transfer from clk (Fall) to clk (Rise) has uncertainty 0.020 that is less than the recommended uncertainty 0.190
     Info (332172): Hold clock transfer from clk (Fall) to clk (Rise) has uncertainty 0.020 that is less than the recommended uncertainty 0.190
-Info (332146): Worst-case setup slack is 9.931
+Info (332146): Worst-case setup slack is 9.912
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     9.931               0.000 clk 
-    Info (332119):    43.902               0.000 altera_reserved_tck 
+    Info (332119):     9.912               0.000 clk 
+    Info (332119):    43.572               0.000 altera_reserved_tck 
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case hold slack is -3.454
+Info (332146): Worst-case hold slack is -3.275
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -3.454              -6.723 clk 
-    Info (332119):     0.138               0.000 altera_reserved_tck 
-Info (332146): Worst-case recovery slack is 12.684
+    Info (332119):    -3.275              -6.523 clk 
+    Info (332119):     0.509               0.000 altera_reserved_tck 
+Info (332146): Worst-case recovery slack is 12.347
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    12.684               0.000 clk 
-    Info (332119):    97.417               0.000 altera_reserved_tck 
-Info (332146): Worst-case removal slack is 0.729
+    Info (332119):    12.347               0.000 clk 
+    Info (332119):    97.530               0.000 altera_reserved_tck 
+Info (332146): Worst-case removal slack is 0.785
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.729               0.000 altera_reserved_tck 
-    Info (332119):     2.923               0.000 clk 
-Info (332146): Worst-case minimum pulse width slack is 8.925
+    Info (332119):     0.785               0.000 altera_reserved_tck 
+    Info (332119):     2.814               0.000 clk 
+Info (332146): Worst-case minimum pulse width slack is 8.922
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     8.925               0.000 clk 
-    Info (332119):    48.492               0.000 altera_reserved_tck 
+    Info (332119):     8.922               0.000 clk 
+    Info (332119):    48.745               0.000 altera_reserved_tck 
 Info (332114): Report Metastability: Found 86 synchronizer chains.
     Info (332114): Worst-Case MTBF of Design is 1e+09 years or 3.15e+16 seconds.
     Info (332114): Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
@@ -1410,7 +1410,7 @@ Info (332114): Report Metastability: Found 86 synchronizer chains.
     Info (332114): Number of Synchronizer Chains Found: 86
     Info (332114): Shortest Synchronizer Chain: 2 Registers
     Info (332114): Fraction of Chains for which MTBFs Could Not be Calculated: 0.651
-    Info (332114): Worst Case Available Settling Time: 18.717 ns
+    Info (332114): Worst Case Available Settling Time: 17.994 ns
     Info (332114): 
     Info (332114): Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
     Info (332114):   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 5.2
@@ -1420,7 +1420,7 @@ Info: Analyzing Fast 1100mV 85C Model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Warning (332060): Node: cmos_pclk was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|delayed_wrptr_g[7] is being clocked by cmos_pclk
+    Info (13166): Register Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|delayed_wrptr_g[1] is being clocked by cmos_pclk
 Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
     Info (332098): Cell: pll|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL  from: refclkin  to: fbclk
     Info (332098): Cell: pll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
@@ -1438,33 +1438,33 @@ Info (332171): The following clock uncertainty values are less than the recommen
     Info (332172): Hold clock transfer from clk (Rise) to clk (Rise) has uncertainty 0.020 that is less than the recommended uncertainty 0.190
     Info (332172): Setup clock transfer from clk (Fall) to clk (Rise) has uncertainty 0.020 that is less than the recommended uncertainty 0.190
     Info (332172): Hold clock transfer from clk (Fall) to clk (Rise) has uncertainty 0.020 that is less than the recommended uncertainty 0.190
-Info (332146): Worst-case setup slack is 9.615
+Info (332146): Worst-case setup slack is 9.607
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     9.615               0.000 clk 
-    Info (332119):    46.822               0.000 altera_reserved_tck 
+    Info (332119):     9.607               0.000 clk 
+    Info (332119):    46.455               0.000 altera_reserved_tck 
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case hold slack is -1.898
+Info (332146): Worst-case hold slack is -1.795
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -1.898              -3.690 clk 
-    Info (332119):     0.039               0.000 altera_reserved_tck 
-Info (332146): Worst-case recovery slack is 15.527
+    Info (332119):    -1.795              -3.578 clk 
+    Info (332119):     0.203               0.000 altera_reserved_tck 
+Info (332146): Worst-case recovery slack is 15.261
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    15.527               0.000 clk 
-    Info (332119):    98.206               0.000 altera_reserved_tck 
-Info (332146): Worst-case removal slack is 0.406
+    Info (332119):    15.261               0.000 clk 
+    Info (332119):    98.352               0.000 altera_reserved_tck 
+Info (332146): Worst-case removal slack is 0.412
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.406               0.000 altera_reserved_tck 
-    Info (332119):     1.959               0.000 clk 
-Info (332146): Worst-case minimum pulse width slack is 8.507
+    Info (332119):     0.412               0.000 altera_reserved_tck 
+    Info (332119):     1.874               0.000 clk 
+Info (332146): Worst-case minimum pulse width slack is 8.505
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     8.507               0.000 clk 
-    Info (332119):    48.168               0.000 altera_reserved_tck 
+    Info (332119):     8.505               0.000 clk 
+    Info (332119):    48.475               0.000 altera_reserved_tck 
 Info (332114): Report Metastability: Found 86 synchronizer chains.
     Info (332114): Worst-Case MTBF of Design is 1e+09 years or 3.15e+16 seconds.
     Info (332114): Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
@@ -1472,7 +1472,7 @@ Info (332114): Report Metastability: Found 86 synchronizer chains.
     Info (332114): Number of Synchronizer Chains Found: 86
     Info (332114): Shortest Synchronizer Chain: 2 Registers
     Info (332114): Fraction of Chains for which MTBFs Could Not be Calculated: 0.651
-    Info (332114): Worst Case Available Settling Time: 19.235 ns
+    Info (332114): Worst Case Available Settling Time: 18.722 ns
     Info (332114): 
     Info (332114): Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
     Info (332114):   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 79.4
@@ -1480,7 +1480,7 @@ Info (332114): Report Metastability: Found 86 synchronizer chains.
     Info (332114):   - Under typical conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 17.8
 Info: Analyzing Fast 1100mV 0C Model
 Warning (332060): Node: cmos_pclk was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|delayed_wrptr_g[7] is being clocked by cmos_pclk
+    Info (13166): Register Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|delayed_wrptr_g[1] is being clocked by cmos_pclk
 Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
     Info (332098): Cell: pll|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL  from: refclkin  to: fbclk
     Info (332098): Cell: pll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
@@ -1498,33 +1498,33 @@ Info (332171): The following clock uncertainty values are less than the recommen
     Info (332172): Hold clock transfer from clk (Rise) to clk (Rise) has uncertainty 0.020 that is less than the recommended uncertainty 0.190
     Info (332172): Setup clock transfer from clk (Fall) to clk (Rise) has uncertainty 0.020 that is less than the recommended uncertainty 0.190
     Info (332172): Hold clock transfer from clk (Fall) to clk (Rise) has uncertainty 0.020 that is less than the recommended uncertainty 0.190
-Info (332146): Worst-case setup slack is 9.573
+Info (332146): Worst-case setup slack is 9.565
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     9.573               0.000 clk 
-    Info (332119):    47.252               0.000 altera_reserved_tck 
+    Info (332119):     9.565               0.000 clk 
+    Info (332119):    46.828               0.000 altera_reserved_tck 
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case hold slack is -1.872
+Info (332146): Worst-case hold slack is -1.768
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -1.872              -3.639 clk 
-    Info (332119):     0.026               0.000 altera_reserved_tck 
-Info (332146): Worst-case recovery slack is 15.878
+    Info (332119):    -1.768              -3.526 clk 
+    Info (332119):     0.171               0.000 altera_reserved_tck 
+Info (332146): Worst-case recovery slack is 15.627
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    15.878               0.000 clk 
-    Info (332119):    98.414               0.000 altera_reserved_tck 
-Info (332146): Worst-case removal slack is 0.350
+    Info (332119):    15.627               0.000 clk 
+    Info (332119):    98.531               0.000 altera_reserved_tck 
+Info (332146): Worst-case removal slack is 0.356
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.350               0.000 altera_reserved_tck 
-    Info (332119):     1.754               0.000 clk 
-Info (332146): Worst-case minimum pulse width slack is 8.461
+    Info (332119):     0.356               0.000 altera_reserved_tck 
+    Info (332119):     1.720               0.000 clk 
+Info (332146): Worst-case minimum pulse width slack is 8.460
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     8.461               0.000 clk 
-    Info (332119):    48.155               0.000 altera_reserved_tck 
+    Info (332119):     8.460               0.000 clk 
+    Info (332119):    48.499               0.000 altera_reserved_tck 
 Info (332114): Report Metastability: Found 86 synchronizer chains.
     Info (332114): Worst-Case MTBF of Design is 1e+09 years or 3.15e+16 seconds.
     Info (332114): Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
@@ -1532,7 +1532,7 @@ Info (332114): Report Metastability: Found 86 synchronizer chains.
     Info (332114): Number of Synchronizer Chains Found: 86
     Info (332114): Shortest Synchronizer Chain: 2 Registers
     Info (332114): Fraction of Chains for which MTBFs Could Not be Calculated: 0.651
-    Info (332114): Worst Case Available Settling Time: 19.302 ns
+    Info (332114): Worst Case Available Settling Time: 18.831 ns
     Info (332114): 
     Info (332114): Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
     Info (332114):   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 5.2
@@ -1541,9 +1541,9 @@ Info (332114): Report Metastability: Found 86 synchronizer chains.
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 84 warnings
-    Info: Peak virtual memory: 5239 megabytes
-    Info: Processing ended: Thu Mar 07 09:36:34 2019
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:15
+    Info: Peak virtual memory: 5241 megabytes
+    Info: Processing ended: Sat Mar 09 20:53:04 2019
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:18
 
 

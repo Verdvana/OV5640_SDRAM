@@ -208,23 +208,6 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_RGB[0]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_VCLK
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TFT_VS
 set_location_assignment PIN_AJ27 -to cmos_rst_n
-set_global_assignment -name VERILOG_FILE rtl/sccb/I2C_OV5640_RGB565_Config.v
-set_global_assignment -name VERILOG_FILE rtl/sccb/I2C_OV5640_Init_RGB565.v
-set_global_assignment -name VERILOG_FILE rtl/sccb/I2C_Controller.v
-set_global_assignment -name VERILOG_FILE rtl/CMOS_Capture_RGB565.v
-set_global_assignment -name VERILOG_FILE rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v
-set_global_assignment -name VERILOG_FILE rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v
-set_global_assignment -name SOURCE_FILE rtl/Sdram_Control_4Port/Sdram_Params.h
-set_global_assignment -name VERILOG_FILE rtl/Sdram_Control_4Port/Sdram_Control_4Port.v
-set_global_assignment -name VERILOG_FILE rtl/Sdram_Control_4Port/sdr_data_path.v
-set_global_assignment -name VERILOG_FILE rtl/Sdram_Control_4Port/control_interface.v
-set_global_assignment -name VERILOG_FILE rtl/Sdram_Control_4Port/command.v
-set_global_assignment -name VERILOG_FILE OV5640_SDRAM.v
-set_global_assignment -name QIP_FILE pll.qip
-set_global_assignment -name VERILOG_FILE rtl/TFT_CTRL_800_480_16bit.v
-set_global_assignment -name SDC_FILE OV5640_SDRAM.sdc
-set_global_assignment -name TCL_SCRIPT_FILE "../../../../OV5640_SDRAM - ¸±±¾.tcl"
-set_global_assignment -name TCL_SCRIPT_FILE ../../../../OV5640_SDRAM222.tcl
 set_location_assignment PIN_AA15 -to key[1]
 set_location_assignment PIN_W15 -to key[2]
 set_location_assignment PIN_Y16 -to key[3]
@@ -325,7 +308,6 @@ set_location_assignment PIN_D11 -to vga_vsync
 set_location_assignment PIN_C10 -to vga_sync_n
 set_global_assignment -name ENABLE_SIGNALTAP ON
 set_global_assignment -name USE_SIGNALTAP_FILE output_files/stp1.stp
-set_global_assignment -name SIGNALTAP_FILE output_files/stp1.stp
 set_global_assignment -name SLD_NODE_CREATOR_ID 110 -section_id auto_signaltap_0
 set_global_assignment -name SLD_NODE_ENTITY_NAME sld_signaltap -section_id auto_signaltap_0
 set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_clk -to clk -section_id auto_signaltap_0
@@ -390,6 +372,36 @@ set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_COUNTER_PIPELINE=
 set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ADVANCED_TRIGGER_ENTITY=basic,1," -section_id auto_signaltap_0
 set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_LEVEL_PIPELINE=1" -section_id auto_signaltap_0
 set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ENABLE_ADVANCED_TRIGGER=0" -section_id auto_signaltap_0
+set_global_assignment -name QIP_FILE ROM_theme.qip
+set_global_assignment -name QIP_FILE ROM_9.qip
+set_global_assignment -name QIP_FILE ROM_8.qip
+set_global_assignment -name QIP_FILE ROM_7.qip
+set_global_assignment -name QIP_FILE ROM_6.qip
+set_global_assignment -name QIP_FILE ROM_5.qip
+set_global_assignment -name QIP_FILE ROM_4.qip
+set_global_assignment -name QIP_FILE ROM_3.qip
+set_global_assignment -name QIP_FILE ROM_2.qip
+set_global_assignment -name QIP_FILE ROM_1.qip
+set_global_assignment -name QIP_FILE ROM_0.qip
+set_global_assignment -name VERILOG_FILE rtl/sccb/I2C_OV5640_RGB565_Config.v
+set_global_assignment -name VERILOG_FILE rtl/sccb/I2C_OV5640_Init_RGB565.v
+set_global_assignment -name VERILOG_FILE rtl/sccb/I2C_Controller.v
+set_global_assignment -name VERILOG_FILE rtl/CMOS_Capture_RGB565.v
+set_global_assignment -name VERILOG_FILE rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v
+set_global_assignment -name VERILOG_FILE rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v
+set_global_assignment -name SOURCE_FILE rtl/Sdram_Control_4Port/Sdram_Params.h
+set_global_assignment -name VERILOG_FILE rtl/Sdram_Control_4Port/Sdram_Control_4Port.v
+set_global_assignment -name VERILOG_FILE rtl/Sdram_Control_4Port/sdr_data_path.v
+set_global_assignment -name VERILOG_FILE rtl/Sdram_Control_4Port/control_interface.v
+set_global_assignment -name VERILOG_FILE rtl/Sdram_Control_4Port/command.v
+set_global_assignment -name VERILOG_FILE OV5640_SDRAM.v
+set_global_assignment -name QIP_FILE pll.qip
+set_global_assignment -name VERILOG_FILE rtl/TFT_CTRL_800_480_16bit.v
+set_global_assignment -name SDC_FILE OV5640_SDRAM.sdc
+set_global_assignment -name TCL_SCRIPT_FILE "../../../../OV5640_SDRAM - ?¡À¡À?.tcl"
+set_global_assignment -name TCL_SCRIPT_FILE ../../../../OV5640_SDRAM222.tcl
+set_global_assignment -name SIGNALTAP_FILE output_files/stp1.stp
 set_global_assignment -name TCL_SCRIPT_FILE ../../../../OV5640_SDRAM.tcl
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_location_assignment PIN_AJ19 -to TFT_DE
 set_global_assignment -name SLD_FILE db/stp1_auto_stripped.stp
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

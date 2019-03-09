@@ -1,5 +1,5 @@
 Analysis & Synthesis report for OV5640_SDRAM
-Thu Mar 07 09:35:17 2019
+Sat Mar 09 20:51:17 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -74,38 +74,42 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
  66. Source assignments for Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|dffpipe_oe9:ws_bwp
  67. Source assignments for Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|alt_synch_pipe_9pl:ws_dgrp
  68. Source assignments for Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|alt_synch_pipe_9pl:ws_dgrp|dffpipe_qe9:dffpipe16
- 69. Source assignments for sld_signaltap:auto_signaltap_0
- 70. Parameter Settings for User Entity Instance: pll:pll|altpll:altpll_component
- 71. Parameter Settings for User Entity Instance: I2C_OV5640_Init_RGB565:u_I2C_OV5640_Init_RGB565
- 72. Parameter Settings for User Entity Instance: CMOS_Capture_RGB565:u_CMOS_Capture_RGB565
- 73. Parameter Settings for User Entity Instance: Sdram_Control_4Port:Sdram_Control_4Port
- 74. Parameter Settings for User Entity Instance: Sdram_Control_4Port:Sdram_Control_4Port|control_interface:control1
- 75. Parameter Settings for User Entity Instance: Sdram_Control_4Port:Sdram_Control_4Port|command:command1
- 76. Parameter Settings for User Entity Instance: Sdram_Control_4Port:Sdram_Control_4Port|sdr_data_path:data_path1
- 77. Parameter Settings for User Entity Instance: Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component
- 78. Parameter Settings for User Entity Instance: Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component
- 79. Parameter Settings for User Entity Instance: Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component
- 80. Parameter Settings for User Entity Instance: Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component
- 81. Parameter Settings for User Entity Instance: TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit
- 82. Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0
- 83. altpll Parameter Settings by Entity Instance
- 84. dcfifo Parameter Settings by Entity Instance
- 85. Port Connectivity Checks: "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit"
- 86. Port Connectivity Checks: "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2"
- 87. Port Connectivity Checks: "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo1"
- 88. Port Connectivity Checks: "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2"
- 89. Port Connectivity Checks: "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1"
- 90. Port Connectivity Checks: "Sdram_Control_4Port:Sdram_Control_4Port|sdr_data_path:data_path1"
- 91. Port Connectivity Checks: "Sdram_Control_4Port:Sdram_Control_4Port|control_interface:control1"
- 92. Port Connectivity Checks: "Sdram_Control_4Port:Sdram_Control_4Port"
- 93. Port Connectivity Checks: "CMOS_Capture_RGB565:u_CMOS_Capture_RGB565"
- 94. Port Connectivity Checks: "I2C_OV5640_Init_RGB565:u_I2C_OV5640_Init_RGB565|I2C_Controller:u_I2C_Controller"
- 95. Signal Tap Logic Analyzer Settings
- 96. Post-Synthesis Netlist Statistics for Top Partition
- 97. Elapsed Time Per Partition
- 98. Connections to In-System Debugging Instance "auto_signaltap_0"
- 99. Analysis & Synthesis Messages
-100. Analysis & Synthesis Suppressed Messages
+ 69. Source assignments for TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated
+ 70. Source assignments for sld_signaltap:auto_signaltap_0
+ 71. Parameter Settings for User Entity Instance: pll:pll|altpll:altpll_component
+ 72. Parameter Settings for User Entity Instance: I2C_OV5640_Init_RGB565:u_I2C_OV5640_Init_RGB565
+ 73. Parameter Settings for User Entity Instance: CMOS_Capture_RGB565:u_CMOS_Capture_RGB565
+ 74. Parameter Settings for User Entity Instance: Sdram_Control_4Port:Sdram_Control_4Port
+ 75. Parameter Settings for User Entity Instance: Sdram_Control_4Port:Sdram_Control_4Port|control_interface:control1
+ 76. Parameter Settings for User Entity Instance: Sdram_Control_4Port:Sdram_Control_4Port|command:command1
+ 77. Parameter Settings for User Entity Instance: Sdram_Control_4Port:Sdram_Control_4Port|sdr_data_path:data_path1
+ 78. Parameter Settings for User Entity Instance: Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component
+ 79. Parameter Settings for User Entity Instance: Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component
+ 80. Parameter Settings for User Entity Instance: Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component
+ 81. Parameter Settings for User Entity Instance: Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component
+ 82. Parameter Settings for User Entity Instance: TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit
+ 83. Parameter Settings for User Entity Instance: TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component
+ 84. Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0
+ 85. altpll Parameter Settings by Entity Instance
+ 86. dcfifo Parameter Settings by Entity Instance
+ 87. altsyncram Parameter Settings by Entity Instance
+ 88. Port Connectivity Checks: "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst"
+ 89. Port Connectivity Checks: "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit"
+ 90. Port Connectivity Checks: "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2"
+ 91. Port Connectivity Checks: "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo1"
+ 92. Port Connectivity Checks: "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2"
+ 93. Port Connectivity Checks: "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1"
+ 94. Port Connectivity Checks: "Sdram_Control_4Port:Sdram_Control_4Port|sdr_data_path:data_path1"
+ 95. Port Connectivity Checks: "Sdram_Control_4Port:Sdram_Control_4Port|control_interface:control1"
+ 96. Port Connectivity Checks: "Sdram_Control_4Port:Sdram_Control_4Port"
+ 97. Port Connectivity Checks: "CMOS_Capture_RGB565:u_CMOS_Capture_RGB565"
+ 98. Port Connectivity Checks: "I2C_OV5640_Init_RGB565:u_I2C_OV5640_Init_RGB565|I2C_Controller:u_I2C_Controller"
+ 99. Signal Tap Logic Analyzer Settings
+100. Post-Synthesis Netlist Statistics for Top Partition
+101. Elapsed Time Per Partition
+102. Connections to In-System Debugging Instance "auto_signaltap_0"
+103. Analysis & Synthesis Messages
+104. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -131,7 +135,7 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Mar 07 09:35:17 2019           ;
+; Analysis & Synthesis Status     ; Successful - Sat Mar 09 20:51:17 2019           ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                   ; OV5640_SDRAM                                    ;
 ; Top-level Entity Name           ; OV5640_SDRAM                                    ;
@@ -257,103 +261,108 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                  ;
-+--------------------------------------------------------------------+-----------------+----------------------------------------------+-----------------------------------------------------------------------------------------------------+-------------+
-; File Name with User-Entered Path                                   ; Used in Netlist ; File Type                                    ; File Name with Absolute Path                                                                        ; Library     ;
-+--------------------------------------------------------------------+-----------------+----------------------------------------------+-----------------------------------------------------------------------------------------------------+-------------+
-; rtl/sccb/I2C_OV5640_RGB565_Config.v                                ; yes             ; User Verilog HDL File                        ; E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/sccb/I2C_OV5640_RGB565_Config.v                                ;             ;
-; rtl/sccb/I2C_OV5640_Init_RGB565.v                                  ; yes             ; User Verilog HDL File                        ; E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/sccb/I2C_OV5640_Init_RGB565.v                                  ;             ;
-; rtl/sccb/I2C_Controller.v                                          ; yes             ; User Verilog HDL File                        ; E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/sccb/I2C_Controller.v                                          ;             ;
-; rtl/CMOS_Capture_RGB565.v                                          ; yes             ; User Verilog HDL File                        ; E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/CMOS_Capture_RGB565.v                                          ;             ;
-; rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v                            ; yes             ; User Wizard-Generated File                   ; E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v                            ;             ;
-; rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v                            ; yes             ; User Wizard-Generated File                   ; E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v                            ;             ;
-; rtl/Sdram_Control_4Port/Sdram_Params.h                             ; yes             ; User File                                    ; E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_Params.h                             ;             ;
-; rtl/Sdram_Control_4Port/Sdram_Control_4Port.v                      ; yes             ; User Verilog HDL File                        ; E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v                      ;             ;
-; rtl/Sdram_Control_4Port/sdr_data_path.v                            ; yes             ; User Verilog HDL File                        ; E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/sdr_data_path.v                            ;             ;
-; rtl/Sdram_Control_4Port/control_interface.v                        ; yes             ; User Verilog HDL File                        ; E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/control_interface.v                        ;             ;
-; rtl/Sdram_Control_4Port/command.v                                  ; yes             ; User Verilog HDL File                        ; E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/command.v                                  ;             ;
-; OV5640_SDRAM.v                                                     ; yes             ; User Verilog HDL File                        ; E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.v                                                     ;             ;
-; pll.v                                                              ; yes             ; User Wizard-Generated File                   ; E:/GitHub_Code/FPGA/OV5640_SDRAM/pll.v                                                              ;             ;
-; rtl/TFT_CTRL_800_480_16bit.v                                       ; yes             ; User Verilog HDL File                        ; E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/TFT_CTRL_800_480_16bit.v                                       ;             ;
-; altpll.tdf                                                         ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/altpll.tdf                                        ;             ;
-; aglobal181.inc                                                     ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/aglobal181.inc                                    ;             ;
-; stratix_pll.inc                                                    ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/stratix_pll.inc                                   ;             ;
-; stratixii_pll.inc                                                  ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/stratixii_pll.inc                                 ;             ;
-; cycloneii_pll.inc                                                  ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/cycloneii_pll.inc                                 ;             ;
-; db/pll_altpll.v                                                    ; yes             ; Auto-Generated Megafunction                  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/pll_altpll.v                                                    ;             ;
-; dcfifo.tdf                                                         ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/dcfifo.tdf                                        ;             ;
-; lpm_counter.inc                                                    ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_counter.inc                                   ;             ;
-; lpm_add_sub.inc                                                    ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_add_sub.inc                                   ;             ;
-; altdpram.inc                                                       ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/altdpram.inc                                      ;             ;
-; a_graycounter.inc                                                  ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/a_graycounter.inc                                 ;             ;
-; a_fefifo.inc                                                       ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/a_fefifo.inc                                      ;             ;
-; a_gray2bin.inc                                                     ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/a_gray2bin.inc                                    ;             ;
-; dffpipe.inc                                                        ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/dffpipe.inc                                       ;             ;
-; alt_sync_fifo.inc                                                  ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/alt_sync_fifo.inc                                 ;             ;
-; lpm_compare.inc                                                    ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_compare.inc                                   ;             ;
-; altsyncram_fifo.inc                                                ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/altsyncram_fifo.inc                               ;             ;
-; db/dcfifo_9l02.tdf                                                 ; yes             ; Auto-Generated Megafunction                  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/dcfifo_9l02.tdf                                                 ;             ;
-; db/a_gray2bin_oab.tdf                                              ; yes             ; Auto-Generated Megafunction                  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/a_gray2bin_oab.tdf                                              ;             ;
-; db/a_graycounter_nv6.tdf                                           ; yes             ; Auto-Generated Megafunction                  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/a_graycounter_nv6.tdf                                           ;             ;
-; db/a_graycounter_jdc.tdf                                           ; yes             ; Auto-Generated Megafunction                  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/a_graycounter_jdc.tdf                                           ;             ;
-; db/altsyncram_52f1.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf                                             ;             ;
-; db/dffpipe_oe9.tdf                                                 ; yes             ; Auto-Generated Megafunction                  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/dffpipe_oe9.tdf                                                 ;             ;
-; db/alt_synch_pipe_8pl.tdf                                          ; yes             ; Auto-Generated Megafunction                  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/alt_synch_pipe_8pl.tdf                                          ;             ;
-; db/dffpipe_pe9.tdf                                                 ; yes             ; Auto-Generated Megafunction                  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/dffpipe_pe9.tdf                                                 ;             ;
-; db/alt_synch_pipe_9pl.tdf                                          ; yes             ; Auto-Generated Megafunction                  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/alt_synch_pipe_9pl.tdf                                          ;             ;
-; db/dffpipe_qe9.tdf                                                 ; yes             ; Auto-Generated Megafunction                  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/dffpipe_qe9.tdf                                                 ;             ;
-; db/cmpr_906.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/cmpr_906.tdf                                                    ;             ;
-; sld_signaltap.vhd                                                  ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_signaltap.vhd                                 ;             ;
-; sld_signaltap_impl.vhd                                             ; yes             ; Encrypted Megafunction                       ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_signaltap_impl.vhd                            ;             ;
-; sld_ela_control.vhd                                                ; yes             ; Encrypted Megafunction                       ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_ela_control.vhd                               ;             ;
-; lpm_shiftreg.tdf                                                   ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_shiftreg.tdf                                  ;             ;
-; lpm_constant.inc                                                   ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_constant.inc                                  ;             ;
-; dffeea.inc                                                         ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/dffeea.inc                                        ;             ;
-; sld_mbpmg.vhd                                                      ; yes             ; Encrypted Megafunction                       ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_mbpmg.vhd                                     ;             ;
-; sld_ela_trigger_flow_mgr.vhd                                       ; yes             ; Encrypted Megafunction                       ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_ela_trigger_flow_mgr.vhd                      ;             ;
-; sld_buffer_manager.vhd                                             ; yes             ; Encrypted Megafunction                       ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_buffer_manager.vhd                            ;             ;
-; altsyncram.tdf                                                     ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/altsyncram.tdf                                    ;             ;
-; stratix_ram_block.inc                                              ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc                             ;             ;
-; lpm_mux.inc                                                        ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_mux.inc                                       ;             ;
-; lpm_decode.inc                                                     ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_decode.inc                                    ;             ;
-; a_rdenreg.inc                                                      ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/a_rdenreg.inc                                     ;             ;
-; altrom.inc                                                         ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/altrom.inc                                        ;             ;
-; altram.inc                                                         ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/altram.inc                                        ;             ;
-; db/altsyncram_8884.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_8884.tdf                                             ;             ;
-; altdpram.tdf                                                       ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/altdpram.tdf                                      ;             ;
-; memmodes.inc                                                       ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/others/maxplus2/memmodes.inc                                    ;             ;
-; a_hdffe.inc                                                        ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/a_hdffe.inc                                       ;             ;
-; alt_le_rden_reg.inc                                                ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/alt_le_rden_reg.inc                               ;             ;
-; altsyncram.inc                                                     ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/altsyncram.inc                                    ;             ;
-; lpm_mux.tdf                                                        ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_mux.tdf                                       ;             ;
-; muxlut.inc                                                         ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/muxlut.inc                                        ;             ;
-; bypassff.inc                                                       ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/bypassff.inc                                      ;             ;
-; altshift.inc                                                       ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/altshift.inc                                      ;             ;
-; db/mux_ilc.tdf                                                     ; yes             ; Auto-Generated Megafunction                  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/mux_ilc.tdf                                                     ;             ;
-; lpm_decode.tdf                                                     ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_decode.tdf                                    ;             ;
-; declut.inc                                                         ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/declut.inc                                        ;             ;
-; db/decode_vnf.tdf                                                  ; yes             ; Auto-Generated Megafunction                  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/decode_vnf.tdf                                                  ;             ;
-; lpm_counter.tdf                                                    ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_counter.tdf                                   ;             ;
-; cmpconst.inc                                                       ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/cmpconst.inc                                      ;             ;
-; alt_counter_stratix.inc                                            ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/alt_counter_stratix.inc                           ;             ;
-; db/cntr_3vi.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/cntr_3vi.tdf                                                    ;             ;
-; db/cntr_59i.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/cntr_59i.tdf                                                    ;             ;
-; db/cmpr_d9c.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/cmpr_d9c.tdf                                                    ;             ;
-; db/cntr_kri.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/cntr_kri.tdf                                                    ;             ;
-; db/cmpr_99c.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/cmpr_99c.tdf                                                    ;             ;
-; sld_rom_sr.vhd                                                     ; yes             ; Encrypted Megafunction                       ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_rom_sr.vhd                                    ;             ;
-; sld_jtag_endpoint_adapter.vhd                                      ; yes             ; Encrypted Megafunction                       ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter.vhd                     ;             ;
-; sld_jtag_endpoint_adapter_impl.sv                                  ; yes             ; Encrypted Megafunction                       ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter_impl.sv                 ;             ;
-; sld_hub.vhd                                                        ; yes             ; Encrypted Megafunction                       ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_hub.vhd                                       ; altera_sld  ;
-; db/ip/sld2cd50fbe/alt_sld_fab.v                                    ; yes             ; Encrypted Auto-Found Verilog HDL File        ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/ip/sld2cd50fbe/alt_sld_fab.v                                    ; alt_sld_fab ;
-; db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab.v             ; yes             ; Encrypted Auto-Found Verilog HDL File        ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab.v             ; alt_sld_fab ;
-; db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_ident.sv      ; yes             ; Auto-Found SystemVerilog HDL File            ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_ident.sv      ; alt_sld_fab ;
-; db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_presplit.sv   ; yes             ; Encrypted Auto-Found SystemVerilog HDL File  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_presplit.sv   ; alt_sld_fab ;
-; db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; yes             ; Encrypted Auto-Found VHDL File               ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; alt_sld_fab ;
-; db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; yes             ; Encrypted Auto-Found SystemVerilog HDL File  ; E:/GitHub_Code/FPGA/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; alt_sld_fab ;
-; sld_jtag_hub.vhd                                                   ; yes             ; Encrypted Megafunction                       ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_jtag_hub.vhd                                  ;             ;
-+--------------------------------------------------------------------+-----------------+----------------------------------------------+-----------------------------------------------------------------------------------------------------+-------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                   ;
++--------------------------------------------------------------------+-----------------+----------------------------------------------+------------------------------------------------------------------------------------------------------+-------------+
+; File Name with User-Entered Path                                   ; Used in Netlist ; File Type                                    ; File Name with Absolute Path                                                                         ; Library     ;
++--------------------------------------------------------------------+-----------------+----------------------------------------------+------------------------------------------------------------------------------------------------------+-------------+
+; ROM_theme.v                                                        ; yes             ; User Wizard-Generated File                   ; E:/DE1-SoC/Temporary/OV5640_SDRAM/ROM_theme.v                                                        ;             ;
+; rtl/sccb/I2C_OV5640_RGB565_Config.v                                ; yes             ; User Verilog HDL File                        ; E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/sccb/I2C_OV5640_RGB565_Config.v                                ;             ;
+; rtl/sccb/I2C_OV5640_Init_RGB565.v                                  ; yes             ; User Verilog HDL File                        ; E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/sccb/I2C_OV5640_Init_RGB565.v                                  ;             ;
+; rtl/sccb/I2C_Controller.v                                          ; yes             ; User Verilog HDL File                        ; E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/sccb/I2C_Controller.v                                          ;             ;
+; rtl/CMOS_Capture_RGB565.v                                          ; yes             ; User Verilog HDL File                        ; E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/CMOS_Capture_RGB565.v                                          ;             ;
+; rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v                            ; yes             ; User Wizard-Generated File                   ; E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v                            ;             ;
+; rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v                            ; yes             ; User Wizard-Generated File                   ; E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v                            ;             ;
+; rtl/Sdram_Control_4Port/Sdram_Params.h                             ; yes             ; User File                                    ; E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_Params.h                             ;             ;
+; rtl/Sdram_Control_4Port/Sdram_Control_4Port.v                      ; yes             ; User Verilog HDL File                        ; E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v                      ;             ;
+; rtl/Sdram_Control_4Port/sdr_data_path.v                            ; yes             ; User Verilog HDL File                        ; E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/sdr_data_path.v                            ;             ;
+; rtl/Sdram_Control_4Port/control_interface.v                        ; yes             ; User Verilog HDL File                        ; E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/control_interface.v                        ;             ;
+; rtl/Sdram_Control_4Port/command.v                                  ; yes             ; User Verilog HDL File                        ; E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/command.v                                  ;             ;
+; OV5640_SDRAM.v                                                     ; yes             ; User Verilog HDL File                        ; E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.v                                                     ;             ;
+; pll.v                                                              ; yes             ; User Wizard-Generated File                   ; E:/DE1-SoC/Temporary/OV5640_SDRAM/pll.v                                                              ;             ;
+; rtl/TFT_CTRL_800_480_16bit.v                                       ; yes             ; User Verilog HDL File                        ; E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/TFT_CTRL_800_480_16bit.v                                       ;             ;
+; altpll.tdf                                                         ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/altpll.tdf                                         ;             ;
+; aglobal181.inc                                                     ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/aglobal181.inc                                     ;             ;
+; stratix_pll.inc                                                    ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/stratix_pll.inc                                    ;             ;
+; stratixii_pll.inc                                                  ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/stratixii_pll.inc                                  ;             ;
+; cycloneii_pll.inc                                                  ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/cycloneii_pll.inc                                  ;             ;
+; db/pll_altpll.v                                                    ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/pll_altpll.v                                                    ;             ;
+; dcfifo.tdf                                                         ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/dcfifo.tdf                                         ;             ;
+; lpm_counter.inc                                                    ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_counter.inc                                    ;             ;
+; lpm_add_sub.inc                                                    ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_add_sub.inc                                    ;             ;
+; altdpram.inc                                                       ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/altdpram.inc                                       ;             ;
+; a_graycounter.inc                                                  ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/a_graycounter.inc                                  ;             ;
+; a_fefifo.inc                                                       ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/a_fefifo.inc                                       ;             ;
+; a_gray2bin.inc                                                     ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/a_gray2bin.inc                                     ;             ;
+; dffpipe.inc                                                        ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/dffpipe.inc                                        ;             ;
+; alt_sync_fifo.inc                                                  ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/alt_sync_fifo.inc                                  ;             ;
+; lpm_compare.inc                                                    ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_compare.inc                                    ;             ;
+; altsyncram_fifo.inc                                                ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/altsyncram_fifo.inc                                ;             ;
+; db/dcfifo_9l02.tdf                                                 ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/dcfifo_9l02.tdf                                                 ;             ;
+; db/a_gray2bin_oab.tdf                                              ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/a_gray2bin_oab.tdf                                              ;             ;
+; db/a_graycounter_nv6.tdf                                           ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/a_graycounter_nv6.tdf                                           ;             ;
+; db/a_graycounter_jdc.tdf                                           ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/a_graycounter_jdc.tdf                                           ;             ;
+; db/altsyncram_52f1.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf                                             ;             ;
+; db/dffpipe_oe9.tdf                                                 ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/dffpipe_oe9.tdf                                                 ;             ;
+; db/alt_synch_pipe_8pl.tdf                                          ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/alt_synch_pipe_8pl.tdf                                          ;             ;
+; db/dffpipe_pe9.tdf                                                 ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/dffpipe_pe9.tdf                                                 ;             ;
+; db/alt_synch_pipe_9pl.tdf                                          ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/alt_synch_pipe_9pl.tdf                                          ;             ;
+; db/dffpipe_qe9.tdf                                                 ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/dffpipe_qe9.tdf                                                 ;             ;
+; db/cmpr_906.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/cmpr_906.tdf                                                    ;             ;
+; altsyncram.tdf                                                     ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/altsyncram.tdf                                     ;             ;
+; stratix_ram_block.inc                                              ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc                              ;             ;
+; lpm_mux.inc                                                        ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_mux.inc                                        ;             ;
+; lpm_decode.inc                                                     ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_decode.inc                                     ;             ;
+; a_rdenreg.inc                                                      ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/a_rdenreg.inc                                      ;             ;
+; altrom.inc                                                         ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/altrom.inc                                         ;             ;
+; altram.inc                                                         ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/altram.inc                                         ;             ;
+; db/altsyncram_7ng1.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf                                             ;             ;
+; ../mif/theme.mif                                                   ; yes             ; Auto-Found Memory Initialization File        ; E:/DE1-SoC/Temporary/OV5640_SDRAM/mif/theme.mif                                                      ;             ;
+; db/decode_u0a.tdf                                                  ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/decode_u0a.tdf                                                  ;             ;
+; db/mux_4hb.tdf                                                     ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/mux_4hb.tdf                                                     ;             ;
+; sld_signaltap.vhd                                                  ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_signaltap.vhd                                  ;             ;
+; sld_signaltap_impl.vhd                                             ; yes             ; Encrypted Megafunction                       ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_signaltap_impl.vhd                             ;             ;
+; sld_ela_control.vhd                                                ; yes             ; Encrypted Megafunction                       ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_ela_control.vhd                                ;             ;
+; lpm_shiftreg.tdf                                                   ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_shiftreg.tdf                                   ;             ;
+; lpm_constant.inc                                                   ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_constant.inc                                   ;             ;
+; dffeea.inc                                                         ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/dffeea.inc                                         ;             ;
+; sld_mbpmg.vhd                                                      ; yes             ; Encrypted Megafunction                       ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_mbpmg.vhd                                      ;             ;
+; sld_ela_trigger_flow_mgr.vhd                                       ; yes             ; Encrypted Megafunction                       ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_ela_trigger_flow_mgr.vhd                       ;             ;
+; sld_buffer_manager.vhd                                             ; yes             ; Encrypted Megafunction                       ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_buffer_manager.vhd                             ;             ;
+; db/altsyncram_8884.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_8884.tdf                                             ;             ;
+; altdpram.tdf                                                       ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/altdpram.tdf                                       ;             ;
+; memmodes.inc                                                       ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/others/maxplus2/memmodes.inc                                     ;             ;
+; a_hdffe.inc                                                        ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/a_hdffe.inc                                        ;             ;
+; alt_le_rden_reg.inc                                                ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/alt_le_rden_reg.inc                                ;             ;
+; altsyncram.inc                                                     ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/altsyncram.inc                                     ;             ;
+; lpm_mux.tdf                                                        ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_mux.tdf                                        ;             ;
+; muxlut.inc                                                         ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/muxlut.inc                                         ;             ;
+; bypassff.inc                                                       ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/bypassff.inc                                       ;             ;
+; altshift.inc                                                       ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/altshift.inc                                       ;             ;
+; db/mux_ilc.tdf                                                     ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/mux_ilc.tdf                                                     ;             ;
+; lpm_decode.tdf                                                     ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_decode.tdf                                     ;             ;
+; declut.inc                                                         ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/declut.inc                                         ;             ;
+; db/decode_vnf.tdf                                                  ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/decode_vnf.tdf                                                  ;             ;
+; lpm_counter.tdf                                                    ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/lpm_counter.tdf                                    ;             ;
+; cmpconst.inc                                                       ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/cmpconst.inc                                       ;             ;
+; alt_counter_stratix.inc                                            ; yes             ; Megafunction                                 ; d:/intelfpga/18.1/quartus/libraries/megafunctions/alt_counter_stratix.inc                            ;             ;
+; db/cntr_3vi.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/cntr_3vi.tdf                                                    ;             ;
+; db/cntr_59i.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/cntr_59i.tdf                                                    ;             ;
+; db/cmpr_d9c.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/cmpr_d9c.tdf                                                    ;             ;
+; db/cntr_kri.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/cntr_kri.tdf                                                    ;             ;
+; db/cmpr_99c.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/cmpr_99c.tdf                                                    ;             ;
+; sld_rom_sr.vhd                                                     ; yes             ; Encrypted Megafunction                       ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_rom_sr.vhd                                     ;             ;
+; sld_jtag_endpoint_adapter.vhd                                      ; yes             ; Encrypted Megafunction                       ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter.vhd                      ;             ;
+; sld_jtag_endpoint_adapter_impl.sv                                  ; yes             ; Encrypted Megafunction                       ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter_impl.sv                  ;             ;
+; sld_hub.vhd                                                        ; yes             ; Encrypted Megafunction                       ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_hub.vhd                                        ; altera_sld  ;
+; db/ip/sld2cd50fbe/alt_sld_fab.v                                    ; yes             ; Encrypted Auto-Found Verilog HDL File        ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/ip/sld2cd50fbe/alt_sld_fab.v                                    ; alt_sld_fab ;
+; db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab.v             ; yes             ; Encrypted Auto-Found Verilog HDL File        ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab.v             ; alt_sld_fab ;
+; db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_ident.sv      ; yes             ; Auto-Found SystemVerilog HDL File            ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_ident.sv      ; alt_sld_fab ;
+; db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_presplit.sv   ; yes             ; Encrypted Auto-Found SystemVerilog HDL File  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_presplit.sv   ; alt_sld_fab ;
+; db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; yes             ; Encrypted Auto-Found VHDL File               ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; alt_sld_fab ;
+; db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; yes             ; Encrypted Auto-Found SystemVerilog HDL File  ; E:/DE1-SoC/Temporary/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; alt_sld_fab ;
+; sld_jtag_hub.vhd                                                   ; yes             ; Encrypted Megafunction                       ; d:/intelfpga/18.1/quartus/libraries/megafunctions/sld_jtag_hub.vhd                                   ;             ;
++--------------------------------------------------------------------+-----------------+----------------------------------------------+------------------------------------------------------------------------------------------------------+-------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------------+
@@ -361,14 +370,14 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+------------------------------------------------------------------------------------+
 ; Resource                                    ; Usage                                                                              ;
 +---------------------------------------------+------------------------------------------------------------------------------------+
-; Estimate of Logic utilization (ALMs needed) ; 775                                                                                ;
+; Estimate of Logic utilization (ALMs needed) ; 767                                                                                ;
 ;                                             ;                                                                                    ;
-; Combinational ALUT usage for logic          ; 1126                                                                               ;
+; Combinational ALUT usage for logic          ; 1110                                                                               ;
 ;     -- 7 input functions                    ; 3                                                                                  ;
 ;     -- 6 input functions                    ; 297                                                                                ;
-;     -- 5 input functions                    ; 156                                                                                ;
+;     -- 5 input functions                    ; 157                                                                                ;
 ;     -- 4 input functions                    ; 111                                                                                ;
-;     -- <=3 input functions                  ; 559                                                                                ;
+;     -- <=3 input functions                  ; 542                                                                                ;
 ;                                             ;                                                                                    ;
 ; Dedicated logic registers                   ; 1090                                                                               ;
 ;                                             ;                                                                                    ;
@@ -383,7 +392,7 @@ refer to the applicable agreement for further details.
 ;                                             ;                                                                                    ;
 ; Maximum fan-out node                        ; pll:pll|altpll:altpll_component|pll_altpll:auto_generated|wire_generic_pll1_outclk ;
 ; Maximum fan-out                             ; 488                                                                                ;
-; Total fan-out                               ; 9387                                                                               ;
+; Total fan-out                               ; 9341                                                                               ;
 ; Average fan-out                             ; 3.83                                                                               ;
 +---------------------------------------------+------------------------------------------------------------------------------------+
 
@@ -393,7 +402,7 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                                                              ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                                                                                                                                                      ; Entity Name                       ; Library Name ;
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+--------------+
-; |OV5640_SDRAM                                                                                                                           ; 1126 (3)            ; 1090 (0)                  ; 25600             ; 0          ; 78   ; 0            ; |OV5640_SDRAM                                                                                                                                                                                                                                                                                                                                            ; OV5640_SDRAM                      ; work         ;
+; |OV5640_SDRAM                                                                                                                           ; 1110 (3)            ; 1090 (0)                  ; 25600             ; 0          ; 78   ; 0            ; |OV5640_SDRAM                                                                                                                                                                                                                                                                                                                                            ; OV5640_SDRAM                      ; work         ;
 ;    |CMOS_Capture_RGB565:u_CMOS_Capture_RGB565|                                                                                          ; 25 (25)             ; 35 (35)                   ; 0                 ; 0          ; 0    ; 0            ; |OV5640_SDRAM|CMOS_Capture_RGB565:u_CMOS_Capture_RGB565                                                                                                                                                                                                                                                                                                  ; CMOS_Capture_RGB565               ; work         ;
 ;    |I2C_OV5640_Init_RGB565:u_I2C_OV5640_Init_RGB565|                                                                                    ; 231 (42)            ; 76 (58)                   ; 0                 ; 0          ; 0    ; 0            ; |OV5640_SDRAM|I2C_OV5640_Init_RGB565:u_I2C_OV5640_Init_RGB565                                                                                                                                                                                                                                                                                            ; I2C_OV5640_Init_RGB565            ; work         ;
 ;       |I2C_Controller:u_I2C_Controller|                                                                                                 ; 82 (82)             ; 18 (18)                   ; 0                 ; 0          ; 0    ; 0            ; |OV5640_SDRAM|I2C_OV5640_Init_RGB565:u_I2C_OV5640_Init_RGB565|I2C_Controller:u_I2C_Controller                                                                                                                                                                                                                                                            ; I2C_Controller                    ; work         ;
@@ -445,7 +454,7 @@ refer to the applicable agreement for further details.
 ;                |dffpipe_oe9:rs_bwp|                                                                                                     ; 0 (0)               ; 9 (9)                     ; 0                 ; 0          ; 0    ; 0            ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|dffpipe_oe9:rs_bwp                                                                                                                                                                                                    ; dffpipe_oe9                       ; work         ;
 ;       |command:command1|                                                                                                                ; 54 (54)             ; 49 (49)                   ; 0                 ; 0          ; 0    ; 0            ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|command:command1                                                                                                                                                                                                                                                                                   ; command                           ; work         ;
 ;       |control_interface:control1|                                                                                                      ; 74 (74)             ; 60 (60)                   ; 0                 ; 0          ; 0    ; 0            ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|control_interface:control1                                                                                                                                                                                                                                                                         ; control_interface                 ; work         ;
-;    |TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|                                                                                      ; 57 (57)             ; 24 (24)                   ; 0                 ; 0          ; 0    ; 0            ; |OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit                                                                                                                                                                                                                                                                                              ; TFT_CTRL_800_480_16bit            ; work         ;
+;    |TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|                                                                                      ; 41 (41)             ; 24 (24)                   ; 0                 ; 0          ; 0    ; 0            ; |OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit                                                                                                                                                                                                                                                                                              ; TFT_CTRL_800_480_16bit            ; work         ;
 ;    |pll:pll|                                                                                                                            ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |OV5640_SDRAM|pll:pll                                                                                                                                                                                                                                                                                                                                    ; pll                               ; work         ;
 ;       |altpll:altpll_component|                                                                                                         ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |OV5640_SDRAM|pll:pll|altpll:altpll_component                                                                                                                                                                                                                                                                                                            ; altpll                            ; work         ;
 ;          |pll_altpll:auto_generated|                                                                                                    ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |OV5640_SDRAM|pll:pll|altpll:altpll_component|pll_altpll:auto_generated                                                                                                                                                                                                                                                                                  ; pll_altpll                        ; work         ;
@@ -510,6 +519,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------+--------------+---------+--------------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
 ; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                                                                                                                                                                                                                                                   ; IP Include File ;
 +--------+--------------+---------+--------------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+; Altera ; ROM: 1-PORT  ; 18.1    ; N/A          ; N/A          ; |OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst                                                                                                                                                                                              ; ROM_theme.v     ;
 ; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |OV5640_SDRAM|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric                                                                                 ;                 ;
 ; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |OV5640_SDRAM|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab                                             ;                 ;
 ; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |OV5640_SDRAM|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_presplit:presplit   ;                 ;
@@ -974,23 +984,23 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                  ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------------------------+
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |OV5640_SDRAM|I2C_OV5640_Init_RGB565:u_I2C_OV5640_Init_RGB565|I2C_Controller:u_I2C_Controller|sd_counter[1] ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |OV5640_SDRAM|I2C_OV5640_Init_RGB565:u_I2C_OV5640_Init_RGB565|I2C_Controller:u_I2C_Controller|sd_counter[6] ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|command:command1|BA[1]                                ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|control_interface:control1|timer[8]                   ;
-; 3:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|control_interface:control1|timer[10]                  ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|command:command1|command_delay[5]                     ;
+; 3:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|control_interface:control1|timer[1]                   ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|command:command1|command_delay[0]                     ;
 ; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |OV5640_SDRAM|CMOS_Capture_RGB565:u_CMOS_Capture_RGB565|cmos_fps_cnt[2]                                     ;
-; 4:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|command:command1|SA[1]                                ;
+; 4:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|command:command1|SA[2]                                ;
 ; 4:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|command:command1|SA[3]                                ;
-; 4:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|mADDR[5]                                              ;
-; 4:1                ; 15 bits   ; 30 LEs        ; 30 LEs               ; 0 LEs                  ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|mADDR[19]                                             ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|command:command1|rp_shift[1]                          ;
-; 4:1                ; 15 bits   ; 30 LEs        ; 0 LEs                ; 30 LEs                 ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|rWR1_ADDR[18]                                         ;
+; 4:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|mADDR[3]                                              ;
+; 4:1                ; 15 bits   ; 30 LEs        ; 30 LEs               ; 0 LEs                  ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|mADDR[16]                                             ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|command:command1|rp_done                              ;
+; 4:1                ; 15 bits   ; 30 LEs        ; 0 LEs                ; 30 LEs                 ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|rWR1_ADDR[16]                                         ;
 ; 4:1                ; 15 bits   ; 30 LEs        ; 0 LEs                ; 30 LEs                 ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|rRD1_ADDR[16]                                         ;
-; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|mRD                                                   ;
-; 6:1                ; 3 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|WR_MASK[1]                                            ;
-; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|CMD[0]                                                ;
-; 7:1                ; 10 bits   ; 40 LEs        ; 20 LEs               ; 20 LEs                 ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|ST[5]                                                 ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|RD_MASK[0]                                            ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|WR_MASK[0]                                            ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|CMD[1]                                                ;
+; 7:1                ; 10 bits   ; 40 LEs        ; 20 LEs               ; 20 LEs                 ; Yes        ; |OV5640_SDRAM|Sdram_Control_4Port:Sdram_Control_4Port|ST[7]                                                 ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------------------------+
 
 
@@ -1516,6 +1526,15 @@ Encoding Type:  One-Hot
 +---------------------------------+-------+------+--------------------------------------------------------------------------------------------------------------------------------------------+
 ; AUTO_SHIFT_REGISTER_RECOGNITION ; OFF   ; -    ; -                                                                                                                                          ;
 +---------------------------------+-------+------+--------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Source assignments for TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated ;
++---------------------------------+--------------------+------+------------------------------------------------------------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                                                                             ;
++---------------------------------+--------------------+------+------------------------------------------------------------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                                                              ;
++---------------------------------+--------------------+------+------------------------------------------------------------------------------------------------+
 
 
 +-------------------------------------------------------+
@@ -2151,6 +2170,67 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component ;
++------------------------------------+----------------------+-----------------------------------------------------------------------------------------+
+; Parameter Name                     ; Value                ; Type                                                                                    ;
++------------------------------------+----------------------+-----------------------------------------------------------------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                                                                                 ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                                                                              ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                                                                            ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                                                                            ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                                                                          ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                                                                                 ;
+; OPERATION_MODE                     ; ROM                  ; Untyped                                                                                 ;
+; WIDTH_A                            ; 16                   ; Signed Integer                                                                          ;
+; WIDTHAD_A                          ; 14                   ; Signed Integer                                                                          ;
+; NUMWORDS_A                         ; 13312                ; Signed Integer                                                                          ;
+; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped                                                                                 ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                                                                                 ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                                                                                 ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                                                                                 ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                                                                                 ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                                                                                 ;
+; WIDTH_B                            ; 1                    ; Untyped                                                                                 ;
+; WIDTHAD_B                          ; 1                    ; Untyped                                                                                 ;
+; NUMWORDS_B                         ; 1                    ; Untyped                                                                                 ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                                                                                 ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                                                                                 ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                                                                                 ;
+; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                                                                                 ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                                                                                 ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                                                                                 ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                                                                                 ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                                                                                 ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                                                                                 ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                                                                                 ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                                                                                 ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                                                                                 ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer                                                                          ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                                                                                 ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                                                                                 ;
+; BYTE_SIZE                          ; 8                    ; Untyped                                                                                 ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                                                                                 ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                                                                                 ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                                                                                 ;
+; INIT_FILE                          ; ../mif/theme.mif     ; Untyped                                                                                 ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                                                                                 ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                                                                                 ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                                                                                 ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                                                                                 ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                                                                                 ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                                                                                 ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                                                                                 ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                                                                                 ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                                                                                 ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                                                                                 ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                                                                                 ;
+; DEVICE_FAMILY                      ; Cyclone V            ; Untyped                                                                                 ;
+; CBXI_PARAMETER                     ; altsyncram_7ng1      ; Untyped                                                                                 ;
++------------------------------------+----------------------+-----------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +--------------------------------------------------------------------------------------------------+
 ; Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0                  ;
 +-------------------------------------------------+-------------------------------+----------------+
@@ -2265,6 +2345,36 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- LPM_SHOWAHEAD       ; OFF                                                                                       ;
 ;     -- USE_EAB             ; ON                                                                                        ;
 +----------------------------+-------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; altsyncram Parameter Settings by Entity Instance                                                                                                   ;
++-------------------------------------------+--------------------------------------------------------------------------------------------------------+
+; Name                                      ; Value                                                                                                  ;
++-------------------------------------------+--------------------------------------------------------------------------------------------------------+
+; Number of entity instances                ; 1                                                                                                      ;
+; Entity Instance                           ; TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component ;
+;     -- OPERATION_MODE                     ; ROM                                                                                                    ;
+;     -- WIDTH_A                            ; 16                                                                                                     ;
+;     -- NUMWORDS_A                         ; 13312                                                                                                  ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                                                                           ;
+;     -- WIDTH_B                            ; 1                                                                                                      ;
+;     -- NUMWORDS_B                         ; 1                                                                                                      ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                                                                                 ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                                                                           ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                                                                                   ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                                                              ;
++-------------------------------------------+--------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst"                                                                                                               ;
++---------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                                                                                                                            ;
++---------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; address ; Input  ; Warning  ; Input port expression (17 bits) is wider than the input port (14 bits) it drives.  The 3 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; q       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                                                ;
++---------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +---------------------------------------------------------------------------+
@@ -2458,19 +2568,19 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     SLD               ; 4                           ;
 ;     plain             ; 83                          ;
 ; arriav_io_obuf        ; 17                          ;
-; arriav_lcell_comb     ; 818                         ;
+; arriav_lcell_comb     ; 802                         ;
 ;     arith             ; 146                         ;
 ;         1 data inputs ; 144                         ;
 ;         2 data inputs ; 2                           ;
 ;     extend            ; 3                           ;
 ;         7 data inputs ; 3                           ;
-;     normal            ; 642                         ;
+;     normal            ; 626                         ;
 ;         0 data inputs ; 12                          ;
 ;         1 data inputs ; 11                          ;
 ;         2 data inputs ; 93                          ;
-;         3 data inputs ; 127                         ;
+;         3 data inputs ; 110                         ;
 ;         4 data inputs ; 68                          ;
-;         5 data inputs ; 106                         ;
+;         5 data inputs ; 107                         ;
 ;         6 data inputs ; 225                         ;
 ;     shared            ; 27                          ;
 ;         2 data inputs ; 27                          ;
@@ -2479,7 +2589,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; stratixv_ram_block    ; 48                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 5.00                        ;
-; Average LUT depth     ; 2.19                        ;
+; Average LUT depth     ; 2.17                        ;
 +-----------------------+-----------------------------+
 
 
@@ -2543,41 +2653,63 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Thu Mar 07 09:34:47 2019
+    Info: Processing started: Sat Mar 09 20:50:36 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off OV5640_SDRAM -c OV5640_SDRAM
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file rom_theme.v
+    Info (12023): Found entity 1: ROM_theme File: E:/DE1-SoC/Temporary/OV5640_SDRAM/ROM_theme.v Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file rom_9.v
+    Info (12023): Found entity 1: ROM_9 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/ROM_9.v Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file rom_8.v
+    Info (12023): Found entity 1: ROM_8 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/ROM_8.v Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file rom_7.v
+    Info (12023): Found entity 1: ROM_7 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/ROM_7.v Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file rom_6.v
+    Info (12023): Found entity 1: ROM_6 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/ROM_6.v Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file rom_5.v
+    Info (12023): Found entity 1: ROM_5 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/ROM_5.v Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file rom_4.v
+    Info (12023): Found entity 1: ROM_4 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/ROM_4.v Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file rom_3.v
+    Info (12023): Found entity 1: ROM_3 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/ROM_3.v Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file rom_2.v
+    Info (12023): Found entity 1: ROM_2 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/ROM_2.v Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file rom_1.v
+    Info (12023): Found entity 1: ROM_1 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/ROM_1.v Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file rom_0.v
+    Info (12023): Found entity 1: ROM_0 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/ROM_0.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/sccb/i2c_ov5640_rgb565_config.v
-    Info (12023): Found entity 1: I2C_OV5640_RGB565_Config File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/sccb/I2C_OV5640_RGB565_Config.v Line: 36
+    Info (12023): Found entity 1: I2C_OV5640_RGB565_Config File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/sccb/I2C_OV5640_RGB565_Config.v Line: 36
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/sccb/i2c_ov5640_init_rgb565.v
-    Info (12023): Found entity 1: I2C_OV5640_Init_RGB565 File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/sccb/I2C_OV5640_Init_RGB565.v Line: 30
+    Info (12023): Found entity 1: I2C_OV5640_Init_RGB565 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/sccb/I2C_OV5640_Init_RGB565.v Line: 30
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/sccb/i2c_controller.v
-    Info (12023): Found entity 1: I2C_Controller File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/sccb/I2C_Controller.v Line: 30
+    Info (12023): Found entity 1: I2C_Controller File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/sccb/I2C_Controller.v Line: 30
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/cmos_capture_rgb565.v
-    Info (12023): Found entity 1: CMOS_Capture_RGB565 File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/CMOS_Capture_RGB565.v Line: 2
+    Info (12023): Found entity 1: CMOS_Capture_RGB565 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/CMOS_Capture_RGB565.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/sdram_control_4port/sdram_wr_fifo.v
-    Info (12023): Found entity 1: Sdram_WR_FIFO File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v Line: 39
+    Info (12023): Found entity 1: Sdram_WR_FIFO File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/sdram_control_4port/sdram_rd_fifo.v
-    Info (12023): Found entity 1: Sdram_RD_FIFO File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v Line: 39
+    Info (12023): Found entity 1: Sdram_RD_FIFO File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/sdram_control_4port/sdram_control_4port.v
-    Info (12023): Found entity 1: Sdram_Control_4Port File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v Line: 1
+    Info (12023): Found entity 1: Sdram_Control_4Port File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/sdram_control_4port/sdr_data_path.v
-    Info (12023): Found entity 1: sdr_data_path File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/sdr_data_path.v Line: 1
+    Info (12023): Found entity 1: sdr_data_path File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/sdr_data_path.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/sdram_control_4port/control_interface.v
-    Info (12023): Found entity 1: control_interface File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/control_interface.v Line: 1
+    Info (12023): Found entity 1: control_interface File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/control_interface.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/sdram_control_4port/command.v
-    Info (12023): Found entity 1: command File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/command.v Line: 1
+    Info (12023): Found entity 1: command File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/command.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file ov5640_sdram.v
-    Info (12023): Found entity 1: OV5640_SDRAM File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.v Line: 1
+    Info (12023): Found entity 1: OV5640_SDRAM File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file pll.v
-    Info (12023): Found entity 1: pll File: E:/GitHub_Code/FPGA/OV5640_SDRAM/pll.v Line: 39
+    Info (12023): Found entity 1: pll File: E:/DE1-SoC/Temporary/OV5640_SDRAM/pll.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/tft_ctrl_800_480_16bit.v
-    Info (12023): Found entity 1: TFT_CTRL_800_480_16bit File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/TFT_CTRL_800_480_16bit.v Line: 15
+    Info (12023): Found entity 1: TFT_CTRL_800_480_16bit File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/TFT_CTRL_800_480_16bit.v Line: 15
 Info (12127): Elaborating entity "OV5640_SDRAM" for the top level hierarchy
-Info (12128): Elaborating entity "pll" for hierarchy "pll:pll" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.v Line: 97
-Info (12128): Elaborating entity "altpll" for hierarchy "pll:pll|altpll:altpll_component" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/pll.v Line: 102
-Info (12130): Elaborated megafunction instantiation "pll:pll|altpll:altpll_component" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/pll.v Line: 102
-Info (12133): Instantiated megafunction "pll:pll|altpll:altpll_component" with the following parameter: File: E:/GitHub_Code/FPGA/OV5640_SDRAM/pll.v Line: 102
+Info (12128): Elaborating entity "pll" for hierarchy "pll:pll" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.v Line: 97
+Info (12128): Elaborating entity "altpll" for hierarchy "pll:pll|altpll:altpll_component" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/pll.v Line: 102
+Info (12130): Elaborated megafunction instantiation "pll:pll|altpll:altpll_component" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/pll.v Line: 102
+Info (12133): Instantiated megafunction "pll:pll|altpll:altpll_component" with the following parameter: File: E:/DE1-SoC/Temporary/OV5640_SDRAM/pll.v Line: 102
     Info (12134): Parameter "bandwidth_type" = "AUTO"
     Info (12134): Parameter "clk0_divide_by" = "1"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
@@ -2645,28 +2777,28 @@ Info (12133): Instantiated megafunction "pll:pll|altpll:altpll_component" with t
     Info (12134): Parameter "port_extclk3" = "PORT_UNUSED"
     Info (12134): Parameter "width_clock" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/pll_altpll.v
-    Info (12023): Found entity 1: pll_altpll File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/pll_altpll.v Line: 29
+    Info (12023): Found entity 1: pll_altpll File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/pll_altpll.v Line: 29
 Info (12128): Elaborating entity "pll_altpll" for hierarchy "pll:pll|altpll:altpll_component|pll_altpll:auto_generated" File: d:/intelfpga/18.1/quartus/libraries/megafunctions/altpll.tdf Line: 897
-Info (12128): Elaborating entity "I2C_OV5640_Init_RGB565" for hierarchy "I2C_OV5640_Init_RGB565:u_I2C_OV5640_Init_RGB565" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.v Line: 108
-Info (12128): Elaborating entity "I2C_Controller" for hierarchy "I2C_OV5640_Init_RGB565:u_I2C_OV5640_Init_RGB565|I2C_Controller:u_I2C_Controller" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/sccb/I2C_OV5640_Init_RGB565.v Line: 184
-Info (12128): Elaborating entity "I2C_OV5640_RGB565_Config" for hierarchy "I2C_OV5640_Init_RGB565:u_I2C_OV5640_Init_RGB565|I2C_OV5640_RGB565_Config:u_I2C_OV5640_RGB565_Config" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/sccb/I2C_OV5640_Init_RGB565.v Line: 194
-Info (12128): Elaborating entity "CMOS_Capture_RGB565" for hierarchy "CMOS_Capture_RGB565:u_CMOS_Capture_RGB565" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.v Line: 135
-Info (12128): Elaborating entity "Sdram_Control_4Port" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.v Line: 196
-Warning (10230): Verilog HDL assignment warning at Sdram_Control_4Port.v(442): truncated value with size 10 to match size of target (9) File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v Line: 442
-Warning (10230): Verilog HDL assignment warning at Sdram_Control_4Port.v(460): truncated value with size 10 to match size of target (9) File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v Line: 460
-Info (12128): Elaborating entity "control_interface" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|control_interface:control1" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v Line: 196
-Warning (10230): Verilog HDL assignment warning at control_interface.v(104): truncated value with size 32 to match size of target (16) File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/control_interface.v Line: 104
-Warning (10230): Verilog HDL assignment warning at control_interface.v(108): truncated value with size 32 to match size of target (16) File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/control_interface.v Line: 108
-Info (12128): Elaborating entity "command" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|command:command1" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v Line: 222
-Warning (10240): Verilog HDL Always Construct warning at command.v(225): inferring latch(es) for variable "oe_shift", which holds its previous value in one or more paths through the always construct File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/command.v Line: 225
-Warning (10240): Verilog HDL Always Construct warning at command.v(225): inferring latch(es) for variable "oe1", which holds its previous value in one or more paths through the always construct File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/command.v Line: 225
-Warning (10240): Verilog HDL Always Construct warning at command.v(225): inferring latch(es) for variable "oe2", which holds its previous value in one or more paths through the always construct File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/command.v Line: 225
-Info (12128): Elaborating entity "sdr_data_path" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|sdr_data_path:data_path1" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v Line: 231
-Warning (10230): Verilog HDL assignment warning at sdr_data_path.v(24): truncated value with size 32 to match size of target (2) File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/sdr_data_path.v Line: 24
-Info (12128): Elaborating entity "Sdram_WR_FIFO" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v Line: 244
-Info (12128): Elaborating entity "dcfifo" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v Line: 95
-Info (12130): Elaborated megafunction instantiation "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v Line: 95
-Info (12133): Instantiated megafunction "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component" with the following parameter: File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v Line: 95
+Info (12128): Elaborating entity "I2C_OV5640_Init_RGB565" for hierarchy "I2C_OV5640_Init_RGB565:u_I2C_OV5640_Init_RGB565" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.v Line: 108
+Info (12128): Elaborating entity "I2C_Controller" for hierarchy "I2C_OV5640_Init_RGB565:u_I2C_OV5640_Init_RGB565|I2C_Controller:u_I2C_Controller" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/sccb/I2C_OV5640_Init_RGB565.v Line: 184
+Info (12128): Elaborating entity "I2C_OV5640_RGB565_Config" for hierarchy "I2C_OV5640_Init_RGB565:u_I2C_OV5640_Init_RGB565|I2C_OV5640_RGB565_Config:u_I2C_OV5640_RGB565_Config" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/sccb/I2C_OV5640_Init_RGB565.v Line: 194
+Info (12128): Elaborating entity "CMOS_Capture_RGB565" for hierarchy "CMOS_Capture_RGB565:u_CMOS_Capture_RGB565" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.v Line: 135
+Info (12128): Elaborating entity "Sdram_Control_4Port" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.v Line: 196
+Warning (10230): Verilog HDL assignment warning at Sdram_Control_4Port.v(442): truncated value with size 10 to match size of target (9) File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v Line: 442
+Warning (10230): Verilog HDL assignment warning at Sdram_Control_4Port.v(460): truncated value with size 10 to match size of target (9) File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v Line: 460
+Info (12128): Elaborating entity "control_interface" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|control_interface:control1" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v Line: 196
+Warning (10230): Verilog HDL assignment warning at control_interface.v(104): truncated value with size 32 to match size of target (16) File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/control_interface.v Line: 104
+Warning (10230): Verilog HDL assignment warning at control_interface.v(108): truncated value with size 32 to match size of target (16) File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/control_interface.v Line: 108
+Info (12128): Elaborating entity "command" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|command:command1" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v Line: 222
+Warning (10240): Verilog HDL Always Construct warning at command.v(225): inferring latch(es) for variable "oe_shift", which holds its previous value in one or more paths through the always construct File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/command.v Line: 225
+Warning (10240): Verilog HDL Always Construct warning at command.v(225): inferring latch(es) for variable "oe1", which holds its previous value in one or more paths through the always construct File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/command.v Line: 225
+Warning (10240): Verilog HDL Always Construct warning at command.v(225): inferring latch(es) for variable "oe2", which holds its previous value in one or more paths through the always construct File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/command.v Line: 225
+Info (12128): Elaborating entity "sdr_data_path" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|sdr_data_path:data_path1" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v Line: 231
+Warning (10230): Verilog HDL assignment warning at sdr_data_path.v(24): truncated value with size 32 to match size of target (2) File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/sdr_data_path.v Line: 24
+Info (12128): Elaborating entity "Sdram_WR_FIFO" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v Line: 244
+Info (12128): Elaborating entity "dcfifo" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v Line: 95
+Info (12130): Elaborated megafunction instantiation "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v Line: 95
+Info (12133): Instantiated megafunction "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component" with the following parameter: File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v Line: 95
     Info (12134): Parameter "intended_device_family" = "Cyclone IV E"
     Info (12134): Parameter "lpm_hint" = "RAM_BLOCK_TYPE=M9K"
     Info (12134): Parameter "lpm_numwords" = "512"
@@ -2681,61 +2813,88 @@ Info (12133): Instantiated megafunction "Sdram_Control_4Port:Sdram_Control_4Port
     Info (12134): Parameter "use_eab" = "ON"
     Info (12134): Parameter "write_aclr_synch" = "OFF"
     Info (12134): Parameter "wrsync_delaypipe" = "4"
-Warning (287001): Assertion warning: Device family Cyclone V does not have M9K blocks -- using available memory blocks File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/dcfifo_9l02.tdf Line: 161
+Warning (287001): Assertion warning: Device family Cyclone V does not have M9K blocks -- using available memory blocks File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/dcfifo_9l02.tdf Line: 161
 Info (12021): Found 1 design units, including 1 entities, in source file db/dcfifo_9l02.tdf
-    Info (12023): Found entity 1: dcfifo_9l02 File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/dcfifo_9l02.tdf Line: 40
+    Info (12023): Found entity 1: dcfifo_9l02 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/dcfifo_9l02.tdf Line: 40
 Info (12128): Elaborating entity "dcfifo_9l02" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated" File: d:/intelfpga/18.1/quartus/libraries/megafunctions/dcfifo.tdf Line: 190
 Info (12021): Found 1 design units, including 1 entities, in source file db/a_gray2bin_oab.tdf
-    Info (12023): Found entity 1: a_gray2bin_oab File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/a_gray2bin_oab.tdf Line: 22
-Info (12128): Elaborating entity "a_gray2bin_oab" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|a_gray2bin_oab:rdptr_g_gray2bin" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/dcfifo_9l02.tdf Line: 55
+    Info (12023): Found entity 1: a_gray2bin_oab File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/a_gray2bin_oab.tdf Line: 22
+Info (12128): Elaborating entity "a_gray2bin_oab" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|a_gray2bin_oab:rdptr_g_gray2bin" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/dcfifo_9l02.tdf Line: 55
 Info (12021): Found 1 design units, including 1 entities, in source file db/a_graycounter_nv6.tdf
-    Info (12023): Found entity 1: a_graycounter_nv6 File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/a_graycounter_nv6.tdf Line: 24
-Info (12128): Elaborating entity "a_graycounter_nv6" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|a_graycounter_nv6:rdptr_g1p" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/dcfifo_9l02.tdf Line: 59
+    Info (12023): Found entity 1: a_graycounter_nv6 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/a_graycounter_nv6.tdf Line: 24
+Info (12128): Elaborating entity "a_graycounter_nv6" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|a_graycounter_nv6:rdptr_g1p" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/dcfifo_9l02.tdf Line: 59
 Info (12021): Found 1 design units, including 1 entities, in source file db/a_graycounter_jdc.tdf
-    Info (12023): Found entity 1: a_graycounter_jdc File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/a_graycounter_jdc.tdf Line: 24
-Info (12128): Elaborating entity "a_graycounter_jdc" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|a_graycounter_jdc:wrptr_g1p" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/dcfifo_9l02.tdf Line: 60
+    Info (12023): Found entity 1: a_graycounter_jdc File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/a_graycounter_jdc.tdf Line: 24
+Info (12128): Elaborating entity "a_graycounter_jdc" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|a_graycounter_jdc:wrptr_g1p" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/dcfifo_9l02.tdf Line: 60
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_52f1.tdf
-    Info (12023): Found entity 1: altsyncram_52f1 File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 27
-Info (12128): Elaborating entity "altsyncram_52f1" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/dcfifo_9l02.tdf Line: 61
+    Info (12023): Found entity 1: altsyncram_52f1 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 27
+Info (12128): Elaborating entity "altsyncram_52f1" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/dcfifo_9l02.tdf Line: 61
 Info (12021): Found 1 design units, including 1 entities, in source file db/dffpipe_oe9.tdf
-    Info (12023): Found entity 1: dffpipe_oe9 File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/dffpipe_oe9.tdf Line: 24
-Info (12128): Elaborating entity "dffpipe_oe9" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|dffpipe_oe9:rs_brp" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/dcfifo_9l02.tdf Line: 68
+    Info (12023): Found entity 1: dffpipe_oe9 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/dffpipe_oe9.tdf Line: 24
+Info (12128): Elaborating entity "dffpipe_oe9" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|dffpipe_oe9:rs_brp" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/dcfifo_9l02.tdf Line: 68
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_synch_pipe_8pl.tdf
-    Info (12023): Found entity 1: alt_synch_pipe_8pl File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/alt_synch_pipe_8pl.tdf Line: 26
-Info (12128): Elaborating entity "alt_synch_pipe_8pl" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|alt_synch_pipe_8pl:rs_dgwp" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/dcfifo_9l02.tdf Line: 70
+    Info (12023): Found entity 1: alt_synch_pipe_8pl File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/alt_synch_pipe_8pl.tdf Line: 26
+Info (12128): Elaborating entity "alt_synch_pipe_8pl" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|alt_synch_pipe_8pl:rs_dgwp" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/dcfifo_9l02.tdf Line: 70
 Info (12021): Found 1 design units, including 1 entities, in source file db/dffpipe_pe9.tdf
-    Info (12023): Found entity 1: dffpipe_pe9 File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/dffpipe_pe9.tdf Line: 24
-Info (12128): Elaborating entity "dffpipe_pe9" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|alt_synch_pipe_8pl:rs_dgwp|dffpipe_pe9:dffpipe13" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/alt_synch_pipe_8pl.tdf Line: 34
+    Info (12023): Found entity 1: dffpipe_pe9 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/dffpipe_pe9.tdf Line: 24
+Info (12128): Elaborating entity "dffpipe_pe9" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|alt_synch_pipe_8pl:rs_dgwp|dffpipe_pe9:dffpipe13" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/alt_synch_pipe_8pl.tdf Line: 34
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_synch_pipe_9pl.tdf
-    Info (12023): Found entity 1: alt_synch_pipe_9pl File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/alt_synch_pipe_9pl.tdf Line: 26
-Info (12128): Elaborating entity "alt_synch_pipe_9pl" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|alt_synch_pipe_9pl:ws_dgrp" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/dcfifo_9l02.tdf Line: 73
+    Info (12023): Found entity 1: alt_synch_pipe_9pl File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/alt_synch_pipe_9pl.tdf Line: 26
+Info (12128): Elaborating entity "alt_synch_pipe_9pl" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|alt_synch_pipe_9pl:ws_dgrp" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/dcfifo_9l02.tdf Line: 73
 Info (12021): Found 1 design units, including 1 entities, in source file db/dffpipe_qe9.tdf
-    Info (12023): Found entity 1: dffpipe_qe9 File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/dffpipe_qe9.tdf Line: 24
-Info (12128): Elaborating entity "dffpipe_qe9" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|alt_synch_pipe_9pl:ws_dgrp|dffpipe_qe9:dffpipe16" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/alt_synch_pipe_9pl.tdf Line: 34
+    Info (12023): Found entity 1: dffpipe_qe9 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/dffpipe_qe9.tdf Line: 24
+Info (12128): Elaborating entity "dffpipe_qe9" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|alt_synch_pipe_9pl:ws_dgrp|dffpipe_qe9:dffpipe16" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/alt_synch_pipe_9pl.tdf Line: 34
 Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_906.tdf
-    Info (12023): Found entity 1: cmpr_906 File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/cmpr_906.tdf Line: 22
-Info (12128): Elaborating entity "cmpr_906" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|cmpr_906:rdempty_eq_comp" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/dcfifo_9l02.tdf Line: 80
-Info (12128): Elaborating entity "Sdram_RD_FIFO" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo1" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v Line: 272
-Info (12128): Elaborating entity "TFT_CTRL_800_480_16bit" for hierarchy "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.v Line: 210
+    Info (12023): Found entity 1: cmpr_906 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/cmpr_906.tdf Line: 22
+Info (12128): Elaborating entity "cmpr_906" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|cmpr_906:rdempty_eq_comp" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/dcfifo_9l02.tdf Line: 80
+Info (12128): Elaborating entity "Sdram_RD_FIFO" for hierarchy "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo1" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v Line: 272
+Info (12128): Elaborating entity "TFT_CTRL_800_480_16bit" for hierarchy "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.v Line: 210
+Info (12128): Elaborating entity "ROM_theme" for hierarchy "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/TFT_CTRL_800_480_16bit.v Line: 126
+Info (12128): Elaborating entity "altsyncram" for hierarchy "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/ROM_theme.v Line: 81
+Info (12130): Elaborated megafunction instantiation "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/ROM_theme.v Line: 81
+Info (12133): Instantiated megafunction "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component" with the following parameter: File: E:/DE1-SoC/Temporary/OV5640_SDRAM/ROM_theme.v Line: 81
+    Info (12134): Parameter "address_aclr_a" = "NONE"
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
+    Info (12134): Parameter "init_file" = "../mif/theme.mif"
+    Info (12134): Parameter "intended_device_family" = "Cyclone V"
+    Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+    Info (12134): Parameter "numwords_a" = "13312"
+    Info (12134): Parameter "operation_mode" = "ROM"
+    Info (12134): Parameter "outdata_aclr_a" = "NONE"
+    Info (12134): Parameter "outdata_reg_a" = "UNREGISTERED"
+    Info (12134): Parameter "widthad_a" = "14"
+    Info (12134): Parameter "width_a" = "16"
+    Info (12134): Parameter "width_byteena_a" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_7ng1.tdf
+    Info (12023): Found entity 1: altsyncram_7ng1 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 31
+Info (12128): Elaborating entity "altsyncram_7ng1" for hierarchy "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated" File: d:/intelfpga/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Info (12021): Found 1 design units, including 1 entities, in source file db/decode_u0a.tdf
+    Info (12023): Found entity 1: decode_u0a File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/decode_u0a.tdf Line: 22
+Info (12128): Elaborating entity "decode_u0a" for hierarchy "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|decode_u0a:rden_decode" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_4hb.tdf
+    Info (12023): Found entity 1: mux_4hb File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/mux_4hb.tdf Line: 22
+Info (12128): Elaborating entity "mux_4hb" for hierarchy "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|mux_4hb:mux2" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_8884.tdf
-    Info (12023): Found entity 1: altsyncram_8884 File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_8884.tdf Line: 27
+    Info (12023): Found entity 1: altsyncram_8884 File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_8884.tdf Line: 27
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_ilc.tdf
-    Info (12023): Found entity 1: mux_ilc File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/mux_ilc.tdf Line: 22
+    Info (12023): Found entity 1: mux_ilc File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/mux_ilc.tdf Line: 22
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_vnf.tdf
-    Info (12023): Found entity 1: decode_vnf File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/decode_vnf.tdf Line: 22
+    Info (12023): Found entity 1: decode_vnf File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/decode_vnf.tdf Line: 22
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_3vi.tdf
-    Info (12023): Found entity 1: cntr_3vi File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/cntr_3vi.tdf Line: 25
+    Info (12023): Found entity 1: cntr_3vi File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/cntr_3vi.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_59i.tdf
-    Info (12023): Found entity 1: cntr_59i File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/cntr_59i.tdf Line: 27
+    Info (12023): Found entity 1: cntr_59i File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/cntr_59i.tdf Line: 27
 Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_d9c.tdf
-    Info (12023): Found entity 1: cmpr_d9c File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/cmpr_d9c.tdf Line: 22
+    Info (12023): Found entity 1: cmpr_d9c File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/cmpr_d9c.tdf Line: 22
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_kri.tdf
-    Info (12023): Found entity 1: cntr_kri File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/cntr_kri.tdf Line: 27
+    Info (12023): Found entity 1: cntr_kri File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/cntr_kri.tdf Line: 27
 Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_99c.tdf
-    Info (12023): Found entity 1: cmpr_99c File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/cmpr_99c.tdf Line: 22
+    Info (12023): Found entity 1: cmpr_99c File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/cmpr_99c.tdf Line: 22
 Info (12033): Analysis and Synthesis generated Signal Tap or debug node instance "auto_signaltap_0"
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2019.03.07.09:35:06 Progress: Loading sld2cd50fbe/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2019.03.09.20:51:03 Progress: Loading sld2cd50fbe/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -2746,88 +2905,120 @@ Info (11172): Ident: "alt_sld_fab" instantiated altera_connection_identification
 Info (11172): Alt_sld_fab: Done "alt_sld_fab" with 6 modules, 6 files
 Info (11171): Finished IP generation for the debug fabric: alt_sld_fab.
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld2cd50fbe/alt_sld_fab.v
-    Info (12023): Found entity 1: alt_sld_fab File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/ip/sld2cd50fbe/alt_sld_fab.v Line: 9
+    Info (12023): Found entity 1: alt_sld_fab File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/ip/sld2cd50fbe/alt_sld_fab.v Line: 9
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab.v
-    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab.v Line: 9
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab.v Line: 9
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_ident.sv
-    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_ident File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_ident.sv Line: 33
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_ident File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_ident.sv Line: 33
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_presplit.sv
-    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_presplit File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_presplit.sv Line: 3
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_presplit File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_presplit.sv Line: 3
 Info (12021): Found 2 design units, including 1 entities, in source file db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd
-    Info (12022): Found design unit 1: alt_sld_fab_alt_sld_fab_sldfabric-rtl File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 102
-    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_sldfabric File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 11
+    Info (12022): Found design unit 1: alt_sld_fab_alt_sld_fab_sldfabric-rtl File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 102
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_sldfabric File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 11
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_splitter.sv
-    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_splitter File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_splitter.sv Line: 3
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_splitter File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/ip/sld2cd50fbe/submodules/alt_sld_fab_alt_sld_fab_splitter.sv Line: 3
 Warning (14284): Synthesized away the following node(s):
     Warning (14285): Synthesized away the following RAM node(s):
-        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[0]" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 41
-        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[1]" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 73
-        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[2]" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 105
-        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[3]" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 137
-        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[4]" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 169
-        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[5]" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 201
-        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[6]" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 233
-        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[7]" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 265
-        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[8]" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 297
-        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[9]" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 329
-        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[10]" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 361
-        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[11]" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 393
-        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[12]" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 425
-        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[13]" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 457
-        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[14]" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 489
-        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[15]" File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 521
-Warning (12241): 6 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a0" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 41
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a1" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 62
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a2" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 83
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a3" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 104
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a4" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 125
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a5" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 146
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a6" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 167
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a7" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 188
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a8" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 209
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a9" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 230
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a10" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 251
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a11" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 272
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a12" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 293
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a13" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 314
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a14" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 335
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a15" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 356
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a16" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 377
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a17" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 398
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a18" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 419
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a19" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 440
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a20" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 461
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a21" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 482
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a22" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 503
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a23" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 524
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a24" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 545
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a25" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 566
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a26" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 587
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a27" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 608
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a28" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 629
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a29" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 650
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a30" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 671
+        Warning (14320): Synthesized away node "TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_theme:ROM_theme_inst|altsyncram:altsyncram_component|altsyncram_7ng1:auto_generated|ram_block1a31" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_7ng1.tdf Line: 692
+        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[0]" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 41
+        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[1]" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 73
+        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[2]" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 105
+        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[3]" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 137
+        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[4]" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 169
+        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[5]" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 201
+        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[6]" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 233
+        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[7]" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 265
+        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[8]" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 297
+        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[9]" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 329
+        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[10]" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 361
+        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[11]" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 393
+        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[12]" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 425
+        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[13]" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 457
+        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[14]" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 489
+        Warning (14320): Synthesized away node "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|q_b[15]" File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 521
+Warning (12241): 7 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "cmos_rst_n" is stuck at VCC File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.v Line: 47
-    Warning (13410): Pin "cmos_pwdn" is stuck at GND File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.v Line: 48
-    Warning (13410): Pin "sdram_addr[12]" is stuck at GND File: E:/GitHub_Code/FPGA/OV5640_SDRAM/OV5640_SDRAM.v Line: 59
+    Warning (13410): Pin "cmos_rst_n" is stuck at VCC File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.v Line: 47
+    Warning (13410): Pin "cmos_pwdn" is stuck at GND File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.v Line: 48
+    Warning (13410): Pin "sdram_addr[12]" is stuck at GND File: E:/DE1-SoC/Temporary/OV5640_SDRAM/OV5640_SDRAM.v Line: 59
 Info (286031): Timing-Driven Synthesis is running on partition "Top"
 Info (17049): 110 registers lost all their fanouts during netlist optimizations.
-Info (144001): Generated suppressed messages file E:/GitHub_Code/FPGA/OV5640_SDRAM/output_files/OV5640_SDRAM.map.smsg
+Info (144001): Generated suppressed messages file E:/DE1-SoC/Temporary/OV5640_SDRAM/output_files/OV5640_SDRAM.map.smsg
 Info (35024): Successfully connected in-system debug instance "auto_signaltap_0" to all 37 required data inputs, trigger inputs, acquisition clocks, and dynamic pins
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 21 node(s), including 0 DDIO, 4 PLL, 0 transceiver and 0 LCELL
-Warning: RST port on the PLL is not properly connected on instance pll:pll|altpll:altpll_component|pll_altpll:auto_generated|generic_pll4. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/pll_altpll.v Line: 105
+Warning: RST port on the PLL is not properly connected on instance pll:pll|altpll:altpll_component|pll_altpll:auto_generated|generic_pll4. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/pll_altpll.v Line: 105
     Info: Must be connected
-Warning: RST port on the PLL is not properly connected on instance pll:pll|altpll:altpll_component|pll_altpll:auto_generated|generic_pll2. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/pll_altpll.v Line: 77
+Warning: RST port on the PLL is not properly connected on instance pll:pll|altpll:altpll_component|pll_altpll:auto_generated|generic_pll2. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/pll_altpll.v Line: 77
     Info: Must be connected
-Warning: RST port on the PLL is not properly connected on instance pll:pll|altpll:altpll_component|pll_altpll:auto_generated|generic_pll3. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/pll_altpll.v Line: 91
+Warning: RST port on the PLL is not properly connected on instance pll:pll|altpll:altpll_component|pll_altpll:auto_generated|generic_pll3. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/pll_altpll.v Line: 91
     Info: Must be connected
-Warning: RST port on the PLL is not properly connected on instance pll:pll|altpll:altpll_component|pll_altpll:auto_generated|generic_pll1. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/pll_altpll.v Line: 63
+Warning: RST port on the PLL is not properly connected on instance pll:pll|altpll:altpll_component|pll_altpll:auto_generated|generic_pll1. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/pll_altpll.v Line: 63
     Info: Must be connected
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a0" has a port clk0 that is stuck at GND File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a1" has a port clk0 that is stuck at GND File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a2" has a port clk0 that is stuck at GND File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a3" has a port clk0 that is stuck at GND File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a4" has a port clk0 that is stuck at GND File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a5" has a port clk0 that is stuck at GND File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a6" has a port clk0 that is stuck at GND File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a7" has a port clk0 that is stuck at GND File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a8" has a port clk0 that is stuck at GND File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a9" has a port clk0 that is stuck at GND File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a10" has a port clk0 that is stuck at GND File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a11" has a port clk0 that is stuck at GND File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a12" has a port clk0 that is stuck at GND File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a13" has a port clk0 that is stuck at GND File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a14" has a port clk0 that is stuck at GND File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a15" has a port clk0 that is stuck at GND File: E:/GitHub_Code/FPGA/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
-Info (21057): Implemented 1785 device resources after synthesis - the final resource count might be different
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a0" has a port clk0 that is stuck at GND File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a1" has a port clk0 that is stuck at GND File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a2" has a port clk0 that is stuck at GND File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a3" has a port clk0 that is stuck at GND File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a4" has a port clk0 that is stuck at GND File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a5" has a port clk0 that is stuck at GND File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a6" has a port clk0 that is stuck at GND File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a7" has a port clk0 that is stuck at GND File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a8" has a port clk0 that is stuck at GND File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a9" has a port clk0 that is stuck at GND File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a10" has a port clk0 that is stuck at GND File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a11" has a port clk0 that is stuck at GND File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a12" has a port clk0 that is stuck at GND File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a13" has a port clk0 that is stuck at GND File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a14" has a port clk0 that is stuck at GND File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:Sdram_Control_4Port|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_9l02:auto_generated|altsyncram_52f1:fifo_ram|ram_block11a15" has a port clk0 that is stuck at GND File: E:/DE1-SoC/Temporary/OV5640_SDRAM/db/altsyncram_52f1.tdf Line: 37
+Info (21057): Implemented 1769 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 16 input pins
     Info (21059): Implemented 49 output pins
     Info (21060): Implemented 17 bidirectional pins
-    Info (21061): Implemented 1648 logic cells
+    Info (21061): Implemented 1632 logic cells
     Info (21064): Implemented 50 RAM segments
     Info (21065): Implemented 4 PLLs
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 53 warnings
-    Info: Peak virtual memory: 4957 megabytes
-    Info: Processing ended: Thu Mar 07 09:35:17 2019
-    Info: Elapsed time: 00:00:30
-    Info: Total CPU time (on all processors): 00:00:49
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 85 warnings
+    Info: Peak virtual memory: 4973 megabytes
+    Info: Processing ended: Sat Mar 09 20:51:17 2019
+    Info: Elapsed time: 00:00:41
+    Info: Total CPU time (on all processors): 00:01:01
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in E:/GitHub_Code/FPGA/OV5640_SDRAM/output_files/OV5640_SDRAM.map.smsg.
+The suppressed messages can be found in E:/DE1-SoC/Temporary/OV5640_SDRAM/output_files/OV5640_SDRAM.map.smsg.
 
 

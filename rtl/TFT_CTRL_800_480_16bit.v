@@ -45,9 +45,9 @@ module TFT_CTRL_800_480_16bit(
 	reg [11:0] hcount_r;     //TFT行扫描计数器
 	reg [11:0] vcount_r;     //TFT场扫描计数器
 	//----------------内部连线定义----------------
-	wire hcount_ov;
-	wire vcount_ov;
-	wire TFT_DE;//有效显示区标定
+	wire hcount_ov;   //行扫描一行结束时为1
+	wire vcount_ov;	//列扫描一行结束时为1
+	wire TFT_DE;		//有效显示区标定
 
 	//TFT行、场扫描时序参数表
 	parameter TFT_HS_end=10'd1,
@@ -64,6 +64,10 @@ module TFT_CTRL_800_480_16bit(
 	
 	assign TFT_BLANK = TFT_DE;
 	assign TFT_VCLK = Clk33M;
+	
+	
+	wire    [15:0]     data_theme;
+	reg   [16:0]      addr_theme;
 
 	//**********************TFT驱动部分**********************
 	//行扫描
@@ -98,6 +102,27 @@ module TFT_CTRL_800_480_16bit(
 					
 	assign TFT_HS=(hcount_r>TFT_HS_end);
 	assign TFT_VS=(vcount_r>TFT_VS_end);
-	assign TFT_RGB=(TFT_DE)?data_in:16'h000000;
+/*	
+	always@(hcount or vcount)
+	begin
+		if((hcount>190) && (hcount<608) && (vcount<32))
+		begin
+			addr_theme = hcount[10:0]  -190  + vcount[10:0]*416;   //32*416
+			
+			TFT_RGB = data_theme;		
+		end
+		
+		else
+			TFT_RGB =data_in;
+	end
+*/	
+	
+	assign TFT_RGB =data_in;
+	
+	ROM_theme  ROM_theme_inst (
+	.address ( addr_theme ),
+	.clock ( Clk33M ),
+	.q ( data_theme )
+	);
 		
 endmodule 

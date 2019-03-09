@@ -1,1 +1,1 @@
-Info (10281): Verilog HDL Declaration information at I2C_OV5640_Init_RGB565.v(41): object "config_done" differs only in case from object "Config_done" in the same scope File: E:/GitHub_Code/FPGA/OV5640_SDRAM/rtl/sccb/I2C_OV5640_Init_RGB565.v Line: 41
+Info (10281): Verilog HDL Declaration information at I2C_OV5640_Init_RGB565.v(41): object "config_done" differs only in case from object "Config_done" in the same scope File: E:/DE1-SoC/Temporary/OV5640_SDRAM/rtl/sccb/I2C_OV5640_Init_RGB565.v Line: 41
