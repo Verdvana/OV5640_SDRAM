@@ -24,8 +24,21 @@ module TFT_CTRL_800_480_16bit(
 	TFT_BLANK,
 	TFT_VCLK,
 	TFT_DE
+	//Error
 );
-			
+	
+
+`define RED      16'hf800
+`define GREEN    16'h07e0
+`define BLUE     16'h001f
+`define WHITE    16'hffff
+`define BLACK    16'h0000
+`define YELLOW   16'hffe0
+`define CYAN     16'hf81f
+`define ROYAL    16'h07ff
+`define PINK     16'hfe19
+
+	
 	//----------------模块输入端口----------------
 	input  Clk33M;          //系统输入时钟33MHZ
 	input  Rst_n;
@@ -40,6 +53,7 @@ module TFT_CTRL_800_480_16bit(
 	output TFT_BLANK;
 	output TFT_DE;
 	output TFT_VCLK;
+	//output reg Error;
 
 	//----------------内部寄存器定义----------------
 	reg [11:0] hcount_r;     //TFT行扫描计数器
@@ -67,7 +81,31 @@ module TFT_CTRL_800_480_16bit(
 	
 	
 	wire    [15:0]     data_theme;
-	reg   [16:0]      addr_theme;
+	wire    [13:0]     addr_theme;
+	
+	wire     		 	 data_0;
+	wire    [6:0]      addr_0;
+	wire     		 	 data_1;
+	wire    [6:0]      addr_1;
+	wire     		 	 data_2;
+	wire    [6:0]      addr_2;
+	wire     		 	 data_3;
+	wire    [6:0]      addr_3;
+	wire     		 	 data_4;
+	wire    [6:0]      addr_4;
+	wire     		 	 data_5;
+	wire    [6:0]      addr_5;
+	wire     		 	 data_6;
+	wire    [6:0]      addr_6;
+	wire     		 	 data_7;
+	wire    [6:0]      addr_7;
+	wire     		 	 data_8;
+	wire    [6:0]      addr_8;
+	wire     		 	 data_9;
+	wire    [6:0]      addr_9;
+	
+	
+	reg   [3:0] channel;
 
 	//**********************TFT驱动部分**********************
 	//行扫描
@@ -102,27 +140,111 @@ module TFT_CTRL_800_480_16bit(
 					
 	assign TFT_HS=(hcount_r>TFT_HS_end);
 	assign TFT_VS=(vcount_r>TFT_VS_end);
-/*	
+	
 	always@(hcount or vcount)
 	begin
 		if((hcount>190) && (hcount<608) && (vcount<32))
-		begin
-			addr_theme = hcount[10:0]  -190  + vcount[10:0]*416;   //32*416
+			channel = 4'b0001;		
 			
-			TFT_RGB = data_theme;		
-		end
+		
+		else if((hcount <8) && (vcount>64) && (vcount<80))
+			channel = 4'b0010;
 		
 		else
-			TFT_RGB =data_in;
+			channel = 4'b0000;
 	end
-*/	
 	
-	assign TFT_RGB =data_in;
 	
-	ROM_theme  ROM_theme_inst (
+//assign TFT_RGB =data_in;
+
+
+assign  addr_theme = hcount[10:0]  -190  + vcount[10:0]*416;
+assign  addr_0 = hcount[10:0] + (vcount[10:0] - 64)*8;				//16*8
+
+assign  TFT_RGB= (channel[0])?data_theme:(channel[1]?(data_0?data_in:`RED):data_in);
+
+
+/*
+always@(*)
+begin
+	if(!flag)
+		if(TFT_RGB == data_in)
+			Error <= 1;
+	
+		else
+			Error <= 0;
+	
+	else
+			Error <= 0;
+	
+		
+end
+*/
+
+ROM_theme  ROM_theme_inst (
 	.address ( addr_theme ),
 	.clock ( Clk33M ),
 	.q ( data_theme )
-	);
-		
+	);	
+	
+ROM_0  ROM_0_inst (
+.address ( addr_0 ),
+.clock ( Clk33M ),
+.q ( data_0 )
+);
+
+ROM_1  ROM_1_inst (
+.address ( addr_1 ),
+.clock ( Clk33M ),
+.q ( data_1 )
+);
+
+ROM_2  ROM_2_inst (
+.address ( addr_2 ),
+.clock ( Clk33M ),
+.q ( data_2 )
+);
+
+ROM_3  ROM_3_inst (
+.address ( addr_3 ),
+.clock ( Clk33M ),
+.q ( data_3 )
+);
+
+ROM_4  ROM_4_inst (
+.address ( addr_4 ),
+.clock ( Clk33M ),
+.q ( data_4 )
+);
+
+ROM_5  ROM_5_inst (
+.address ( addr_5 ),
+.clock ( Clk33M ),
+.q ( data_5 )
+);
+
+ROM_6  ROM_6_inst (
+.address ( addr_6 ),
+.clock ( Clk33M ),
+.q ( data_6 )
+);
+
+ROM_7  ROM_7_inst (
+.address ( addr_7 ),
+.clock ( Clk33M ),
+.q ( data_7 )
+);
+
+ROM_8  ROM_8_inst (
+.address ( addr_8 ),
+.clock ( Clk33M ),
+.q ( data_8 )
+);
+
+ROM_9  ROM_9_inst (
+.address ( addr_9 ),
+.clock ( Clk33M ),
+.q ( data_9 )
+);
+
 endmodule 

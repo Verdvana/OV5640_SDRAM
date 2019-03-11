@@ -6,7 +6,7 @@ module CMOS_Capture_RGB565(
 
 	//CMOS Sensor Interface
 	input				cmos_pclk,			//24MHz CMOS Pixel clock input
-	output				cmos_xclk,			//24MHz drive clock
+	output			cmos_xclk,			//24MHz drive clock
 	input				cmos_vsync,			//H : Data Valid; L : Frame Sync(Set it by register)
 	input				cmos_href,			//H : Data vaild, L : Line Sync
 	input		[7:0]	cmos_din,			//8 bits cmos data input

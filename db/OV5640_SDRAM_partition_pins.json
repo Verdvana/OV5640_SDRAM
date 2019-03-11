@@ -240,11 +240,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "clk",
+					"name" : "reset_n",
 					"strict" : false
 				},
 				{
-					"name" : "reset_n",
+					"name" : "clk",
 					"strict" : false
 				},
 				{

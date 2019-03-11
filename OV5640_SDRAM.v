@@ -86,7 +86,11 @@ module OV5640_SDRAM(
 	wire			cmos_frame_clken;	//cmos frame data output/capture enable clock
 	wire	[7:0]	cmos_fps_rate;		//cmos image output rate
 	
+	wire  [15:0]Data_Integration_data;
+	
 	wire cmos_init_flag;
+	
+	wire TFT_Error;
 	
 	pll pll(
 		.inclk0(clk),
@@ -115,7 +119,7 @@ module OV5640_SDRAM(
 	(
 		//global clock
 		.clk_cmos				(clk_cmos),			//24MHz CMOS Driver clock input
-		.rst_n					(reset_n & cmos_init_flag),	//global reset
+		.rst_n					(reset_n & cmos_init_flag ),	//global reset
 
 		//CMOS Sensor Interface
 		.cmos_pclk				(cmos_pclk),  		//24MHz CMOS Pixel clock input
@@ -133,6 +137,16 @@ module OV5640_SDRAM(
 		//user interface
 		.cmos_fps_rate			(cmos_fps_rate)		//cmos image output rate
 	);
+	
+/*	
+	Data_Integration Data_Integration(
+		.clk(cmos_pclk),
+		.rst_n(reset_n & cmos_init_flag),
+		
+		.data_in(cmos_frame_data),
+		.data_out(Data_Integration_data)
+	);
+*/
 
 	Sdram_Control_4Port Sdram_Control_4Port(
 		//	HOST Side
@@ -145,7 +159,7 @@ module OV5640_SDRAM(
 		.WR1_ADDR(0),			//写入端口1的写起始地址
 		.WR1_MAX_ADDR(800*480),		//写入端口1的写入最大地址
 		.WR1_LENGTH(256),			//一次性写入数据长度
-		.WR1_LOAD((~reset_n) &(~cmos_init_flag)),			//写入端口1清零请求，高电平清零写入地址和fifo
+		.WR1_LOAD((~reset_n) &(~cmos_init_flag) ),			//写入端口1清零请求，高电平清零写入地址和fifo
 		.WR1_CLK(cmos_pclk),				//写入端口1 fifo写入时钟
 		.WR1_FULL(),			//写入端口1 fifo写满信号
 		.WR1_USE(),				//写入端口1 fifo已经写入的数据长度
@@ -197,7 +211,7 @@ module OV5640_SDRAM(
 	
 	TFT_CTRL_800_480_16bit TFT_CTRL_800_480_16bit(
 		.Clk33M(clk_tft),	//系统输入时钟33MHZ
-		.Rst_n(reset_n & cmos_init_flag),	//复位输入，低电平复位
+		.Rst_n(reset_n & cmos_init_flag ),	//复位输入，低电平复位
 		.data_in(vga_data_in),	//待显示数据
 		.hcount(),		//TFT行扫描计数器
 		.vcount(),		//TFT场扫描计数器
@@ -207,6 +221,8 @@ module OV5640_SDRAM(
 		.TFT_BLANK(TFT_BL),
 		.TFT_VCLK(TFT_VCLK),
 		.TFT_DE(TFT_DE)
+		
+		//.Error(TFT_Error)
 	);
 	assign vga_data_req = TFT_DE;
 	

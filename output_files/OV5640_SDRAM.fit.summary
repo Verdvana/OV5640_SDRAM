@@ -1,17 +1,17 @@
-Fitter Status : Successful - Sat Mar 09 20:52:33 2019
+Fitter Status : Successful - Mon Mar 11 18:40:42 2019
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 Revision Name : OV5640_SDRAM
 Top-level Entity Name : OV5640_SDRAM
 Family : Cyclone V
 Device : 5CSEMA5F31C6
 Timing Models : Final
-Logic utilization (in ALMs) : 733 / 32,070 ( 2 % )
-Total registers : 1159
+Logic utilization (in ALMs) : 861 / 32,070 ( 3 % )
+Total registers : 1636
 Total pins : 78 / 457 ( 17 % )
 Total virtual pins : 0
-Total block memory bits : 25,600 / 4,065,280 ( < 1 % )
-Total RAM Blocks : 4 / 397 ( 1 % )
-Total DSP Blocks : 0 / 87 ( 0 % )
+Total block memory bits : 524,416 / 4,065,280 ( 13 % )
+Total RAM Blocks : 71 / 397 ( 18 % )
+Total DSP Blocks : 1 / 87 ( 1 % )
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0
 Total HSSI TX PCSs : 0

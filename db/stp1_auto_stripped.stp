@@ -24,16 +24,16 @@
       </signal_vec>
       <presentation>
         <unified_setup_data_view>
-          <node data_index="0" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="cmos_pclk" storage_index="0" tap_mode="classic" trigger_index="0" type="unknown"/>
-          <node data_index="1" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="cmos_xclk" storage_index="1" tap_mode="classic" trigger_index="1" type="unknown"/>
+          <node data_index="0" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="cmos_pclk" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="0" tap_mode="classic" trigger_index="0" type="unknown"/>
+          <node data_index="1" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="cmos_xclk" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="1" tap_mode="classic" trigger_index="1" type="unknown"/>
         </unified_setup_data_view>
         <data_view>
-          <net data_index="0" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="cmos_pclk" storage_index="0" tap_mode="classic" trigger_index="0" type="unknown"/>
-          <net data_index="1" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="cmos_xclk" storage_index="1" tap_mode="classic" trigger_index="1" type="unknown"/>
+          <net data_index="0" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="cmos_pclk" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="0" tap_mode="classic" trigger_index="0" type="unknown"/>
+          <net data_index="1" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="cmos_xclk" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="1" tap_mode="classic" trigger_index="1" type="unknown"/>
         </data_view>
         <setup_view>
-          <net data_index="0" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="cmos_pclk" storage_index="0" tap_mode="classic" trigger_index="0" type="unknown"/>
-          <net data_index="1" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="cmos_xclk" storage_index="1" tap_mode="classic" trigger_index="1" type="unknown"/>
+          <net data_index="0" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="cmos_pclk" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="0" tap_mode="classic" trigger_index="0" type="unknown"/>
+          <net data_index="1" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="cmos_xclk" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="1" tap_mode="classic" trigger_index="1" type="unknown"/>
         </setup_view>
         <trigger_in_editor/>
         <trigger_out_editor/>
@@ -41,8 +41,7 @@
       <trigger CRC="EDF9A32B" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/03/04 15:54:44  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
         <power_up_trigger position="pre" storage_qualifier_disabled="no"/>
         <events use_custom_flow_control="no">
-          <level enabled="yes" name="condition1" type="basic">
-            <power_up enabled="yes">
+          <level enabled="yes" name="condition1" type="basic"><power_up enabled="yes">
             </power_up>
             <op_node/>
           </level>

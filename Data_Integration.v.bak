@@ -1,0 +1,10 @@
+module Data_Integration(
+		input 					clk,
+		input 					rst_n,
+		
+		input 		[15:0] 	data_in,
+		output reg 	[15:0] 	data_out
+
+);
+
+

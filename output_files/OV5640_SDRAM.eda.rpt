@@ -1,5 +1,5 @@
 EDA Netlist Writer report for OV5640_SDRAM
-Sat Mar 09 20:53:10 2019
+Mon Mar 11 18:41:33 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Sat Mar 09 20:53:10 2019 ;
+; EDA Netlist Writer Status ; Successful - Mon Mar 11 18:41:33 2019 ;
 ; Revision Name             ; OV5640_SDRAM                          ;
 ; Top-level Entity Name     ; OV5640_SDRAM                          ;
 ; Family                    ; Cyclone V                             ;
@@ -81,15 +81,15 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Sat Mar 09 20:53:05 2019
+    Info: Processing started: Mon Mar 11 18:41:25 2019
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off OV5640_SDRAM -c OV5640_SDRAM
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Warning (10905): Generated the EDA functional simulation netlist because it is the only supported netlist type for this device.
 Info (204019): Generated file OV5640_SDRAM.vo in folder "E:/DE1-SoC/Temporary/OV5640_SDRAM/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4895 megabytes
-    Info: Processing ended: Sat Mar 09 20:53:10 2019
-    Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:04
+    Info: Peak virtual memory: 4911 megabytes
+    Info: Processing ended: Mon Mar 11 18:41:34 2019
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:05
 
 

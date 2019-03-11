@@ -1,5 +1,5 @@
 Flow report for OV5640_SDRAM
-Sat Mar 09 20:53:10 2019
+Mon Mar 11 18:41:33 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -40,19 +40,19 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Flow Summary                                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Flow Status                     ; Successful - Sat Mar 09 20:53:10 2019           ;
+; Flow Status                     ; Successful - Mon Mar 11 18:41:33 2019           ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                   ; OV5640_SDRAM                                    ;
 ; Top-level Entity Name           ; OV5640_SDRAM                                    ;
 ; Family                          ; Cyclone V                                       ;
 ; Device                          ; 5CSEMA5F31C6                                    ;
 ; Timing Models                   ; Final                                           ;
-; Logic utilization (in ALMs)     ; 733 / 32,070 ( 2 % )                            ;
-; Total registers                 ; 1159                                            ;
+; Logic utilization (in ALMs)     ; 861 / 32,070 ( 3 % )                            ;
+; Total registers                 ; 1636                                            ;
 ; Total pins                      ; 78 / 457 ( 17 % )                               ;
 ; Total virtual pins              ; 0                                               ;
-; Total block memory bits         ; 25,600 / 4,065,280 ( < 1 % )                    ;
-; Total DSP Blocks                ; 0 / 87 ( 0 % )                                  ;
+; Total block memory bits         ; 524,416 / 4,065,280 ( 13 % )                    ;
+; Total DSP Blocks                ; 1 / 87 ( 1 % )                                  ;
 ; Total HSSI RX PCSs              ; 0                                               ;
 ; Total HSSI PMA RX Deserializers ; 0                                               ;
 ; Total HSSI TX PCSs              ; 0                                               ;
@@ -67,72 +67,72 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/09/2019 20:50:36 ;
+; Start date & time ; 03/11/2019 18:38:15 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; OV5640_SDRAM        ;
 +-------------------+---------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                        ;
-+-------------------------------------+--------------------------------------------------+---------------+-------------+------------------+
-; Assignment Name                     ; Value                                            ; Default Value ; Entity Name ; Section Id       ;
-+-------------------------------------+--------------------------------------------------+---------------+-------------+------------------+
-; COMPILER_SIGNATURE_ID               ; 163580559478556.155213583605332                  ; --            ; --          ; --               ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                                      ; --            ; --          ; eda_simulation   ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)                        ; <None>        ; --          ; --               ;
-; ENABLE_SIGNALTAP                    ; On                                               ; --            ; --          ; --               ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                               ; --            ; --          ; --               ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                                ; --            ; --          ; --               ;
-; MISC_FILE                           ; ROM_theme_bb.v                                   ; --            ; --          ; --               ;
-; MISC_FILE                           ; ROM_9_bb.v                                       ; --            ; --          ; --               ;
-; MISC_FILE                           ; ROM_8_bb.v                                       ; --            ; --          ; --               ;
-; MISC_FILE                           ; ROM_7_bb.v                                       ; --            ; --          ; --               ;
-; MISC_FILE                           ; ROM_6_bb.v                                       ; --            ; --          ; --               ;
-; MISC_FILE                           ; ROM_5_bb.v                                       ; --            ; --          ; --               ;
-; MISC_FILE                           ; ROM_4_bb.v                                       ; --            ; --          ; --               ;
-; MISC_FILE                           ; ROM_3_bb.v                                       ; --            ; --          ; --               ;
-; MISC_FILE                           ; ROM_2_bb.v                                       ; --            ; --          ; --               ;
-; MISC_FILE                           ; ROM_1_bb.v                                       ; --            ; --          ; --               ;
-; MISC_FILE                           ; ROM_0_bb.v                                       ; --            ; --          ; --               ;
-; MISC_FILE                           ; pll_bb.v                                         ; --            ; --          ; --               ;
-; MISC_FILE                           ; pll.ppf                                          ; --            ; --          ; --               ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family)           ; --            ; --          ; Top              ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)           ; --            ; --          ; Top              ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)           ; --            ; --          ; Top              ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                              ; --            ; --          ; --               ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW            ; --            ; --          ; --               ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                                     ; --            ; --          ; --               ;
-; SLD_FILE                            ; db/stp1_auto_stripped.stp                        ; --            ; --          ; --               ;
-; SLD_NODE_CREATOR_ID                 ; 110                                              ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_ENTITY_NAME                ; sld_signaltap                                    ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_RAM_BLOCK_TYPE=AUTO                          ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_DATA_BITS=2                                  ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_BITS=2                               ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_BITS=2                     ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_NODE_INFO=805334528                          ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_POWER_UP_TRIGGER=0                           ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INVERSION_MASK=00000000000000000000000000000 ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INVERSION_MASK_LENGTH=29                     ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0    ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_SEGMENT_SIZE=512                             ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ATTRIBUTE_MEM_MODE=OFF                       ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STATE_FLOW_USE_GENERATED=0                   ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STATE_BITS=11                                ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_BUFFER_FULL_STOP=1                           ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_CURRENT_RESOURCE_WIDTH=1                     ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INCREMENTAL_ROUTING=1                        ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_LEVEL=1                              ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_SAMPLE_DEPTH=512                             ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_IN_ENABLED=0                         ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_PIPELINE=0                           ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_RAM_PIPELINE=0                               ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_COUNTER_PIPELINE=0                           ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ADVANCED_TRIGGER_ENTITY=basic,1,             ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_LEVEL_PIPELINE=1                     ; --            ; --          ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ENABLE_ADVANCED_TRIGGER=0                    ; --            ; --          ; auto_signaltap_0 ;
-; USE_SIGNALTAP_FILE                  ; output_files/stp1.stp                            ; --            ; --          ; --               ;
-+-------------------------------------+--------------------------------------------------+---------------+-------------+------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                                                               ;
++-------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
+; Assignment Name                     ; Value                                                                                                                                                   ; Default Value ; Entity Name ; Section Id       ;
++-------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
+; COMPILER_SIGNATURE_ID               ; 163580559478556.155230069412076                                                                                                                         ; --            ; --          ; --               ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                                                                                                                                             ; --            ; --          ; eda_simulation   ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)                                                                                                                               ; <None>        ; --          ; --               ;
+; ENABLE_SIGNALTAP                    ; On                                                                                                                                                      ; --            ; --          ; --               ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                                                                                                                      ; --            ; --          ; --               ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                                                                                                                       ; --            ; --          ; --               ;
+; MISC_FILE                           ; ROM_theme_bb.v                                                                                                                                          ; --            ; --          ; --               ;
+; MISC_FILE                           ; ROM_9_bb.v                                                                                                                                              ; --            ; --          ; --               ;
+; MISC_FILE                           ; ROM_8_bb.v                                                                                                                                              ; --            ; --          ; --               ;
+; MISC_FILE                           ; ROM_7_bb.v                                                                                                                                              ; --            ; --          ; --               ;
+; MISC_FILE                           ; ROM_6_bb.v                                                                                                                                              ; --            ; --          ; --               ;
+; MISC_FILE                           ; ROM_5_bb.v                                                                                                                                              ; --            ; --          ; --               ;
+; MISC_FILE                           ; ROM_4_bb.v                                                                                                                                              ; --            ; --          ; --               ;
+; MISC_FILE                           ; ROM_3_bb.v                                                                                                                                              ; --            ; --          ; --               ;
+; MISC_FILE                           ; ROM_2_bb.v                                                                                                                                              ; --            ; --          ; --               ;
+; MISC_FILE                           ; ROM_1_bb.v                                                                                                                                              ; --            ; --          ; --               ;
+; MISC_FILE                           ; ROM_0_bb.v                                                                                                                                              ; --            ; --          ; --               ;
+; MISC_FILE                           ; pll_bb.v                                                                                                                                                ; --            ; --          ; --               ;
+; MISC_FILE                           ; pll.ppf                                                                                                                                                 ; --            ; --          ; --               ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)                                                                                                                  ; --            ; --          ; Top              ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                                                                                                                  ; --            ; --          ; Top              ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                                                                                                                  ; --            ; --          ; Top              ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                                                                                                                     ; --            ; --          ; --               ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                                                                                                   ; --            ; --          ; --               ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                                                                                                            ; --            ; --          ; --               ;
+; SLD_FILE                            ; db/OV5640_SDRAM_auto_stripped.stp                                                                                                                       ; --            ; --          ; --               ;
+; SLD_NODE_CREATOR_ID                 ; 110                                                                                                                                                     ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_ENTITY_NAME                ; sld_signaltap                                                                                                                                           ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_RAM_BLOCK_TYPE=AUTO                                                                                                                                 ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_NODE_INFO=805334528                                                                                                                                 ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_POWER_UP_TRIGGER=0                                                                                                                                  ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0                                                                                                           ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ATTRIBUTE_MEM_MODE=OFF                                                                                                                              ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STATE_FLOW_USE_GENERATED=0                                                                                                                          ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STATE_BITS=11                                                                                                                                       ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_BUFFER_FULL_STOP=1                                                                                                                                  ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_CURRENT_RESOURCE_WIDTH=1                                                                                                                            ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INCREMENTAL_ROUTING=1                                                                                                                               ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_LEVEL=1                                                                                                                                     ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_IN_ENABLED=0                                                                                                                                ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_PIPELINE=0                                                                                                                                  ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_RAM_PIPELINE=0                                                                                                                                      ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_COUNTER_PIPELINE=0                                                                                                                                  ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ADVANCED_TRIGGER_ENTITY=basic,1,                                                                                                                    ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_LEVEL_PIPELINE=1                                                                                                                            ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ENABLE_ADVANCED_TRIGGER=0                                                                                                                           ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_SEGMENT_SIZE=8192                                                                                                                                   ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_SAMPLE_DEPTH=8192                                                                                                                                   ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_DATA_BITS=35                                                                                                                                        ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_BITS=35                                                                                                                                     ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_BITS=35                                                                                                                           ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INVERSION_MASK=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INVERSION_MASK_LENGTH=132                                                                                                                           ; --            ; --          ; auto_signaltap_0 ;
+; USE_SIGNALTAP_FILE                  ; OV5640_SDRAM.stp                                                                                                                                        ; --            ; --          ; --               ;
++-------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -140,12 +140,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:39     ; 1.0                     ; 4973 MB             ; 00:00:59                           ;
-; Fitter               ; 00:01:15     ; 1.1                     ; 6780 MB             ; 00:01:54                           ;
-; Assembler            ; 00:00:09     ; 1.0                     ; 4864 MB             ; 00:00:09                           ;
-; Timing Analyzer      ; 00:00:17     ; 1.3                     ; 5241 MB             ; 00:00:18                           ;
-; EDA Netlist Writer   ; 00:00:05     ; 1.0                     ; 4895 MB             ; 00:00:04                           ;
-; Total                ; 00:02:25     ; --                      ; --                  ; 00:03:24                           ;
+; Analysis & Synthesis ; 00:00:47     ; 1.0                     ; 4985 MB             ; 00:01:02                           ;
+; Fitter               ; 00:01:36     ; 1.2                     ; 6795 MB             ; 00:02:14                           ;
+; Assembler            ; 00:00:11     ; 1.0                     ; 4891 MB             ; 00:00:10                           ;
+; Timing Analyzer      ; 00:00:27     ; 1.3                     ; 5259 MB             ; 00:00:29                           ;
+; EDA Netlist Writer   ; 00:00:08     ; 1.0                     ; 4911 MB             ; 00:00:05                           ;
+; Total                ; 00:03:09     ; --                      ; --                  ; 00:04:00                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -6796,7 +6796,7 @@ datab[9] => data_wire[6].IN1
 
 
 |OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit
-Clk33M => Clk33M.IN1
+Clk33M => Clk33M.IN11
 Rst_n => hcount_r[0].ACLR
 Rst_n => hcount_r[1].ACLR
 Rst_n => hcount_r[2].ACLR
@@ -6821,25 +6821,41 @@ Rst_n => vcount_r[8].ACLR
 Rst_n => vcount_r[9].ACLR
 Rst_n => vcount_r[10].ACLR
 Rst_n => vcount_r[11].ACLR
-data_in[0] => TFT_RGB[0].DATAIN
-data_in[1] => TFT_RGB[1].DATAIN
-data_in[2] => TFT_RGB[2].DATAIN
-data_in[3] => TFT_RGB[3].DATAIN
-data_in[4] => TFT_RGB[4].DATAIN
-data_in[5] => TFT_RGB[5].DATAIN
-data_in[6] => TFT_RGB[6].DATAIN
-data_in[7] => TFT_RGB[7].DATAIN
-data_in[8] => TFT_RGB[8].DATAIN
-data_in[9] => TFT_RGB[9].DATAIN
-data_in[10] => TFT_RGB[10].DATAIN
-data_in[11] => TFT_RGB[11].DATAIN
-data_in[12] => TFT_RGB[12].DATAIN
-data_in[13] => TFT_RGB[13].DATAIN
-data_in[14] => TFT_RGB[14].DATAIN
-data_in[15] => TFT_RGB[15].DATAIN
-hcount[0] <= hcount.DB_MAX_OUTPUT_PORT_TYPE
-hcount[1] <= hcount.DB_MAX_OUTPUT_PORT_TYPE
-hcount[2] <= hcount.DB_MAX_OUTPUT_PORT_TYPE
+data_in[0] => TFT_RGB.DATAB
+data_in[0] => TFT_RGB.DATAA
+data_in[1] => TFT_RGB.DATAB
+data_in[1] => TFT_RGB.DATAA
+data_in[2] => TFT_RGB.DATAB
+data_in[2] => TFT_RGB.DATAA
+data_in[3] => TFT_RGB.DATAB
+data_in[3] => TFT_RGB.DATAA
+data_in[4] => TFT_RGB.DATAB
+data_in[4] => TFT_RGB.DATAA
+data_in[5] => TFT_RGB.DATAB
+data_in[5] => TFT_RGB.DATAA
+data_in[6] => TFT_RGB.DATAB
+data_in[6] => TFT_RGB.DATAA
+data_in[7] => TFT_RGB.DATAB
+data_in[7] => TFT_RGB.DATAA
+data_in[8] => TFT_RGB.DATAB
+data_in[8] => TFT_RGB.DATAA
+data_in[9] => TFT_RGB.DATAB
+data_in[9] => TFT_RGB.DATAA
+data_in[10] => TFT_RGB.DATAB
+data_in[10] => TFT_RGB.DATAA
+data_in[11] => TFT_RGB.DATAB
+data_in[11] => TFT_RGB.DATAA
+data_in[12] => TFT_RGB.DATAB
+data_in[12] => TFT_RGB.DATAA
+data_in[13] => TFT_RGB.DATAB
+data_in[13] => TFT_RGB.DATAA
+data_in[14] => TFT_RGB.DATAB
+data_in[14] => TFT_RGB.DATAA
+data_in[15] => TFT_RGB.DATAB
+data_in[15] => TFT_RGB.DATAA
+hcount[0] <= addr_0[0].DB_MAX_OUTPUT_PORT_TYPE
+hcount[1] <= addr_0[1].DB_MAX_OUTPUT_PORT_TYPE
+hcount[2] <= addr_0[2].DB_MAX_OUTPUT_PORT_TYPE
 hcount[3] <= hcount.DB_MAX_OUTPUT_PORT_TYPE
 hcount[4] <= hcount.DB_MAX_OUTPUT_PORT_TYPE
 hcount[5] <= hcount.DB_MAX_OUTPUT_PORT_TYPE
@@ -6861,22 +6877,22 @@ vcount[8] <= vcount.DB_MAX_OUTPUT_PORT_TYPE
 vcount[9] <= vcount.DB_MAX_OUTPUT_PORT_TYPE
 vcount[10] <= vcount.DB_MAX_OUTPUT_PORT_TYPE
 vcount[11] <= vcount.DB_MAX_OUTPUT_PORT_TYPE
-TFT_RGB[0] <= data_in[0].DB_MAX_OUTPUT_PORT_TYPE
-TFT_RGB[1] <= data_in[1].DB_MAX_OUTPUT_PORT_TYPE
-TFT_RGB[2] <= data_in[2].DB_MAX_OUTPUT_PORT_TYPE
-TFT_RGB[3] <= data_in[3].DB_MAX_OUTPUT_PORT_TYPE
-TFT_RGB[4] <= data_in[4].DB_MAX_OUTPUT_PORT_TYPE
-TFT_RGB[5] <= data_in[5].DB_MAX_OUTPUT_PORT_TYPE
-TFT_RGB[6] <= data_in[6].DB_MAX_OUTPUT_PORT_TYPE
-TFT_RGB[7] <= data_in[7].DB_MAX_OUTPUT_PORT_TYPE
-TFT_RGB[8] <= data_in[8].DB_MAX_OUTPUT_PORT_TYPE
-TFT_RGB[9] <= data_in[9].DB_MAX_OUTPUT_PORT_TYPE
-TFT_RGB[10] <= data_in[10].DB_MAX_OUTPUT_PORT_TYPE
-TFT_RGB[11] <= data_in[11].DB_MAX_OUTPUT_PORT_TYPE
-TFT_RGB[12] <= data_in[12].DB_MAX_OUTPUT_PORT_TYPE
-TFT_RGB[13] <= data_in[13].DB_MAX_OUTPUT_PORT_TYPE
-TFT_RGB[14] <= data_in[14].DB_MAX_OUTPUT_PORT_TYPE
-TFT_RGB[15] <= data_in[15].DB_MAX_OUTPUT_PORT_TYPE
+TFT_RGB[0] <= TFT_RGB.DB_MAX_OUTPUT_PORT_TYPE
+TFT_RGB[1] <= TFT_RGB.DB_MAX_OUTPUT_PORT_TYPE
+TFT_RGB[2] <= TFT_RGB.DB_MAX_OUTPUT_PORT_TYPE
+TFT_RGB[3] <= TFT_RGB.DB_MAX_OUTPUT_PORT_TYPE
+TFT_RGB[4] <= TFT_RGB.DB_MAX_OUTPUT_PORT_TYPE
+TFT_RGB[5] <= TFT_RGB.DB_MAX_OUTPUT_PORT_TYPE
+TFT_RGB[6] <= TFT_RGB.DB_MAX_OUTPUT_PORT_TYPE
+TFT_RGB[7] <= TFT_RGB.DB_MAX_OUTPUT_PORT_TYPE
+TFT_RGB[8] <= TFT_RGB.DB_MAX_OUTPUT_PORT_TYPE
+TFT_RGB[9] <= TFT_RGB.DB_MAX_OUTPUT_PORT_TYPE
+TFT_RGB[10] <= TFT_RGB.DB_MAX_OUTPUT_PORT_TYPE
+TFT_RGB[11] <= TFT_RGB.DB_MAX_OUTPUT_PORT_TYPE
+TFT_RGB[12] <= TFT_RGB.DB_MAX_OUTPUT_PORT_TYPE
+TFT_RGB[13] <= TFT_RGB.DB_MAX_OUTPUT_PORT_TYPE
+TFT_RGB[14] <= TFT_RGB.DB_MAX_OUTPUT_PORT_TYPE
+TFT_RGB[15] <= TFT_RGB.DB_MAX_OUTPUT_PORT_TYPE
 TFT_HS <= LessThan4.DB_MAX_OUTPUT_PORT_TYPE
 TFT_VS <= LessThan5.DB_MAX_OUTPUT_PORT_TYPE
 TFT_BLANK <= TFT_DE.DB_MAX_OUTPUT_PORT_TYPE
@@ -7547,5 +7563,585 @@ sel[0] => l1_w8_n0_mux_dataout.IN0
 sel[0] => _.IN0
 sel[0] => l1_w9_n0_mux_dataout.IN0
 sel[0] => _.IN0
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_0:ROM_0_inst
+address[0] => address[0].IN1
+address[1] => address[1].IN1
+address[2] => address[2].IN1
+address[3] => address[3].IN1
+address[4] => address[4].IN1
+address[5] => address[5].IN1
+address[6] => address[6].IN1
+clock => clock.IN1
+q[0] <= altsyncram:altsyncram_component.q_a
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_0:ROM_0_inst|altsyncram:altsyncram_component
+wren_a => ~NO_FANOUT~
+rden_a => ~NO_FANOUT~
+wren_b => ~NO_FANOUT~
+rden_b => ~NO_FANOUT~
+data_a[0] => ~NO_FANOUT~
+data_b[0] => ~NO_FANOUT~
+address_a[0] => altsyncram_12g1:auto_generated.address_a[0]
+address_a[1] => altsyncram_12g1:auto_generated.address_a[1]
+address_a[2] => altsyncram_12g1:auto_generated.address_a[2]
+address_a[3] => altsyncram_12g1:auto_generated.address_a[3]
+address_a[4] => altsyncram_12g1:auto_generated.address_a[4]
+address_a[5] => altsyncram_12g1:auto_generated.address_a[5]
+address_a[6] => altsyncram_12g1:auto_generated.address_a[6]
+address_b[0] => ~NO_FANOUT~
+addressstall_a => ~NO_FANOUT~
+addressstall_b => ~NO_FANOUT~
+clock0 => altsyncram_12g1:auto_generated.clock0
+clock1 => ~NO_FANOUT~
+clocken0 => ~NO_FANOUT~
+clocken1 => ~NO_FANOUT~
+clocken2 => ~NO_FANOUT~
+clocken3 => ~NO_FANOUT~
+aclr0 => ~NO_FANOUT~
+aclr1 => ~NO_FANOUT~
+byteena_a[0] => ~NO_FANOUT~
+byteena_b[0] => ~NO_FANOUT~
+q_a[0] <= altsyncram_12g1:auto_generated.q_a[0]
+q_b[0] <= <GND>
+eccstatus[0] <= <GND>
+eccstatus[1] <= <GND>
+eccstatus[2] <= <GND>
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_0:ROM_0_inst|altsyncram:altsyncram_component|altsyncram_12g1:auto_generated
+address_a[0] => ram_block1a0.PORTAADDR
+address_a[1] => ram_block1a0.PORTAADDR1
+address_a[2] => ram_block1a0.PORTAADDR2
+address_a[3] => ram_block1a0.PORTAADDR3
+address_a[4] => ram_block1a0.PORTAADDR4
+address_a[5] => ram_block1a0.PORTAADDR5
+address_a[6] => ram_block1a0.PORTAADDR6
+clock0 => ram_block1a0.CLK0
+q_a[0] <= ram_block1a0.PORTADATAOUT
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_1:ROM_1_inst
+address[0] => address[0].IN1
+address[1] => address[1].IN1
+address[2] => address[2].IN1
+address[3] => address[3].IN1
+address[4] => address[4].IN1
+address[5] => address[5].IN1
+address[6] => address[6].IN1
+clock => clock.IN1
+q[0] <= altsyncram:altsyncram_component.q_a
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_1:ROM_1_inst|altsyncram:altsyncram_component
+wren_a => ~NO_FANOUT~
+rden_a => ~NO_FANOUT~
+wren_b => ~NO_FANOUT~
+rden_b => ~NO_FANOUT~
+data_a[0] => ~NO_FANOUT~
+data_b[0] => ~NO_FANOUT~
+address_a[0] => altsyncram_22g1:auto_generated.address_a[0]
+address_a[1] => altsyncram_22g1:auto_generated.address_a[1]
+address_a[2] => altsyncram_22g1:auto_generated.address_a[2]
+address_a[3] => altsyncram_22g1:auto_generated.address_a[3]
+address_a[4] => altsyncram_22g1:auto_generated.address_a[4]
+address_a[5] => altsyncram_22g1:auto_generated.address_a[5]
+address_a[6] => altsyncram_22g1:auto_generated.address_a[6]
+address_b[0] => ~NO_FANOUT~
+addressstall_a => ~NO_FANOUT~
+addressstall_b => ~NO_FANOUT~
+clock0 => altsyncram_22g1:auto_generated.clock0
+clock1 => ~NO_FANOUT~
+clocken0 => ~NO_FANOUT~
+clocken1 => ~NO_FANOUT~
+clocken2 => ~NO_FANOUT~
+clocken3 => ~NO_FANOUT~
+aclr0 => ~NO_FANOUT~
+aclr1 => ~NO_FANOUT~
+byteena_a[0] => ~NO_FANOUT~
+byteena_b[0] => ~NO_FANOUT~
+q_a[0] <= altsyncram_22g1:auto_generated.q_a[0]
+q_b[0] <= <GND>
+eccstatus[0] <= <GND>
+eccstatus[1] <= <GND>
+eccstatus[2] <= <GND>
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_1:ROM_1_inst|altsyncram:altsyncram_component|altsyncram_22g1:auto_generated
+address_a[0] => ram_block1a0.PORTAADDR
+address_a[1] => ram_block1a0.PORTAADDR1
+address_a[2] => ram_block1a0.PORTAADDR2
+address_a[3] => ram_block1a0.PORTAADDR3
+address_a[4] => ram_block1a0.PORTAADDR4
+address_a[5] => ram_block1a0.PORTAADDR5
+address_a[6] => ram_block1a0.PORTAADDR6
+clock0 => ram_block1a0.CLK0
+q_a[0] <= ram_block1a0.PORTADATAOUT
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_2:ROM_2_inst
+address[0] => address[0].IN1
+address[1] => address[1].IN1
+address[2] => address[2].IN1
+address[3] => address[3].IN1
+address[4] => address[4].IN1
+address[5] => address[5].IN1
+address[6] => address[6].IN1
+clock => clock.IN1
+q[0] <= altsyncram:altsyncram_component.q_a
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_2:ROM_2_inst|altsyncram:altsyncram_component
+wren_a => ~NO_FANOUT~
+rden_a => ~NO_FANOUT~
+wren_b => ~NO_FANOUT~
+rden_b => ~NO_FANOUT~
+data_a[0] => ~NO_FANOUT~
+data_b[0] => ~NO_FANOUT~
+address_a[0] => altsyncram_32g1:auto_generated.address_a[0]
+address_a[1] => altsyncram_32g1:auto_generated.address_a[1]
+address_a[2] => altsyncram_32g1:auto_generated.address_a[2]
+address_a[3] => altsyncram_32g1:auto_generated.address_a[3]
+address_a[4] => altsyncram_32g1:auto_generated.address_a[4]
+address_a[5] => altsyncram_32g1:auto_generated.address_a[5]
+address_a[6] => altsyncram_32g1:auto_generated.address_a[6]
+address_b[0] => ~NO_FANOUT~
+addressstall_a => ~NO_FANOUT~
+addressstall_b => ~NO_FANOUT~
+clock0 => altsyncram_32g1:auto_generated.clock0
+clock1 => ~NO_FANOUT~
+clocken0 => ~NO_FANOUT~
+clocken1 => ~NO_FANOUT~
+clocken2 => ~NO_FANOUT~
+clocken3 => ~NO_FANOUT~
+aclr0 => ~NO_FANOUT~
+aclr1 => ~NO_FANOUT~
+byteena_a[0] => ~NO_FANOUT~
+byteena_b[0] => ~NO_FANOUT~
+q_a[0] <= altsyncram_32g1:auto_generated.q_a[0]
+q_b[0] <= <GND>
+eccstatus[0] <= <GND>
+eccstatus[1] <= <GND>
+eccstatus[2] <= <GND>
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_2:ROM_2_inst|altsyncram:altsyncram_component|altsyncram_32g1:auto_generated
+address_a[0] => ram_block1a0.PORTAADDR
+address_a[1] => ram_block1a0.PORTAADDR1
+address_a[2] => ram_block1a0.PORTAADDR2
+address_a[3] => ram_block1a0.PORTAADDR3
+address_a[4] => ram_block1a0.PORTAADDR4
+address_a[5] => ram_block1a0.PORTAADDR5
+address_a[6] => ram_block1a0.PORTAADDR6
+clock0 => ram_block1a0.CLK0
+q_a[0] <= ram_block1a0.PORTADATAOUT
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_3:ROM_3_inst
+address[0] => address[0].IN1
+address[1] => address[1].IN1
+address[2] => address[2].IN1
+address[3] => address[3].IN1
+address[4] => address[4].IN1
+address[5] => address[5].IN1
+address[6] => address[6].IN1
+clock => clock.IN1
+q[0] <= altsyncram:altsyncram_component.q_a
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_3:ROM_3_inst|altsyncram:altsyncram_component
+wren_a => ~NO_FANOUT~
+rden_a => ~NO_FANOUT~
+wren_b => ~NO_FANOUT~
+rden_b => ~NO_FANOUT~
+data_a[0] => ~NO_FANOUT~
+data_b[0] => ~NO_FANOUT~
+address_a[0] => altsyncram_42g1:auto_generated.address_a[0]
+address_a[1] => altsyncram_42g1:auto_generated.address_a[1]
+address_a[2] => altsyncram_42g1:auto_generated.address_a[2]
+address_a[3] => altsyncram_42g1:auto_generated.address_a[3]
+address_a[4] => altsyncram_42g1:auto_generated.address_a[4]
+address_a[5] => altsyncram_42g1:auto_generated.address_a[5]
+address_a[6] => altsyncram_42g1:auto_generated.address_a[6]
+address_b[0] => ~NO_FANOUT~
+addressstall_a => ~NO_FANOUT~
+addressstall_b => ~NO_FANOUT~
+clock0 => altsyncram_42g1:auto_generated.clock0
+clock1 => ~NO_FANOUT~
+clocken0 => ~NO_FANOUT~
+clocken1 => ~NO_FANOUT~
+clocken2 => ~NO_FANOUT~
+clocken3 => ~NO_FANOUT~
+aclr0 => ~NO_FANOUT~
+aclr1 => ~NO_FANOUT~
+byteena_a[0] => ~NO_FANOUT~
+byteena_b[0] => ~NO_FANOUT~
+q_a[0] <= altsyncram_42g1:auto_generated.q_a[0]
+q_b[0] <= <GND>
+eccstatus[0] <= <GND>
+eccstatus[1] <= <GND>
+eccstatus[2] <= <GND>
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_3:ROM_3_inst|altsyncram:altsyncram_component|altsyncram_42g1:auto_generated
+address_a[0] => ram_block1a0.PORTAADDR
+address_a[1] => ram_block1a0.PORTAADDR1
+address_a[2] => ram_block1a0.PORTAADDR2
+address_a[3] => ram_block1a0.PORTAADDR3
+address_a[4] => ram_block1a0.PORTAADDR4
+address_a[5] => ram_block1a0.PORTAADDR5
+address_a[6] => ram_block1a0.PORTAADDR6
+clock0 => ram_block1a0.CLK0
+q_a[0] <= ram_block1a0.PORTADATAOUT
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_4:ROM_4_inst
+address[0] => address[0].IN1
+address[1] => address[1].IN1
+address[2] => address[2].IN1
+address[3] => address[3].IN1
+address[4] => address[4].IN1
+address[5] => address[5].IN1
+address[6] => address[6].IN1
+clock => clock.IN1
+q[0] <= altsyncram:altsyncram_component.q_a
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_4:ROM_4_inst|altsyncram:altsyncram_component
+wren_a => ~NO_FANOUT~
+rden_a => ~NO_FANOUT~
+wren_b => ~NO_FANOUT~
+rden_b => ~NO_FANOUT~
+data_a[0] => ~NO_FANOUT~
+data_b[0] => ~NO_FANOUT~
+address_a[0] => altsyncram_52g1:auto_generated.address_a[0]
+address_a[1] => altsyncram_52g1:auto_generated.address_a[1]
+address_a[2] => altsyncram_52g1:auto_generated.address_a[2]
+address_a[3] => altsyncram_52g1:auto_generated.address_a[3]
+address_a[4] => altsyncram_52g1:auto_generated.address_a[4]
+address_a[5] => altsyncram_52g1:auto_generated.address_a[5]
+address_a[6] => altsyncram_52g1:auto_generated.address_a[6]
+address_b[0] => ~NO_FANOUT~
+addressstall_a => ~NO_FANOUT~
+addressstall_b => ~NO_FANOUT~
+clock0 => altsyncram_52g1:auto_generated.clock0
+clock1 => ~NO_FANOUT~
+clocken0 => ~NO_FANOUT~
+clocken1 => ~NO_FANOUT~
+clocken2 => ~NO_FANOUT~
+clocken3 => ~NO_FANOUT~
+aclr0 => ~NO_FANOUT~
+aclr1 => ~NO_FANOUT~
+byteena_a[0] => ~NO_FANOUT~
+byteena_b[0] => ~NO_FANOUT~
+q_a[0] <= altsyncram_52g1:auto_generated.q_a[0]
+q_b[0] <= <GND>
+eccstatus[0] <= <GND>
+eccstatus[1] <= <GND>
+eccstatus[2] <= <GND>
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_4:ROM_4_inst|altsyncram:altsyncram_component|altsyncram_52g1:auto_generated
+address_a[0] => ram_block1a0.PORTAADDR
+address_a[1] => ram_block1a0.PORTAADDR1
+address_a[2] => ram_block1a0.PORTAADDR2
+address_a[3] => ram_block1a0.PORTAADDR3
+address_a[4] => ram_block1a0.PORTAADDR4
+address_a[5] => ram_block1a0.PORTAADDR5
+address_a[6] => ram_block1a0.PORTAADDR6
+clock0 => ram_block1a0.CLK0
+q_a[0] <= ram_block1a0.PORTADATAOUT
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_5:ROM_5_inst
+address[0] => address[0].IN1
+address[1] => address[1].IN1
+address[2] => address[2].IN1
+address[3] => address[3].IN1
+address[4] => address[4].IN1
+address[5] => address[5].IN1
+address[6] => address[6].IN1
+clock => clock.IN1
+q[0] <= altsyncram:altsyncram_component.q_a
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_5:ROM_5_inst|altsyncram:altsyncram_component
+wren_a => ~NO_FANOUT~
+rden_a => ~NO_FANOUT~
+wren_b => ~NO_FANOUT~
+rden_b => ~NO_FANOUT~
+data_a[0] => ~NO_FANOUT~
+data_b[0] => ~NO_FANOUT~
+address_a[0] => altsyncram_62g1:auto_generated.address_a[0]
+address_a[1] => altsyncram_62g1:auto_generated.address_a[1]
+address_a[2] => altsyncram_62g1:auto_generated.address_a[2]
+address_a[3] => altsyncram_62g1:auto_generated.address_a[3]
+address_a[4] => altsyncram_62g1:auto_generated.address_a[4]
+address_a[5] => altsyncram_62g1:auto_generated.address_a[5]
+address_a[6] => altsyncram_62g1:auto_generated.address_a[6]
+address_b[0] => ~NO_FANOUT~
+addressstall_a => ~NO_FANOUT~
+addressstall_b => ~NO_FANOUT~
+clock0 => altsyncram_62g1:auto_generated.clock0
+clock1 => ~NO_FANOUT~
+clocken0 => ~NO_FANOUT~
+clocken1 => ~NO_FANOUT~
+clocken2 => ~NO_FANOUT~
+clocken3 => ~NO_FANOUT~
+aclr0 => ~NO_FANOUT~
+aclr1 => ~NO_FANOUT~
+byteena_a[0] => ~NO_FANOUT~
+byteena_b[0] => ~NO_FANOUT~
+q_a[0] <= altsyncram_62g1:auto_generated.q_a[0]
+q_b[0] <= <GND>
+eccstatus[0] <= <GND>
+eccstatus[1] <= <GND>
+eccstatus[2] <= <GND>
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_5:ROM_5_inst|altsyncram:altsyncram_component|altsyncram_62g1:auto_generated
+address_a[0] => ram_block1a0.PORTAADDR
+address_a[1] => ram_block1a0.PORTAADDR1
+address_a[2] => ram_block1a0.PORTAADDR2
+address_a[3] => ram_block1a0.PORTAADDR3
+address_a[4] => ram_block1a0.PORTAADDR4
+address_a[5] => ram_block1a0.PORTAADDR5
+address_a[6] => ram_block1a0.PORTAADDR6
+clock0 => ram_block1a0.CLK0
+q_a[0] <= ram_block1a0.PORTADATAOUT
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_6:ROM_6_inst
+address[0] => address[0].IN1
+address[1] => address[1].IN1
+address[2] => address[2].IN1
+address[3] => address[3].IN1
+address[4] => address[4].IN1
+address[5] => address[5].IN1
+address[6] => address[6].IN1
+clock => clock.IN1
+q[0] <= altsyncram:altsyncram_component.q_a
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_6:ROM_6_inst|altsyncram:altsyncram_component
+wren_a => ~NO_FANOUT~
+rden_a => ~NO_FANOUT~
+wren_b => ~NO_FANOUT~
+rden_b => ~NO_FANOUT~
+data_a[0] => ~NO_FANOUT~
+data_b[0] => ~NO_FANOUT~
+address_a[0] => altsyncram_72g1:auto_generated.address_a[0]
+address_a[1] => altsyncram_72g1:auto_generated.address_a[1]
+address_a[2] => altsyncram_72g1:auto_generated.address_a[2]
+address_a[3] => altsyncram_72g1:auto_generated.address_a[3]
+address_a[4] => altsyncram_72g1:auto_generated.address_a[4]
+address_a[5] => altsyncram_72g1:auto_generated.address_a[5]
+address_a[6] => altsyncram_72g1:auto_generated.address_a[6]
+address_b[0] => ~NO_FANOUT~
+addressstall_a => ~NO_FANOUT~
+addressstall_b => ~NO_FANOUT~
+clock0 => altsyncram_72g1:auto_generated.clock0
+clock1 => ~NO_FANOUT~
+clocken0 => ~NO_FANOUT~
+clocken1 => ~NO_FANOUT~
+clocken2 => ~NO_FANOUT~
+clocken3 => ~NO_FANOUT~
+aclr0 => ~NO_FANOUT~
+aclr1 => ~NO_FANOUT~
+byteena_a[0] => ~NO_FANOUT~
+byteena_b[0] => ~NO_FANOUT~
+q_a[0] <= altsyncram_72g1:auto_generated.q_a[0]
+q_b[0] <= <GND>
+eccstatus[0] <= <GND>
+eccstatus[1] <= <GND>
+eccstatus[2] <= <GND>
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_6:ROM_6_inst|altsyncram:altsyncram_component|altsyncram_72g1:auto_generated
+address_a[0] => ram_block1a0.PORTAADDR
+address_a[1] => ram_block1a0.PORTAADDR1
+address_a[2] => ram_block1a0.PORTAADDR2
+address_a[3] => ram_block1a0.PORTAADDR3
+address_a[4] => ram_block1a0.PORTAADDR4
+address_a[5] => ram_block1a0.PORTAADDR5
+address_a[6] => ram_block1a0.PORTAADDR6
+clock0 => ram_block1a0.CLK0
+q_a[0] <= ram_block1a0.PORTADATAOUT
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_7:ROM_7_inst
+address[0] => address[0].IN1
+address[1] => address[1].IN1
+address[2] => address[2].IN1
+address[3] => address[3].IN1
+address[4] => address[4].IN1
+address[5] => address[5].IN1
+address[6] => address[6].IN1
+clock => clock.IN1
+q[0] <= altsyncram:altsyncram_component.q_a
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_7:ROM_7_inst|altsyncram:altsyncram_component
+wren_a => ~NO_FANOUT~
+rden_a => ~NO_FANOUT~
+wren_b => ~NO_FANOUT~
+rden_b => ~NO_FANOUT~
+data_a[0] => ~NO_FANOUT~
+data_b[0] => ~NO_FANOUT~
+address_a[0] => altsyncram_82g1:auto_generated.address_a[0]
+address_a[1] => altsyncram_82g1:auto_generated.address_a[1]
+address_a[2] => altsyncram_82g1:auto_generated.address_a[2]
+address_a[3] => altsyncram_82g1:auto_generated.address_a[3]
+address_a[4] => altsyncram_82g1:auto_generated.address_a[4]
+address_a[5] => altsyncram_82g1:auto_generated.address_a[5]
+address_a[6] => altsyncram_82g1:auto_generated.address_a[6]
+address_b[0] => ~NO_FANOUT~
+addressstall_a => ~NO_FANOUT~
+addressstall_b => ~NO_FANOUT~
+clock0 => altsyncram_82g1:auto_generated.clock0
+clock1 => ~NO_FANOUT~
+clocken0 => ~NO_FANOUT~
+clocken1 => ~NO_FANOUT~
+clocken2 => ~NO_FANOUT~
+clocken3 => ~NO_FANOUT~
+aclr0 => ~NO_FANOUT~
+aclr1 => ~NO_FANOUT~
+byteena_a[0] => ~NO_FANOUT~
+byteena_b[0] => ~NO_FANOUT~
+q_a[0] <= altsyncram_82g1:auto_generated.q_a[0]
+q_b[0] <= <GND>
+eccstatus[0] <= <GND>
+eccstatus[1] <= <GND>
+eccstatus[2] <= <GND>
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_7:ROM_7_inst|altsyncram:altsyncram_component|altsyncram_82g1:auto_generated
+address_a[0] => ram_block1a0.PORTAADDR
+address_a[1] => ram_block1a0.PORTAADDR1
+address_a[2] => ram_block1a0.PORTAADDR2
+address_a[3] => ram_block1a0.PORTAADDR3
+address_a[4] => ram_block1a0.PORTAADDR4
+address_a[5] => ram_block1a0.PORTAADDR5
+address_a[6] => ram_block1a0.PORTAADDR6
+clock0 => ram_block1a0.CLK0
+q_a[0] <= ram_block1a0.PORTADATAOUT
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_8:ROM_8_inst
+address[0] => address[0].IN1
+address[1] => address[1].IN1
+address[2] => address[2].IN1
+address[3] => address[3].IN1
+address[4] => address[4].IN1
+address[5] => address[5].IN1
+address[6] => address[6].IN1
+clock => clock.IN1
+q[0] <= altsyncram:altsyncram_component.q_a
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_8:ROM_8_inst|altsyncram:altsyncram_component
+wren_a => ~NO_FANOUT~
+rden_a => ~NO_FANOUT~
+wren_b => ~NO_FANOUT~
+rden_b => ~NO_FANOUT~
+data_a[0] => ~NO_FANOUT~
+data_b[0] => ~NO_FANOUT~
+address_a[0] => altsyncram_92g1:auto_generated.address_a[0]
+address_a[1] => altsyncram_92g1:auto_generated.address_a[1]
+address_a[2] => altsyncram_92g1:auto_generated.address_a[2]
+address_a[3] => altsyncram_92g1:auto_generated.address_a[3]
+address_a[4] => altsyncram_92g1:auto_generated.address_a[4]
+address_a[5] => altsyncram_92g1:auto_generated.address_a[5]
+address_a[6] => altsyncram_92g1:auto_generated.address_a[6]
+address_b[0] => ~NO_FANOUT~
+addressstall_a => ~NO_FANOUT~
+addressstall_b => ~NO_FANOUT~
+clock0 => altsyncram_92g1:auto_generated.clock0
+clock1 => ~NO_FANOUT~
+clocken0 => ~NO_FANOUT~
+clocken1 => ~NO_FANOUT~
+clocken2 => ~NO_FANOUT~
+clocken3 => ~NO_FANOUT~
+aclr0 => ~NO_FANOUT~
+aclr1 => ~NO_FANOUT~
+byteena_a[0] => ~NO_FANOUT~
+byteena_b[0] => ~NO_FANOUT~
+q_a[0] <= altsyncram_92g1:auto_generated.q_a[0]
+q_b[0] <= <GND>
+eccstatus[0] <= <GND>
+eccstatus[1] <= <GND>
+eccstatus[2] <= <GND>
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_8:ROM_8_inst|altsyncram:altsyncram_component|altsyncram_92g1:auto_generated
+address_a[0] => ram_block1a0.PORTAADDR
+address_a[1] => ram_block1a0.PORTAADDR1
+address_a[2] => ram_block1a0.PORTAADDR2
+address_a[3] => ram_block1a0.PORTAADDR3
+address_a[4] => ram_block1a0.PORTAADDR4
+address_a[5] => ram_block1a0.PORTAADDR5
+address_a[6] => ram_block1a0.PORTAADDR6
+clock0 => ram_block1a0.CLK0
+q_a[0] <= ram_block1a0.PORTADATAOUT
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_9:ROM_9_inst
+address[0] => address[0].IN1
+address[1] => address[1].IN1
+address[2] => address[2].IN1
+address[3] => address[3].IN1
+address[4] => address[4].IN1
+address[5] => address[5].IN1
+address[6] => address[6].IN1
+clock => clock.IN1
+q[0] <= altsyncram:altsyncram_component.q_a
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_9:ROM_9_inst|altsyncram:altsyncram_component
+wren_a => ~NO_FANOUT~
+rden_a => ~NO_FANOUT~
+wren_b => ~NO_FANOUT~
+rden_b => ~NO_FANOUT~
+data_a[0] => ~NO_FANOUT~
+data_b[0] => ~NO_FANOUT~
+address_a[0] => altsyncram_a2g1:auto_generated.address_a[0]
+address_a[1] => altsyncram_a2g1:auto_generated.address_a[1]
+address_a[2] => altsyncram_a2g1:auto_generated.address_a[2]
+address_a[3] => altsyncram_a2g1:auto_generated.address_a[3]
+address_a[4] => altsyncram_a2g1:auto_generated.address_a[4]
+address_a[5] => altsyncram_a2g1:auto_generated.address_a[5]
+address_a[6] => altsyncram_a2g1:auto_generated.address_a[6]
+address_b[0] => ~NO_FANOUT~
+addressstall_a => ~NO_FANOUT~
+addressstall_b => ~NO_FANOUT~
+clock0 => altsyncram_a2g1:auto_generated.clock0
+clock1 => ~NO_FANOUT~
+clocken0 => ~NO_FANOUT~
+clocken1 => ~NO_FANOUT~
+clocken2 => ~NO_FANOUT~
+clocken3 => ~NO_FANOUT~
+aclr0 => ~NO_FANOUT~
+aclr1 => ~NO_FANOUT~
+byteena_a[0] => ~NO_FANOUT~
+byteena_b[0] => ~NO_FANOUT~
+q_a[0] <= altsyncram_a2g1:auto_generated.q_a[0]
+q_b[0] <= <GND>
+eccstatus[0] <= <GND>
+eccstatus[1] <= <GND>
+eccstatus[2] <= <GND>
+
+
+|OV5640_SDRAM|TFT_CTRL_800_480_16bit:TFT_CTRL_800_480_16bit|ROM_9:ROM_9_inst|altsyncram:altsyncram_component|altsyncram_a2g1:auto_generated
+address_a[0] => ram_block1a0.PORTAADDR
+address_a[1] => ram_block1a0.PORTAADDR1
+address_a[2] => ram_block1a0.PORTAADDR2
+address_a[3] => ram_block1a0.PORTAADDR3
+address_a[4] => ram_block1a0.PORTAADDR4
+address_a[5] => ram_block1a0.PORTAADDR5
+address_a[6] => ram_block1a0.PORTAADDR6
+clock0 => ram_block1a0.CLK0
+q_a[0] <= ram_block1a0.PORTADATAOUT
 
 
